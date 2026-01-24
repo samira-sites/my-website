@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Responsive Website That Help Small Businesses Get More Clients</title>
+  </head>
+  <body>
+    <!-- Calendly badge widget begin -->
+    <link
+      href="https://assets.calendly.com/assets/external/widget.css"
+      rel="stylesheet"
+    />
+    <script
+      src="https://assets.calendly.com/assets/external/widget.js"
+      type="text/javascript"
+      async
+    ></script>
+    <script type="text/javascript">
+      window.onload = function () {
+        Calendly.initBadgeWidget({
+          url: "https://calendly.com/samiraramo815/30min?background_color=111111&text_color=ffffff&primary_color=ffa500",
+          text: "Book a Free Call",
+          color: "#ffbd59",
+          textColor: "#222222",
+          branding: false,
+        });
+      };
+    </script>
+    <!-- Calendly badge widget end -->
+
+    <!-- ===== NAVBAR ===== -->
+    <nav>
+      <div class="logo">
+        <img src="photo/logo.png" alt="logo" />
+      </div>
+      <ul class="nav-links">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <div class="burger" id="burger">
+        <span class="line1"></span>
+        <span class="line2"></span>
+        <span class="line3"></span>
+      </div>
+    </nav>
+
+    <!-- MOBILE SLIDE MENU -->
+    <div class="mobile-menu" id="mobileMenu">
+      <ul>
+        <li><a href="#home" class="mobile-link">Home</a></li>
+        <li><a href="#services" class="mobile-link">Services</a></li>
+        <li><a href="#projects" class="mobile-link">Projects</a></li>
+        <li><a href="#about" class="mobile-link">About</a></li>
+        <li><a href="#contact" class="mobile-link">Contact</a></li>
+      </ul>
+    </div>
+
+    <!-- ===== HERO ===== -->
+    <section id="hero" class="hero">
+      <div>
+        <h1 style="text-align: center">
+          <strong
+            >I build fast, responsive websites for small businesses that
+            generate more leads</strong
+          >
+        </h1>
+        <h3 style="text-align: justify">
+          With contact forms and online booking integration, your website works
+          for you — capturing leads and scheduling clients effortlessly.
+        </h3>
+
+        <div class="hero-btn">
+          <button class="btn" data-target="#contact">Get Your Website</button>
+          <button class="btn" data-target="#projects">See My Work</button>
+        </div>
+      </div>
+      <div>
+        <img src="photo/hero-profile.png" alt="Your Image" />
+      </div>
+    </section>
+
+    <!-- ===== SERVICES ===== -->
+    <section id="services">
+      <h2>My Services</h2>
+      <p>Here’s what I offer to help your business online:</p>
+      <div class="services-grid">
+        <div class="service-card">
+          <h3>Responsive Websites</h3>
+        <p>Websites that adjust to any device, making it easy for your customers to reach your business on <strong> desktop, tablet, or mobile.</strong></p>
+        </div>
+        <div class="service-card">
+          <h3>Booking & Forms</h3>
+          <p>Contact forms that send submissions to Google Sheets and online booking through Calendly, so you can easily keep track of inquiries and appointments.</p>
+        </div>
+        <div class="service-card">
+          <h3>Custom Design</h3>
+          <p>Clean, modern designs tailored to your brand, ensuring your website is easy to use and looks professional.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== PROJECTS ===== -->
+    <section id="projects">
+      <h2>Projects</h2>
+      <p>Check out some of my work:</p>
+      <div class="projects-grid">
+        <div class="project-card">
+          <img src="project1.jpg" alt="Project 1" />
+          <h3>Project 1</h3>
+          <p>Short description of project 1.</p>
+        </div>
+        <div class="project-card">
+          <img src="project2.jpg" alt="Project 2" />
+          <h3>Project 2</h3>
+          <p>Short description of project 2.</p>
+        </div>
+        <div class="project-card">
+          <img src="project3.jpg" alt="Project 3" />
+          <h3>Project 3</h3>
+          <p>Short description of project 3.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== ABOUT ===== -->
+    <section id="about" class="about">
+      <div>
+        <img src="photo/about-image.jpg" alt="Your Image" />
+      </div>
+      <div>
+        <h2>About Me</h2>
+        <p>
+          Hi, I’m <span style="font-weight: 700; font-size: 1.3rem;">Samira Omar</span><br><span style="color: #ffbd59;"><strong>Frontend Developer</strong> </span>who builds
+          <strong>fast, responsive websites</strong> for small businesses that
+          <strong>generate more leads</strong>.
+        </p>
+
+        <p>
+          I create websites with
+          <strong>contact forms and online booking integration</strong>, so your
+          clients can easily reach you and schedule appointments.
+        </p>
+        <br />
+        <p>
+          My focus is on
+          <strong>simple, effective, and user-friendly designs</strong> that
+          help business owners grow their online presence and capture leads
+          efficiently.
+        </p>
+        <br />
+        <p>
+          I’m passionate about
+          <strong>helping small businesses grow online</strong> and building
+          websites that <strong>actually deliver results</strong>.
+        </p>
+
+        <p>
+          💡 If you want a website that works for your business, let’s connect!
+        </p>
+        <br />
+        <a href="#contact" class="btn">Get Your Website</a>
+      </div>
+    </section>
+
+    <!-- ===== CONTACT ===== -->
+    <section id="contact" class="contact">
+      <div>
+        <h2>Contact Me</h2>
+        <form>
+          <input type="text" name="name" placeholder="Your Name" required />
+          <input type="email" name="email" placeholder="Your Email" required />
+          <textarea
+            name="message"
+            rows="5"
+            placeholder="Your Message"
+            required
+          ></textarea>
+          <button type="submit" class="btn">Send Message</button>
+        </form>
+      </div>
+      <div>
+        <h3>Contact Details</h3>
+        <p>Email: hello@samira.com</p>
+        <p>Location: Kuwait</p>
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
