@@ -9,7 +9,7 @@ document.querySelectorAll('.hero .btn').forEach(btn => {
     });
   });
 
-/* ----------------- BURGER & MOBILE MENU ----------------- */
+/* ----------------- BURGER & MOBILE MENU ----------*/
 const burger = document.getElementById("burger");
 const mobileMenu = document.getElementById("mobileMenu");
 const mobileLinks = document.querySelectorAll(".mobile-link");
@@ -27,7 +27,7 @@ mobileLinks.forEach((link) => {
 });
 
 
-  /*---------smooth-behavior-----------*/
+  /*---------smooth-behavior-----*/
   document.querySelectorAll('nav a').forEach(link => {
   link.addEventListener('click', function(e) {
     e.preventDefault();
@@ -52,6 +52,8 @@ mobileLinks.forEach((link) => {
 });
 
 
+
+
 // Select all buttons with data-target
 document.querySelectorAll('.hero-btn .btn').forEach(button => {
   button.addEventListener('click', function() {
@@ -64,5 +66,4 @@ document.querySelectorAll('.hero-btn .btn').forEach(button => {
       });
     }
   });
-});
-
+})

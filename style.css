@@ -127,7 +127,7 @@ nav ul li a:hover {
   border-radius: 20px 0px 0px 20px;
   padding: 85px 15px;
   transition: right 0.8s ease-in-out;
-  z-index: 0;
+  z-index: 2;
   display: flex;
   flex-direction: column;
   box-shadow: 0px 4px 20px #111;
@@ -227,7 +227,7 @@ h3 {
   margin-right: 1rem;
 }
 
-.btn:hover {
+.btn:hover, .about .btn:hover {
   opacity: 0.9;
   transform: translateY(-2px);
   color: var(--primary);
@@ -281,7 +281,7 @@ background-attachment: fixed;
   margin-top: 1rem;
 }
 
-/* ===== SERVICES ===== */
+/* ===================== SERVICES ============================ */
 .services-grid {
   display: grid;
   grid-template-columns: 1fr;
@@ -304,7 +304,7 @@ background-attachment: fixed;
 
 .service-card:hover {
   transform: translateY(-6px);
-  box-shadow: 0 10px 30px rgba(243, 227, 5, 0.1);
+  box-shadow: -3px 4px 0px var(--primary);
 }
 
 /* ===== PROJECTS ===== */
@@ -321,14 +321,11 @@ background-attachment: fixed;
   text-align: center;
   background: var(--primary);
   transition: transform 0.3s ease, box-shadow 0.3s ease; /* smooth transition */
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* subtle default shadow */
 }
 
 .project-card:hover {
   transform: translateY(-6px); /* slight lift */
-  box-shadow: 
-    0 12px 24px rgba(0,0,0,0.15), /* deeper shadow for depth */
-    0 4px 8px rgba(0,0,0,0.1);    /* maintain subtle base shadow */
+  box-shadow: -3px 4px 0px var(--light);
 }
 
 
@@ -346,7 +343,7 @@ background-attachment: fixed;
   padding: 0 1rem 1rem;
 }
 
-/* ===== ABOUT ===== */
+/* ============================ ABOUT ==================== */
 .about {
   display: grid;
   grid-template-columns: 1fr;
@@ -364,15 +361,16 @@ background-attachment: fixed;
 }
 
 .about .btn {
-  background: var(--primary);
+  background: var(--secondary);
   width: clamp(
     200px,
     10vw,
     300px
   ); /* min 150px, ideal 40% of viewport, max 300px */
   padding: 0.5rem 1rem;
-  color: var(--secondary);
+  color: var(--light);
   text-align: center;
+  box-shadow: 0px 2px 6px;
 }
 
 /* ===== CONTACT ===== */
@@ -397,6 +395,14 @@ background-attachment: fixed;
 
 .contact button {
   width: max-content;
+  background: var(--secondary);
+  color: var(--primary);
+  box-shadow: 0px 2px 6px;
+  width: 100%;
+}
+.contact button:hover{
+  color: var(--light);
+  box-shadow: 0px 2px 8px var(--light);
 }
 
 /* ===== MEDIA QUERIES ===== */
