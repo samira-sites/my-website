@@ -48,7 +48,7 @@ nav {
   position: sticky;
   top: 0;
   z-index: 1000;
-  border-bottom: 1px solid var(--primary);
+  border-bottom: 1px solid var(--light);
 }
 .logo img {
   width: clamp(100px, 15vw, 150px);
@@ -247,7 +247,7 @@ h3 {
   background-repeat: no-repeat;
 background-attachment: fixed;
   color: var(--secondary);
-  margin: 1rem auto;
+  margin: 0 auto;
  
 }
 @media (max-width: 768px){
