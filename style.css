@@ -48,7 +48,7 @@ nav {
   position: sticky;
   top: 0;
   z-index: 1000;
-  border-bottom: 1px solid var(--secondary);
+  border-bottom: 1px solid var(--primary);
 }
 .logo img {
   width: clamp(100px, 15vw, 150px);
