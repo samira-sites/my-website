@@ -52,8 +52,6 @@ mobileLinks.forEach((link) => {
 });
 
 
-
-
 // Select all buttons with data-target
 document.querySelectorAll('.hero-btn .btn').forEach(button => {
   button.addEventListener('click', function() {
@@ -67,3 +65,58 @@ document.querySelectorAll('.hero-btn .btn').forEach(button => {
     }
   });
 })
+
+/* ----------------- CONTACT FORM ----------------- */
+const scriptURL =
+  "https://script.google.com/macros/s/AKfycbxdA6bSYEXA_P6u8RPA4c2hZvuPPf07vWrYyQrSLqv3lzCOj6BRJJKeaV_Z_zMdIKlQYQ/exec";
+
+const form = document.getElementById("contactform");
+const msg = document.getElementById("msg");
+
+form.addEventListener("submit", (e) => {
+  e.preventDefault();
+  msg.innerHTML = "Sending message...";
+
+  fetch(scriptURL, { method: "POST", body: new FormData(form) })
+    .then((response) => {
+      if (!response.ok) throw new Error(`Server returned ${response.status}`);
+      msg.innerHTML = "✅ Message sent successfully!";
+      form.reset();
+      setTimeout(() => (msg.innerHTML = ""), 3000);
+    })
+    .catch((error) => {
+      console.error("Form submit error:", error);
+      msg.innerHTML = "❌ Failed to send message. Try again later.";
+    });
+});
+
+/* ----------------- ANTI-SPAM ----------------- */
+const formStartTime = Date.now();
+
+document.querySelector("form").addEventListener("submit", function (e) {
+  const honeypot = document.getElementById("company").value;
+  const timeSpent = (Date.now() - formStartTime) / 1000;
+
+  if (honeypot !== "" || timeSpent < 5) {
+    e.preventDefault();
+    return false;
+  }
+
+  const spamWords = [
+    "telegram",
+    "whatsapp",
+    "million messages",
+    "bulk",
+    "automatically generated",
+    "feedback form",
+    "proposal",
+    "send messages",
+  ];
+
+  const msgVal = document.getElementById("message").value.toLowerCase();
+  if (spamWords.some((word) => msgVal.includes(word))) {
+    e.preventDefault();
+    alert("Message blocked.");
+    return false;
+  }
+});
