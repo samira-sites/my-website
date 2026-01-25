@@ -19,7 +19,7 @@
     window.onload = function () {
       Calendly.initBadgeWidget({
         url: "https://calendly.com/samiraramo815/30min?background_color=111111&text_color=ffffff&primary_color=ffbd59",
-        text: "Book a Free Call",
+        text: "Book a Free Discovery call",
         color: "#00d1ff",
         textColor: "#111111",
         branding: false,
@@ -76,7 +76,7 @@
 
       <div class="hero-btn">
         <button class="btn" data-target="#contact">Get Your Website</button>
-        <button class="btn" data-target="#projects">See My Work</button>
+        <button class="btn mywork" data-target="#projects">See My Work</button>
       </div>
     </div>
     <div>
@@ -88,19 +88,20 @@
   <section id="services">
     <h2>My Services</h2>
     <p>Here’s what I offer to help your business online:</p>
+    <br>
     <div class="services-grid">
       <div class="service-card">
-        <h3>🖥️Responsive Websites</h3>
+        <h3>🖥️ Responsive Websites</h3>
         <p>Websites that adjust to any device, making it easy for your customers to reach your business on <strong>
             desktop, tablet, or mobile.</strong></p>
       </div>
       <div class="service-card">
-        <h3>📅Booking & Forms</h3>
+        <h3>📅 Booking & Forms</h3>
         <p>Contact forms that send submissions to Google Sheets and online booking through Calendly, so you can easily
           keep track of inquiries and appointments.</p>
       </div>
       <div class="service-card">
-        <h3>🎨Custom Design</h3>
+        <h3>🎨 Custom Design</h3>
         <p>Clean, modern designs tailored to your brand, ensuring your website is easy to use and looks professional.
         </p>
       </div>
@@ -111,6 +112,7 @@
   <section id="projects">
     <h2>Projects</h2>
     <p>Check out some of my work:</p>
+    <br>
     <div class="projects-grid">
       <div class="project-card">
         <img src="project1.jpg" alt="Project 1" />
@@ -251,6 +253,7 @@
 
         <label for="message">Project Details / Message</label>
         <textarea id="message" name="Message" placeholder="Describe your website idea here…" required></textarea>
+  
 
         <button type="submit" class="btn" id="button">Send message</button>
         <span id="msg" style="text-align: center;"></span>
