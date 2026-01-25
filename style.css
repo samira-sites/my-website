@@ -231,7 +231,8 @@ h3 {
 .about .btn:hover {
   opacity: 0.9;
   transform: translateY(-2px);
-  color: var(--primary);
+  color: var(--light);
+  background: var(--secondary);
 }
 
 /* ============================== HERO ============================================== */
