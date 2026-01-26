@@ -68,7 +68,7 @@ document.querySelectorAll('.hero-btn .btn').forEach(button => {
 
 /* ----------------- CONTACT FORM ----------------- */
 const scriptURL =
-  "https://script.google.com/macros/s/AKfycbwqlYu2pQxQQ6Cbd_xKpGqAG_GacZC3G98uHanYwGUqiGHznv913lu7u4BCibKVKiCmVA/exec";
+  "https://script.google.com/macros/s/AKfycbzNz36Rwl7CSlXw-tFjQOEE9nX6K7i3CVap0Z_Dzb63danjErQcSKKqxznJqe7vnXIkbg/exec";
 
 const form = document.getElementById("contactform");
 const msg = document.getElementById("msg");
