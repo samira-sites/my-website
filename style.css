@@ -65,12 +65,14 @@ nav ul {
 
 nav ul li a {
   font-weight: bold;
-  transition: color 0.3s;
+  transition: all 0.4s ease-in-out;
   display: flex;
+  font-size: clamp(15px, 1vw, 18px);
 }
 
 nav ul li a:hover {
   color: var(--primary);
+  transform: scale(1.2);
 }
 .nav-links {
   display: flex;
