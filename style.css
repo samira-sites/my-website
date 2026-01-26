@@ -264,14 +264,15 @@ section h1 {
   gap: 0;
   
 }
-p {
-  font-size: clamp(15px, 1.6vw, 18px);
+.hero p {
+  font-size: clamp(16px, 1.6vw, 20px);
   line-height: 1.6;
   font-weight: bold;
 }
 @media (max-width: 768px) {
   .hero {
     background-image: url(photo/mobile-hero-bg.jpg);
+    padding-top: 1rem; 
   }
 }
 @media (min-width: 768px) {
