@@ -228,7 +228,9 @@ section h1 {
   font-weight: bold;
   transition: all 0.3s ease;
   margin-right: 1rem;
+  box-shadow: 0px 2px 10px var(--secondary);
 }
+
 
 .mywork {
   background: transparent;
@@ -260,6 +262,12 @@ section h1 {
   color: var(--secondary);
   margin: 0 auto;
   gap: 0;
+  
+}
+p {
+  font-size: clamp(15px, 1.6vw, 18px);
+  line-height: 1.6;
+  font-weight: bold;
 }
 @media (max-width: 768px) {
   .hero {
