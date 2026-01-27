@@ -468,7 +468,7 @@ section h1 {
   background-size: cover;
   background-repeat: no-repeat;
 
-  height: 100vh;
+  height: auto;
   width: 100vw;
 }
 @media (max-width: 768px){
@@ -479,9 +479,8 @@ section h1 {
     background-repeat: no-repeat;
   
     height: auto;
-    width: 100vw;
-    margin: 0;
-    
+    width: 1;
+ 
   }
 }
 
