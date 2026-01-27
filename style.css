@@ -463,6 +463,12 @@ section h1 {
   gap: 2rem;
   align-items: center;
   text-align: center;
+  background-image: url(photo/about-background.png);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0.8rem;
+  min-height: 100vh;
 }
 
 .about img {
