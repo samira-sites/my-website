@@ -394,6 +394,7 @@ text-align: center;
 
 .project-card p {
   padding: 0 1rem 1rem;
+  line-height: 1.6;
 }
 .inquire-btn {
   display: flex;
