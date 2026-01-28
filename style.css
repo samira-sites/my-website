@@ -54,7 +54,22 @@ nav {
 .logo img {
   width: clamp(30px, 4vw, 100px);
   height: auto;
+
+  border: 1px solid var(--primary);
+  border-radius: 4px;
+
+  transition: 
+    transform 0.35s ease,
+    box-shadow 0.35s ease;
+
+  will-change: transform;
 }
+.logo img:hover {
+  transform: translateY(-2px) scale(1.03);
+  box-shadow: 0 6px 16px rgba(246, 213, 2, 0.15),
+              0 0 10px color-mix(in srgb, var(--primary) 40%, transparent);
+}
+
 
 nav ul {
   list-style: none;
