@@ -52,7 +52,7 @@ nav {
   border-bottom: 1px solid var(--primary);
 }
 .logo img {
-  width: clamp(100px, 15vw, 150px);
+  width: clamp(30px, 4vw, 100px);
   height: auto;
 }
 
@@ -66,7 +66,7 @@ nav ul {
 nav ul li a {
   transition: all 0.4s ease-in-out;
   display: flex;
-  font-size: clamp(12px, .7vw, 18px);
+  font-size: clamp(12px, 1vw, 18px);
 }
 
 nav ul li a:hover {
