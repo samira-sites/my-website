@@ -64,19 +64,67 @@ nav ul {
 }
 
 nav ul li a {
-  font-weight: bold;
   transition: all 0.4s ease-in-out;
   display: flex;
-  font-size: clamp(15px, 1vw, 18px);
+  font-size: clamp(14px, .7vw, 18px);
 }
 
 nav ul li a:hover {
   color: var(--primary);
-  transform: scale(1.2);
 }
 .nav-links {
   display: flex;
 }
+
+.cta-btn {
+  background: var(--primary);
+  color: var(--secondary);
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  transition: background 0.2s, transform 0.2s;
+}
+
+.cta-btn:hover {
+  background: var(--secondary);
+  color: var(--light);
+  box-shadow: 0px 2px 8px var(--primary);
+  transform: translateY(-2px);
+}
+
+/* Show text on desktop, icon only on mobile */
+.cta-text {
+  display: inline;
+}
+
+.cta-icon {
+  display: none;
+}
+
+/* Mobile styles */
+@media(max-width: 768px) {
+  .cta-text {
+    display: none;
+  }
+  .cta-icon {
+    display: inline;
+    font-size: .8rem;
+   
+  }
+  .cta-btn {
+    padding: .3rem .7rem;
+     background: var(--light);
+     border-radius: 2px;
+     background-color: var(--primary);
+  }
+}
+
+
 
 /* ===== NAVBAR MOBILE ===== */
 @media (max-width: 768px) {

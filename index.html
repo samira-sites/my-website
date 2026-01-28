@@ -17,21 +17,6 @@
 </head>
 
 <body>
-  <!-- Calendly badge widget begin -->
-  <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet" />
-  <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
-  <script type="text/javascript">
-    window.onload = function () {
-      Calendly.initBadgeWidget({
-        url: "https://calendly.com/samiraramo815/30min?background_color=111111&text_color=ffffff&primary_color=ffbd59",
-        text: "Book a Free Discovery call",
-        color: "#00d1ff",
-        textColor: "#111111",
-        branding: false,
-      });
-    };
-  </script>
-  <!-- Calendly badge widget end -->
 
   <!-- ===== NAVBAR ===== -->
   <nav>
@@ -46,6 +31,19 @@
       <li><a href="#about">About</a></li>
       <li><a href="#contact">Contact</a></li>
     </ul>
+
+ <!-- CTA Button -->
+<button class="cta-btn" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/samiraramo815/30min?background_color=111111&text_color=ffffff&primary_color=ffbd59'}); return false;">
+  <span class="cta-text">Book a Free Discovery Call</span>
+  <span class="cta-icon">Free Discovery call</span>
+</button>
+
+<!-- Calendly Script -->
+<script src="https://assets.calendly.com/assets/external/widget.js" async></script>
+
+<!--Calendly CSS-->
+<link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet" />
+
 
     <div class="burger" id="burger">
       <span class="line1"></span>
