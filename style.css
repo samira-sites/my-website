@@ -330,9 +330,9 @@ section h1 {
   padding-top: 1rem;
 }
 .hero p {
-  font-size: clamp(16px, 1.4vw, 22px);
+  font-size: clamp(14px, 1.2vw, 22px);
   line-height: 1.6;
-  font-weight: bold;
+ 
 }
 @media (max-width: 768px) {
   .hero {
