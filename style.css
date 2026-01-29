@@ -54,10 +54,9 @@ nav {
 .logo img {
   width: clamp(30px, 4vw, 100px);
   height: auto;
-
   border: 1px solid var(--primary);
   border-radius: 4px;
-
+  
   transition: 
     transform 0.35s ease,
     box-shadow 0.35s ease;
