@@ -285,7 +285,8 @@ section h1 {
 /* ===== BUTTONS ===== */
 .btn {
   display: inline-block;
-  background-color: var(--primary);
+  background-color: var(--light);
+  border: 2px solid var(--primary) !important;
   color: var(--secondary);
   padding: 0.8rem 1.5rem;
   border: none;
@@ -299,12 +300,11 @@ section h1 {
 
 .mywork {
   background: transparent;
-  border: 2px solid var(--primary);
   padding: 0.4rem 0.9rem;
 }
 
 .btn:hover,
-.about .btn:hover {
+.about .btn:hover, .contact .btn:hover {
   opacity: 0.9;
   transform: translateY(-2px);
   color: var(--light);
@@ -680,6 +680,9 @@ text-align: center;
 }
 .contact-icons a:hover {
   transform: scale(1.1);
+}
+.contact .btn{
+ background-color: var(--primary);
 }
 
 /* ===== FOOTER ===== */
