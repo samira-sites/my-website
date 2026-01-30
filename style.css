@@ -595,7 +595,7 @@ text-align: center;
 .contact form {
   display: flex;
   flex-direction: column;
-  gap: .6rem;
+  gap: 1rem;
   line-height: 1;
   color: var(--primary);
 }
@@ -607,11 +607,6 @@ text-align: center;
   border: 1px solid var(--secondary);
 }
 
-.help-text {
-  font-size: 0.85rem;
-  color: #666;
-  margin-top: 4px;
-}
 
 .contact button {
   width: max-content;
