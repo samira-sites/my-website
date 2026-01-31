@@ -402,8 +402,8 @@ section h1 {
 .service-card:hover {
   transform: translateY(-6px);
 }
-.service .btn {
-  width: 25%;
+.service .btn,.project .btn {
+  width: 25% !important;
   text-align: center;
   padding: 0.5rem 1rem;
 }
@@ -413,9 +413,9 @@ section h1 {
 }
 
 @media (max-width: 700px) {
-  .service .btn {
+  .service .btn, .project .btn {
     margin: 0;
-    width: 100%;
+    width: 100% !important;
   }
 }
 
