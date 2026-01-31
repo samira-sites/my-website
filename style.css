@@ -396,18 +396,18 @@ section h1 {
   text-align: justify;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   box-shadow: 8px 8px 20px var(--secondary);
+  
 }
 
 .service-card:hover {
   transform: translateY(-6px);
-  box-shadow: -3px 4px 0px var(--primary);
 }
 .service .btn {
   width: 25%;
   text-align: center;
   padding: 0.5rem 1rem;
 }
-.service-btn {
+.service-btn, .project-btn {
   display: flex;
   justify-content: center;
 }
