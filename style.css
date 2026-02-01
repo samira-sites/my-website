@@ -130,10 +130,9 @@ nav ul li a:hover {
   }
   .cta-btn {
     padding: 0.3rem 0.7rem;
-    background: var(--secondary);
+    background: var(--primary);
     border-radius: 2px;
-    color: var(--primary);
-    border: 1px solid var(--primary);
+    color: var(--secondary);
   }
 }
 
@@ -324,7 +323,6 @@ section h1 {
   background-repeat: no-repeat;
   color: var(--secondary);
   margin: 0 auto;
-  margin-bottom: 1rem;
 }
 
 .hero p {
