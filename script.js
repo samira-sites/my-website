@@ -14,11 +14,21 @@ document.querySelectorAll('.hero .btn').forEach(btn => {
   card.classList.remove("hidden");
   card.classList.add("show");
 });--------*/
-window.addEventListener("load", () => {
-  document.querySelectorAll(".hidden").forEach(el => {
-    el.classList.add("show");
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('show');
+      // Optional: stop observing after animation
+      observer.unobserve(entry.target);
+    }
   });
+}, {
+  threshold: 0.2  // 20% visible triggers animation
 });
+
+// Observe all hidden elements
+document.querySelectorAll('.hidden').forEach(el => observer.observe(el));
+
 
 
 
