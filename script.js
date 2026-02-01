@@ -9,6 +9,19 @@ document.querySelectorAll('.hero .btn').forEach(btn => {
   });
 });
 
+/*----------window.addEventListener("load", () => {
+  const card = document.querySelector(".card");
+  card.classList.remove("hidden");
+  card.classList.add("show");
+});--------*/
+window.addEventListener("load", () => {
+  document.querySelectorAll(".hidden").forEach(el => {
+    el.classList.add("show");
+  });
+});
+
+
+
 /* ----------------- BURGER & MOBILE MENU ----------*/
 const burger = document.getElementById("burger");
 const mobileMenu = document.getElementById("mobileMenu");
