@@ -773,7 +773,7 @@ section h1 {
   }
 }
 
-/*---------------*/
+/*-------------smooth popup scroll--------*/
 .hidden {
   opacity: 0;
   transform: translateY(30px);
