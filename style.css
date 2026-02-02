@@ -18,6 +18,9 @@ body {
   color: var(--light);
   line-height: 1.6;
 }
+html{
+  scroll-behavior: inherit;
+}
 
 @media (max-width: 768px) {
   /* ===== CALENDLY OVERLAY ===== */
@@ -462,7 +465,7 @@ section h1 {
 .inquire-btn {
   display: flex;
   justify-content: center;
-  background-color: var(--secondary);
+  background-color: rgb(98, 97, 97);
   color: var(--light);
   text-decoration: none;
   border-radius: 0.5rem;
