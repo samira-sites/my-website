@@ -562,7 +562,7 @@ section h1 {
   height: auto;
   width: 100vw;
 }
-@media (max-width: 768px) {
+@media (max-width:768px) {
   .about {
     background-image: url(photo/mobile-about-bg.png);
     background-position: center;
@@ -580,7 +580,7 @@ section h1 {
   border-radius: 20px;
   display: block;
   margin: 0 auto;
-  filter: drop-shadow(0px 1px 4px var(--primary));
+  border: 2px solid var(--primary);
 }
 
 /* ===== CONTACT ===== */
