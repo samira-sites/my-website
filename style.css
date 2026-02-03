@@ -554,7 +554,7 @@ section h1 {
   gap: 2rem;
   align-items: center;
   text-align: center;
-  background-image: url(photo/about-background.png);
+  background-image: url(photo/about-background.webp);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -564,7 +564,7 @@ section h1 {
 }
 @media (max-width:768px) {
   .about {
-    background-image: url(photo/mobile-about-bg.png);
+    background-image: url(photo/mobile-about-bg.webp);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
