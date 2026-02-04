@@ -404,7 +404,7 @@ section h1 {
 }
 
 .service-card:hover {
-  transform: translateY(-6px);
+  transform: translateY(-2px);
 }
 .service .btn,
 .project .btn {
