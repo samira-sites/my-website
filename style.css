@@ -464,6 +464,10 @@ section h1 {
   object-fit: cover;
 }
 
+.project h2, .project p{
+  color: var(--secondary);
+}
+
 .project-card h3 {
   margin: 1rem 0 0.5rem;
 }
