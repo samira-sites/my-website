@@ -9,11 +9,6 @@ document.querySelectorAll('.hero .btn').forEach(btn => {
   });
 });
 
-/*----------window.addEventListener("load", () => {
-  const card = document.querySelector(".card");
-  card.classList.remove("hidden");
-  card.classList.add("show");
-});--------*/
 
 /*--------------smooth popup scroll----*/
 const observer = new IntersectionObserver((entries) => {
