@@ -334,7 +334,7 @@ section h1 {
   align-items: center;
   gap: 5rem;
   width: 200%;
-  animation: scroll 30s linear infinite;
+  animation: scroll 20s linear infinite;
 }
 
 /* Icons */
@@ -343,8 +343,9 @@ section h1 {
   height: auto;
   opacity: 0.75;
   transition: transform 0.3s ease, opacity 0.3s ease;
-  background: var(--light);
+  background: var(--primary);
   border-radius: 3px;
+  padding: .3rem;
 }
 
 /* Hover effect */
