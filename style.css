@@ -430,9 +430,7 @@ section h1 {
 }
 
 /* ===== PROJECTS ===== */
-.project, .process{
-  background: whitesmoke;
-}
+
 .projects-grid {
   display: grid;
   grid-template-columns: 1fr;
@@ -540,13 +538,13 @@ section h1 {
   padding: 4rem 1.5rem;
   max-width: 700px;
   margin: 1rem auto;
-  background: var(--light);
   
 }
 
-.faq h2 {
+.faq h2, .process h2 {
   text-align: center;
   margin-bottom: 2rem;
+  color: var(--primary);
 }
 
 .faq details {
