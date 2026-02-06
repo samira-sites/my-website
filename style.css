@@ -314,18 +314,11 @@ section h1 {
 /* Tech Stack Section */
 .tech-stack {
   padding: 1rem;
-  background: #fff;
+  background: var(--secondary);
   text-align: center;
   overflow: hidden;
 }
 
-/* Title text */
-.tech-title {
-  font-size: 0.95rem;
-  color: #222;
-  opacity: 0.7;
-  margin-bottom: 1.5rem;
-}
 
 /* Slider container */
 .tech-slider {
@@ -350,6 +343,8 @@ section h1 {
   height: auto;
   opacity: 0.75;
   transition: transform 0.3s ease, opacity 0.3s ease;
+  background: var(--light);
+  border-radius: 3px;
 }
 
 /* Hover effect */
