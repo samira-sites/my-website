@@ -310,6 +310,88 @@ section h1 {
   background: var(--secondary);
 }
 
+/*=============LOOP================*/
+/* Tech Stack Section */
+.tech-stack {
+  padding: 2.5rem 1rem;
+  background: #fff;
+  text-align: center;
+  overflow: hidden;
+}
+
+/* Title text */
+.tech-title {
+  font-size: 0.95rem;
+  color: #222;
+  opacity: 0.7;
+  margin-bottom: 1.5rem;
+}
+
+/* Slider container */
+.tech-slider {
+  max-width: 900px;   /* keeps it clean on laptop */
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+}
+
+/* Moving track */
+.tech-track {
+  display: flex;
+  align-items: center;
+  gap: 5rem;
+  width: 200%;
+  animation: scroll 30s linear infinite;
+}
+
+/* Icons */
+.tech-track img {
+  width: 36px;
+  height: auto;
+  opacity: 0.75;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+/* Hover effect */
+.tech-track img:hover {
+  transform: scale(1.15);
+  opacity: 1;
+}
+
+/* Animation */
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+/* Desktop polish */
+@media (min-width: 1024px) {
+  .tech-track {
+    animation-duration: 35s; /* slower = premium */
+  }
+
+  .tech-track img {
+    width: 40px;
+  }
+}
+
+/* Mobile fine-tune */
+@media (max-width: 480px) {
+  .tech-track {
+    gap: 3rem;
+  }
+
+  .tech-track img {
+    width: 32px;
+  }
+}
+
+
+
 /* ===== HERO ===== */
 
 .hero {
