@@ -435,7 +435,7 @@ section h1 {
 }
 
 .hero img {
-  width: clamp(250px, 25vw, 380px);
+  width: clamp(300px, 32vw, 480px);
   height: auto;
   margin: 0 auto;
   filter: drop-shadow(0 8px 15px var(--secondary));
