@@ -343,9 +343,9 @@ section h1 {
   height: auto;
   opacity: 0.75;
   transition: transform 0.3s ease, opacity 0.3s ease;
-  background: var(--primary);
-  border-radius: 3px;
-  padding: .3rem;
+  background: var(--light);
+  border-radius: 5px;
+  padding: .2rem;
 }
 
 /* Hover effect */
