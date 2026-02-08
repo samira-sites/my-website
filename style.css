@@ -17,7 +17,7 @@ body {
   color: var(--light);
   line-height: 1.6;
 }
-html{
+html {
   scroll-behavior: inherit;
 }
 
@@ -82,6 +82,7 @@ nav ul li a {
   transition: all 0.4s ease-in-out;
   display: flex;
   font-size: clamp(12px, 1vw, 18px);
+  margin-top: 1rem;
 }
 
 nav ul li a:hover {
@@ -89,6 +90,25 @@ nav ul li a:hover {
 }
 .nav-links {
   display: flex;
+}
+.navcontact {
+  background-color: var(--light);
+  color: var(--secondary);
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  font-weight: 700;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease, transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.navcontact:hover,
+.navcontact:focus-visible {
+  background-color: var(--primary); /* WhatsApp green vibe */
+  color: var(--secondary);
+  transform: translateY(-3px); /* subtle lift */
+  box-shadow: 0 4px 10px rgba(238, 222, 5, 0.15); /* soft shadow */
 }
 
 .cta-btn {
@@ -301,6 +321,18 @@ section h1 {
   padding: 0.4rem 0.9rem;
 }
 
+@media (max-width: 768px) {
+  .hero-btn {
+    display: flex;
+  }
+  .mywork {
+    margin-right: 0;
+  }
+  .hero-btn .btn {
+    margin: 0;
+  }
+}
+
 .btn:hover,
 .about .btn:hover,
 .contact .btn:hover {
@@ -319,10 +351,9 @@ section h1 {
   overflow: hidden;
 }
 
-
 /* Slider container */
 .tech-slider {
-  max-width: 900px;   /* keeps it clean on laptop */
+  max-width: 900px; /* keeps it clean on laptop */
   margin: 0 auto;
   overflow: hidden;
   position: relative;
@@ -345,7 +376,7 @@ section h1 {
   transition: transform 0.3s ease, opacity 0.3s ease;
   background: var(--light);
   border-radius: 5px;
-  padding: .2rem;
+  padding: 0.2rem;
 }
 
 /* Hover effect */
@@ -385,8 +416,6 @@ section h1 {
     width: 32px;
   }
 }
-
-
 
 /* ===== HERO ===== */
 
@@ -460,8 +489,8 @@ section h1 {
   justify-items: center;
 }
 
-@media (max-width:768px){
-  .services-grid{
+@media (max-width: 768px) {
+  .services-grid {
     grid-template-columns: 1fr !important;
   }
 }
@@ -516,7 +545,6 @@ section h1 {
 }
 
 .project-card {
- 
   border-radius: 8px;
   overflow: hidden;
   text-align: justify;
@@ -540,7 +568,8 @@ section h1 {
   object-fit: cover;
 }
 
-.project h2, .project p{
+.project h2,
+.project p {
   color: var(--light);
 }
 
@@ -588,7 +617,6 @@ section h1 {
   gap: 2rem;
   justify-content: center;
   flex-wrap: wrap;
-
 }
 
 .step {
@@ -616,10 +644,10 @@ section h1 {
   padding: 4rem 1.5rem;
   max-width: 700px;
   margin: 1rem auto;
-  
 }
 
-.faq h2, .process h2 {
+.faq h2,
+.process h2 {
   text-align: center;
   margin-bottom: 2rem;
   color: var(--primary);
@@ -658,7 +686,7 @@ section h1 {
   height: auto;
   width: 100vw;
 }
-@media (max-width:768px) {
+@media (max-width: 768px) {
   .about {
     background-image: url(photo/mobile-about-bg.webp);
     background-position: center;
@@ -783,12 +811,11 @@ section h1 {
   background-color: var(--primary);
   border: none;
 }
-.contact form{
+.contact form {
   background: #111;
   padding: 1rem;
   border-radius: 10px;
 }
-
 
 /* ===== FOOTER ===== */
 .footer {
@@ -841,7 +868,6 @@ section h1 {
 }
 
 @media (max-width: 768px) {
-
   section h1 {
     text-align: center;
   }

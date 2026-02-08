@@ -17,25 +17,25 @@
   <link rel="stylesheet" href="style.css" />
 
   <!-------------------------manifest-->
-    <!-- Favicon for browser tabs -->
-    <link rel="icon" type="image/png" sizes="32x32" href="/icons-32.png">
-    <link rel="icon" type="image/png" sizes="192x192" href="/icons-192.png">
-  
-    <!-- Apple touch icon for iOS home screen -->
-    <link rel="apple-touch-icon" sizes="180x180" href="/icons-180.png">
-  
-    <!-- PWA manifest -->
-    <link rel="manifest" href="/site.webmanifest">
-  
-    <!-- Theme colors for browser UI -->
-    <meta name="theme-color" content="#ffbd59">
-  
-    <!-- Optional: Apple-specific meta tags -->
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="default">
-  
-  
+  <!-- Favicon for browser tabs -->
+  <link rel="icon" type="image/png" sizes="32x32" href="/icons-32.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="/icons-192.png">
+
+  <!-- Apple touch icon for iOS home screen -->
+  <link rel="apple-touch-icon" sizes="180x180" href="/icons-180.png">
+
+  <!-- PWA manifest -->
+  <link rel="manifest" href="/site.webmanifest">
+
+  <!-- Theme colors for browser UI -->
+  <meta name="theme-color" content="#ffbd59">
+
+  <!-- Optional: Apple-specific meta tags -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+
+
   <title>Website Design with Online Booking & Contact Forms</title>
 </head>
 
@@ -50,21 +50,9 @@
       <li><a href="#projects">Projects</a></li>
       <li><a href="#process">How It Works</a></li>
       <li><a href="#about">About</a></li>
-      <li><a href="#contact">Contact</a></li>
+      <li><a href="#contact" class="navcontact">Contact</a></li>
     </ul>
 
-    <!-- CTA Button -->
-    <button class="cta-btn"
-      onclick="Calendly.initPopupWidget({url: 'https://calendly.com/samiraramo815/30min?background_color=111111&text_color=ffffff&primary_color=ffbd59'}); return false;">
-      <span class="cta-text">Book a Free Discovery Call</span>
-      <span class="cta-icon">Free Discovery call</span>
-    </button>
-
-    <!-- Calendly Script -->
-    <script src="https://assets.calendly.com/assets/external/widget.js" async></script>
-
-    <!--Calendly CSS-->
-    <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet" />
 
 
     <div class="burger" id="burger">
@@ -100,20 +88,34 @@
 
       <div class="hero-btn">
         <button class="btn" data-target="#contact">Get Your Website</button>
-        <button class="btn mywork" data-target="#projects">View
-          My Work</button>
+
+        <!-- CTA Button -->
+        <button class="cta-btn btn mywork"
+          onclick="Calendly.initPopupWidget({url: 'https://calendly.com/samiraramo815/30min?background_color=111111&text_color=ffffff&primary_color=ffbd59'}); return false;">
+          <span class="cta-text">Book a Free Discovery Call</span>
+          <span class="cta-icon">Free Discovery call</span>
+        </button>
       </div>
     </div>
+
+    <!-- Calendly Script -->
+    <script src="https://assets.calendly.com/assets/external/widget.js" async></script>
+
+    <!--Calendly CSS-->
+    <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet" />
+
+    <!--<button class="btn mywork" data-target="#projects">View
+          My Work</button>--->
+
+
     <div class="card hidden animate-up">
-      <img src="/photo/hero-image.webp"
-      alt="Hero profile"
-      fetchpriority="high">
- 
+      <img src="/photo/hero-image.webp" alt="Hero profile" fetchpriority="high">
+
     </div>
   </section>
 
   <section class="tech-stack">
-  
+
     <div class="tech-slider">
       <div class="tech-track">
         <img src="photo/icons/HTML5.svg" alt="HTML">
@@ -124,8 +126,8 @@
         <img src="photo/icons/Visual Studio Code (VS Code).svg" alt="VS Code">
         <img src="photo/icons/calendly-icon.svg" alt="Calendly">
         <img src="photo/icons/google-sheet.png" alt="google-sheets-icon">
-    
-  
+
+
         <!-- duplicate for seamless loop -->
         <img src="photo/icons/HTML5.svg" alt="HTML">
         <img src="photo/icons/CSS3.svg" alt="CSS">
@@ -135,7 +137,7 @@
         <img src="photo/icons/Visual Studio Code (VS Code).svg" alt="VS Code">
         <img src="photo/icons/calendly-icon.svg" alt="Calendly">
         <img src="photo/icons/google-sheet.png" alt="google-sheets-icon">
-    
+
         <img src="photo/icons/HTML5.svg" alt="HTML">
         <img src="photo/icons/CSS3.svg" alt="CSS">
         <img src="photo/icons/JavaScript.svg" alt="JavaScript">
@@ -143,9 +145,8 @@
         <img src="photo/icons/GitHub.svg" alt="GitHub">
         <img src="photo/icons/Visual Studio Code (VS Code).svg" alt="VS Code">
         <img src="photo/icons/calendly-icon.svg" alt="Calendly">
-        <img src="photo/icons/google-sheet.png" alt="google-sheets-icon"">
-    
-        
+        <img src="photo/icons/google-sheet.png" alt="google-sheets-icon">
+      
       </div>
     </div>
   </section>
@@ -153,50 +154,54 @@
 
   <!-- ===== SERVICES ===== -->
   <section id="services" class="service">
-    <h2 style="color: #222;">My Services</h2>
-    <p style="color:#222">Here’s what I offer to help your business online:</p>
-    <br>
-    <div class="services-grid">
-      <div class="service-card card hidden animate-up">
-        <h3>🖥️ Responsive Websites</h3>
-        <p>Websites that adjust to any device, making it easy for your customers to reach your business on <strong>
-            desktop, tablet, or mobile.</strong></p>
-      </div>
+        <h2 style="color: #222;">My Services</h2>
+        <p style="color:#222">Here’s what I offer to help your business online:</p>
+        <br>
+        <div class="services-grid">
+          <div class="service-card card hidden animate-up">
+            <h3>🖥️ Responsive Websites</h3>
+            <p>Websites that adjust to any device, making it easy for your customers to reach your business on <strong>
+                desktop, tablet, or mobile.</strong></p>
+          </div>
 
-      <div class="service-card card hidden animate-up">
-        <h3>📅 Booking & Forms</h3>
-        <p>Contact forms that send submissions to Google Sheets and online booking through Calendly, so you can easily
-          keep track of inquiries and appointments.</p>
-      </div>
+          <div class="service-card card hidden animate-up">
+            <h3>📅 Booking & Forms</h3>
+            <p>Contact forms that send submissions to Google Sheets and online booking through Calendly, so you can
+              easily
+              keep track of inquiries and appointments.</p>
+          </div>
 
-      <div class="service-card card hidden animate-up">
-        <h3>🎨 Custom Design</h3>
-        <p>Clean, modern designs tailored to your brand, ensuring your website is easy to use and looks professional.
-        </p>
-      </div>
+          <div class="service-card card hidden animate-up">
+            <h3>🎨 Custom Design</h3>
+            <p>Clean, modern designs tailored to your brand, ensuring your website is easy to use and looks
+              professional.
+            </p>
+          </div>
 
-      <div class="service-card card hidden animate-up">
-        <h3>⚡ SEO-Ready Websites</h3>
-        <p>Built with proper structure, headings, and meta tags, so your website is optimized for search engines from
-          day one — making it easier for clients to find you online.
-        </p>
-      </div>
+          <div class="service-card card hidden animate-up">
+            <h3>⚡ SEO-Ready Websites</h3>
+            <p>Built with proper structure, headings, and meta tags, so your website is optimized for search engines
+              from
+              day one — making it easier for clients to find you online.
+            </p>
+          </div>
 
-      <div class="service-card card hidden animate-up">
-        <h3>🖼️ Image Optimization</h3>
-        <p>Compress, resize, and convert images to modern formats like WebP to make your website load faster, look
-          better, and improve overall performance.
-        </p>
-      </div>
+          <div class="service-card card hidden animate-up">
+            <h3>🖼️ Image Optimization</h3>
+            <p>Compress, resize, and convert images to modern formats like WebP to make your website load faster, look
+              better, and improve overall performance.
+            </p>
+          </div>
 
-      <div class="service-card card hidden animate-up">
-        <h3>🛠️ Website Maintenance & Updates <span style="color: #ffbd59;">(Add-On)</span> </h3>
-        <p>Keep your website secure, updated, and running smoothly with regular backups, updates, and troubleshooting.
-        </p>
-      </div>
-    </div>
-    <br>
-    <div class="service-btn"><a href="#contact" class="btn">Get Your Website</a></div>
+          <div class="service-card card hidden animate-up">
+            <h3>🛠️ Website Maintenance & Updates <span style="color: #ffbd59;">(Add-On)</span> </h3>
+            <p>Keep your website secure, updated, and running smoothly with regular backups, updates, and
+              troubleshooting.
+            </p>
+          </div>
+        </div>
+        <br>
+        <div class="service-btn"><a href="#contact" class="btn">Get Your Website</a></div>
   </section>
 
   <!-- ===== PROJECTS ===== -->
