@@ -9,14 +9,11 @@
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
 
-  <!---<link rel="preload" as="image" href="photo/hero-profile.webp"> --->
-
-
   <link rel="icon" href="/favicon.ico" type="image/x-icon" />
 
   <link rel="stylesheet" href="style.css" />
 
-  <!-------------------------manifest-->
+  <!-------------------------manifest------>
   <!-- Favicon for browser tabs -->
   <link rel="icon" type="image/png" sizes="32x32" href="/icons-32.png">
   <link rel="icon" type="image/png" sizes="192x192" href="/icons-192.png">
@@ -34,7 +31,6 @@
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="default">
-
 
   <title>Website Design with Online Booking & Contact Forms</title>
 </head>
@@ -72,7 +68,7 @@
       <li><a href="#projects" class="mobile-link">Projects</a></li>
       <li><a href="#process" class="mobile-link">How It Works</a></li>
       <li><a href="#about" class="mobile-link">About</a></li>
-      <li><a href="#contact" class="mobile-link">Contact</a></li>
+      <li style="text-align: left;"><a href="#contact" class="mobile-link navcontact">Contact</a></li>
     </ul>
   </div>
 
@@ -87,7 +83,7 @@
       <br>
 
       <div class="hero-btn">
-        <button class="btn" data-target="#contact">Get Your Website</button>
+        <button class="btn btnmobile" data-target="#contact">Get Your Website</button>
 
         <!-- CTA Button -->
         <button class="cta-btn btn mywork"
@@ -103,10 +99,6 @@
 
     <!--Calendly CSS-->
     <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet" />
-
-    <!--<button class="btn mywork" data-target="#projects">View
-          My Work</button>--->
-
 
     <div class="card hidden animate-up">
       <img src="/photo/hero-image.webp" alt="Hero profile" fetchpriority="high">
@@ -335,15 +327,6 @@
 
         <input type="hidden" name="Source" value="SAM">
 
-
-        <!-- Security: disable Captcha
-          <input type="hidden" name="_captcha" value="false"> -->
-
-        <!-- Security: redirect after submit 
-          <input type="hidden" name="_next" value="https://yourwebsite.com/thankyou.html"> -->
-
-        <!-- Security: honeypot anti-spam field 
-          <input type="text" name="_honey" style="display:none">-->
         <input type="text" name="company" id="company" tabindex="-1" autocomplete="off" style="display:none">
 
         <label for="name">Full Name</label>
@@ -353,7 +336,7 @@
         <input type="email" id="email" name="Email" placeholder="Enter your email" required>
 
         <label for="social">Social Media Link (optional)</label>
-        <input type="url" id="social" name="social" placeholder="It helps us understand your brand or project">
+        <input type="url" id="social" name="Social" placeholder="It helps us understand your brand or project">
 
         <label for="message">Project Details / Message</label>
         <textarea id="message" name="Message" placeholder="Describe your website idea here…" required></textarea>

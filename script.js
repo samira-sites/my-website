@@ -88,7 +88,7 @@ button.addEventListener('click', function() {
 
 /* ----------------- CONTACT FORM ----------------- */
 const scriptURL =
-"https://script.google.com/macros/s/AKfycbwXHR-uxUvZ8KhpMlsKopcJf5kTozhLfj-QJO2d7007gfaMrsFRg2ZWCHap8oDxO7_oJg/exec";
+"https://script.google.com/macros/s/AKfycbypsgOWd_kCc9dXLnV_laLXL0TfZhhASUbRYJE2wsao73rkV6_0iC8apZ3BXafX1hUObA/exec";
 
 const form = document.getElementById("contactform");
 const msg = document.getElementById("msg");
