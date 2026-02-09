@@ -482,6 +482,12 @@ section h1 {
   background: var(--primary);
   opacity: 7;
 }
+.service h2, .project h2, .process h2, .faq h2,.about h2, .contact h2{
+  background: #ffffff34;
+  padding: .5rem;
+  text-align: center;
+ 
+}
 .services-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr) !important;
@@ -565,10 +571,10 @@ section h1 {
   height: 200px;
   object-fit: cover;
 }
-.project h2 {
+.project h2, .project p {
   color: var(--light);
 }
-.project p {
+.project-card p {
   color: var(--secondary);
 }
 .project-card h3 {
