@@ -43,7 +43,7 @@ html {
 /*=======HEADER=======*/
 
 nav {
-  background: whitesmoke;
+
   position: fixed;
   width: 100%;
   z-index: 1000;
@@ -51,7 +51,11 @@ nav {
   align-items: center;
   justify-content: space-between;
   padding: 0.3rem 2rem;
-  box-shadow: 0px 1px 5px var(--secondary);
+
+  background: rgba(34, 34, 34, 0.65); /* balanced dark glass */
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border-bottom: 1px solid rgba(255, 189, 89, 0.2);
 }
 
 .logo img {
@@ -76,7 +80,7 @@ nav ul {
 }
 
 nav ul li a {
-  color: var(--secondary);
+  color: var(--light);
   font-weight: bold;
   transition: all 0.4s ease-in-out;
   display: flex;
@@ -91,8 +95,8 @@ nav ul li a:hover {
   display: flex;
 }
 .navcontact {
-  background-color: var(--primary);
-  color: var(--secondary);
+  background-color: var(--secondary);
+  color: var(--light);
   margin-top: 10px;
   padding: 0.3rem 1.3rem;
   border-radius: 5px;
@@ -179,16 +183,22 @@ nav ul li a:hover {
   flex-direction: column;
   cursor: pointer;
   gap: 5px;
+  
 }
 
 .burger span {
   width: 25px;
   height: 3px;
-  background: var(--secondary);
+  background: var(--light);
   border-radius: 3px;
   transition: 0.3s;
   z-index: 1;
+  transition: 
+  background 0.25s ease,
+  transform 0.25s ease,
+  opacity 0.25s ease;
 }
+
 
 /* ===== BURGER ANIMATION ===== */
 .burger.toggle .line1 {
@@ -206,7 +216,7 @@ nav ul li a:hover {
   position: fixed;
   top: 0;
   right: -100%;
-  width: 40%;
+  width: 45%;
   height: 55vh;
   background: #222;
   border-radius: 20px 0px 0px 20px;
@@ -321,7 +331,7 @@ section h1 {
 
 .mywork {
   background: rgba(16, 12, 1, 0.471);
-  padding: 0.7rem 1rem;
+  padding: 0.8rem 1rem;
   color: var(--light);
 }
 
@@ -883,6 +893,11 @@ section h1 {
 }
 
 @media (max-width: 768px) {
+  .navcontact{
+    background: var(--primary);
+    color: var(--secondary);
+    font-weight: 800;
+  }
   section h1 {
     text-align: center;
   }
