@@ -95,8 +95,8 @@ nav ul li a:hover {
   display: flex;
 }
 .navcontact {
-  background-color: var(--secondary);
-  color: var(--light);
+  background-color: var(--primary);
+  color: var(--secondary);
   margin-top: 10px;
   padding: 0.3rem 1.3rem;
   border-radius: 5px;
