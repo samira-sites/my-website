@@ -15,12 +15,12 @@ const observer = new IntersectionObserver((entries) => {
   entries.forEach(entry => {
     if (entry.isIntersecting) {
       entry.target.classList.add('show');
-      // Optional: stop observing after animation
+    
       observer.unobserve(entry.target);
     }
   });
 }, {
-  threshold: 0.2  // 20% visible triggers animation
+  threshold: 0.2  
 });
 
 // Observe all hidden elements
@@ -55,13 +55,13 @@ link.addEventListener('click', function(e) {
   const target = document.querySelector(this.getAttribute('href'));
   const start = window.scrollY;
   const end = target.offsetTop;
-  const duration = 1500; // duration in ms (increase = slower)
+  const duration = 1500; 
   const startTime = performance.now();
 
   function animate(time) {
     const elapsed = time - startTime;
-    const progress = Math.min(elapsed / duration, 1); // 0 → 1
-    const ease = 0.5 - Math.cos(progress * Math.PI) / 2; // easeInOut
+    const progress = Math.min(elapsed / duration, 1); 
+    const ease = 0.5 - Math.cos(progress * Math.PI) / 2; 
     window.scrollTo(0, start + (end - start) * ease);
 
     if (progress < 1) requestAnimationFrame(animate);
@@ -72,17 +72,17 @@ link.addEventListener('click', function(e) {
 });
 
 
-// Select all buttons with data-target
+
 document.querySelectorAll('.hero-btn .btn').forEach(button => {
 button.addEventListener('click', function() {
   const target = document.querySelector(this.getAttribute('data-target'));
   if (target) {
-    // Jump instantly to the section
+  
     window.scrollTo({
       top: target.offsetTop,
-      behavior: 'auto' // 'auto' = instant jump, not smooth
-    });
-  }
+      behavior: 'auto' 
+  });
+}
 });
 })
 

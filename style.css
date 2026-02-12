@@ -52,7 +52,7 @@ nav {
   justify-content: space-between;
   padding: 0.3rem 2rem;
 
-  background: rgba(34, 34, 34, 0.65); /* balanced dark glass */
+  background: rgba(34, 34, 34, 0.65); 
   backdrop-filter: blur(14px);
   -webkit-backdrop-filter: blur(14px);
   border-bottom: 1px solid rgba(255, 189, 89, 0.2);
@@ -112,8 +112,8 @@ nav ul li a:hover {
 .navcontact:focus-visible {
   background-color: var(--secondary);
   color: var(--primary);
-  transform: translateY(-3px); /* subtle lift */
-  box-shadow: 0 4px 10px rgba(238, 222, 5, 0.15); /* soft shadow */
+  transform: translateY(-3px);
+  box-shadow: 0 4px 10px rgba(238, 222, 5, 0.15);
 }
 
 .cta-btn {
@@ -137,7 +137,6 @@ nav ul li a:hover {
   transform: translateY(-2px);
 }
 
-/* Show text on desktop, icon only on mobile */
 .cta-text {
   display: inline;
 }
@@ -357,7 +356,7 @@ section h1 {
 }
 
 /*=============LOOP================*/
-/* Tech Stack Section */
+
 .tech-stack {
   padding: 1rem;
   background: var(--secondary);
@@ -367,7 +366,7 @@ section h1 {
 
 /* Slider container */
 .tech-slider {
-  max-width: 900px; /* keeps it clean on laptop */
+  max-width: 900px; 
   margin: 0 auto;
   overflow: hidden;
   position: relative;
@@ -412,7 +411,7 @@ section h1 {
 /* Desktop polish */
 @media (min-width: 1024px) {
   .tech-track {
-    animation-duration: 35s; /* slower = premium */
+    animation-duration: 35s; 
   }
 
   .tech-track img {
@@ -796,8 +795,8 @@ section h1 {
   display: inline-block;
   border-radius: 10px;
   font-size: 25px;
-  box-shadow: 0px 0px 10px #ffbd59;
-  color: #ffbd59;
+  box-shadow: 0px 1px 2px var(--primary);
+  color: var(--primary);
   margin: 0 0.5rem;
   text-decoration: none;
   transition: transform 0.6s ease, color 0.3s ease;
@@ -805,9 +804,9 @@ section h1 {
 }
 
 .social-icons a:hover {
-  transform: translateY(-3px);
+  transform: translateY(-2px);
   color: #fff;
-  box-shadow: 0px 0px 10px #fff;
+  box-shadow: 0px 1px 2px #fff;
 }
 
 /*==========================*/
@@ -917,7 +916,6 @@ section h1 {
     display: inline-block;
     border-radius: 10px;
     font-size: 20px;
-    box-shadow: 0px 0px 10px #ffbd59;
     color: #ffbd59;
     margin: 0 0.5rem;
     text-decoration: none;
@@ -925,11 +923,6 @@ section h1 {
     padding: 0 10px;
   }
 
-  .social-icons a:hover {
-    transform: translateY(-3px);
-    color: #fff;
-    box-shadow: 0px 0px 10px #fff;
-  }
 
   .contact .contact-B {
     border: 1px solid var(--primary);
