@@ -90,7 +90,7 @@
 
         <!-- CTA Button -->
         <button class="cta-btn btn mywork"
-          onclick="Calendly.initPopupWidget({url: 'https://calendly.com/samiraramo815/30min?background_color=111111&text_color=ffffff&primary_color=ffbd59'}); return false;">
+          onclick="Calendly.initPopupWidget({url: 'https://calendly.com/samiraomar/30min?background_color=111111&text_color=ffffff&primary_color=ffbd59'}); return false;">
           <span class="cta-text">Book a Free Discovery Call</span>
           <span class="cta-icon">Free Discovery call</span>
         </button>
