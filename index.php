@@ -5,24 +5,24 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description"
-    content="Responsive websites with Calendly booking and lead-generating contact forms, plus SEO-ready structure.">
+    content="I build responsive, SEO-ready websites with online booking, contact forms, and optimized performance.">
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
 
   <link rel="icon" href="/favicon.ico" type="image/x-icon" />
-
-  <link rel="stylesheet" href="style.css" />
+  <title>Websites That Capture Leads for Small Businesses</title>
 
   <!-------------------------manifest------>
   <!-- Favicon for browser tabs -->
-  <link rel="icon" type="image/png" sizes="32x32" href="/icons-32.png">
-  <link rel="icon" type="image/png" sizes="192x192" href="/icons-192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="icons-32.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="icons-192.png">
 
   <!-- Apple touch icon for iOS home screen -->
-  <link rel="apple-touch-icon" sizes="180x180" href="/icons-180.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="icons-180.png">
 
   <!-- PWA manifest -->
-  <link rel="manifest" href="/site.webmanifest">
+  <link rel="manifest" href="site.webmanifest">
+
 
   <!-- Theme colors for browser UI -->
   <meta name="theme-color" content="#ffbd59">
@@ -32,23 +32,26 @@
   <meta name="mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="default">
 
-  <title>Website Design with Online Booking & Contact Forms</title>
+
+
+
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
   <nav>
     <div class="logo">
-      <img src="photo/nav-logo.png" alt="logo" />
+      <img src="photo/nav-logo.png" alt="SN logo" />
     </div>
-    <ul class="nav-links">
+    <ul class="nav-links" ;>
       <li><a href="#hero">Home</a></li>
       <li><a href="#services">Services</a></li>
       <li><a href="#projects">Projects</a></li>
       <li><a href="#process">How It Works</a></li>
       <li><a href="#about">About</a></li>
-      <li><a href="#contact" class="navcontact">Contact Me</a></li>
     </ul>
 
+    <a href="#contact" class="navcontact">Contact Me</a>
 
 
     <div class="burger" id="burger">
@@ -101,7 +104,7 @@
     <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet" />
 
     <div class="card hidden animate-up">
-      <img src="photo/hero-image.webp" alt="Hero profile" fetchpriority="high">
+      <img src="photo/hero-image.webp" alt="website logo" fetchpriority="high">
 
     </div>
   </section>
@@ -113,17 +116,7 @@
         <img src="photo/icons/HTML5.svg" alt="HTML">
         <img src="photo/icons/CSS3.svg" alt="CSS">
         <img src="photo/icons/JavaScript.svg" alt="JavaScript">
-        <img src="photo/icons/Git.svg" alt="Git">
-        <img src="photo/icons/GitHub.svg" alt="GitHub">
-        <img src="photo/icons/Visual Studio Code (VS Code).svg" alt="VS Code">
-        <img src="photo/icons/calendly-icon.svg" alt="Calendly">
-        <img src="photo/icons/google-sheet.png" alt="google-sheets-icon">
-
-
-        <!-- duplicate for seamless loop -->
-        <img src="photo/icons/HTML5.svg" alt="HTML">
-        <img src="photo/icons/CSS3.svg" alt="CSS">
-        <img src="photo/icons/JavaScript.svg" alt="JavaScript">
+        <img src="photo/icons/PHP.svg" alt="PHP">
         <img src="photo/icons/Git.svg" alt="Git">
         <img src="photo/icons/GitHub.svg" alt="GitHub">
         <img src="photo/icons/Visual Studio Code (VS Code).svg" alt="VS Code">
@@ -133,6 +126,17 @@
         <img src="photo/icons/HTML5.svg" alt="HTML">
         <img src="photo/icons/CSS3.svg" alt="CSS">
         <img src="photo/icons/JavaScript.svg" alt="JavaScript">
+        <img src="photo/icons/PHP.svg" alt="PHP">
+        <img src="photo/icons/Git.svg" alt="Git">
+        <img src="photo/icons/GitHub.svg" alt="GitHub">
+        <img src="photo/icons/Visual Studio Code (VS Code).svg" alt="VS Code">
+        <img src="photo/icons/calendly-icon.svg" alt="Calendly">
+        <img src="photo/icons/google-sheet.png" alt="google-sheets-icon">
+
+        <img src="photo/icons/HTML5.svg" alt="HTML">
+        <img src="photo/icons/CSS3.svg" alt="CSS">
+        <img src="photo/icons/JavaScript.svg" alt="JavaScript">
+        <img src="photo/icons/PHP.svg" alt="PHP">
         <img src="photo/icons/Git.svg" alt="Git">
         <img src="photo/icons/GitHub.svg" alt="GitHub">
         <img src="photo/icons/Visual Studio Code (VS Code).svg" alt="VS Code">
@@ -231,6 +235,46 @@
     <div class="project-btn"><a href="#contact" class="btn">Get Your Website</a></div>
   </section>
 
+  <section class="tech-stack">
+
+    <div class="tech-slider">
+      <div class="tech-track">
+      <img src="photo/icons/HTML5.svg" alt="HTML">
+        <img src="photo/icons/CSS3.svg" alt="CSS">
+        <img src="photo/icons/JavaScript.svg" alt="JavaScript">
+        <img src="photo/icons/PHP.svg" alt="PHP">
+        <img src="photo/icons/Git.svg" alt="Git">
+        <img src="photo/icons/GitHub.svg" alt="GitHub">
+        <img src="photo/icons/Visual Studio Code (VS Code).svg" alt="VS Code">
+        <img src="photo/icons/calendly-icon.svg" alt="Calendly">
+        <img src="photo/icons/google-sheet.png" alt="google-sheets-icon">
+
+        <img src="photo/icons/HTML5.svg" alt="HTML">
+        <img src="photo/icons/CSS3.svg" alt="CSS">
+        <img src="photo/icons/JavaScript.svg" alt="JavaScript">
+        <img src="photo/icons/PHP.svg" alt="PHP">
+        <img src="photo/icons/Git.svg" alt="Git">
+        <img src="photo/icons/GitHub.svg" alt="GitHub">
+        <img src="photo/icons/Visual Studio Code (VS Code).svg" alt="VS Code">
+        <img src="photo/icons/calendly-icon.svg" alt="Calendly">
+        <img src="photo/icons/google-sheet.png" alt="google-sheets-icon">
+
+        <img src="photo/icons/HTML5.svg" alt="HTML">
+        <img src="photo/icons/CSS3.svg" alt="CSS">
+        <img src="photo/icons/JavaScript.svg" alt="JavaScript">
+        <img src="photo/icons/PHP.svg" alt="PHP">
+        <img src="photo/icons/Git.svg" alt="Git">
+        <img src="photo/icons/GitHub.svg" alt="GitHub">
+        <img src="photo/icons/Visual Studio Code (VS Code).svg" alt="VS Code">
+        <img src="photo/icons/calendly-icon.svg" alt="Calendly">
+        <img src="photo/icons/google-sheet.png" alt="google-sheets-icon">
+
+
+      </div>
+    </div>
+  </section>
+
+
   <section class="process" id="process">
     <h2>How It Works</h2>
 
@@ -277,45 +321,47 @@
 
 
   <!-- ===== ABOUT ===== -->
-  <section id="about" class="about">
-    <div class="card hidden animate-up">
-      <img src="photo/about-image.webp" alt="Your Image" />
-    </div>
-    <div class="card hidden animate-up">
-      <h2>About Me</h2>
-      <p>
-        Hi, I’m <span style="font-weight: 700; font-size: 1.2rem;"> Samira Omar</span><br><span
-          style="color: #ffbd59;"><strong>Frontend Developer</strong> </span>who builds
-        <strong>fast, responsive, custom-coded websites</strong> for small businesses that
-        <strong>generate more leads</strong>.
-      </p>
-      <br>
-      <p>
-        I create websites with
-        <strong>contact forms and online booking integration</strong>, so your
-        clients can easily reach you and schedule appointments.
-      </p>
-      <br />
-      <p>
-        My focus is on
-        <strong>simple, effective, and user-friendly designs</strong> that
-        help business owners grow their online presence and capture leads
-        efficiently.
-      </p>
-      <br />
-      <p>
-        I’m passionate about
-        <strong>helping small businesses grow online</strong> and building
-        websites that <strong>actually deliver results</strong>.
-      </p>
+  <section class="about" id="about">
+    <div class="about-container">
 
-      <p>
-        💡 If you want a website that works for your business, let’s connect!
-      </p>
+      <div class="about-image card hidden animate-up">
+        <img src="photo/about-image.webp" alt="Your Name">
+      </div>
 
+      <div class="about-content card hidden animate-up">
+        <h2>About Me</h2>
+        <p>
+          Hi, I’m <span style="font-weight: 700; font-size: 1.2rem;"> Samira Omar <br><strong>Frontend Developer</strong> </span>who builds
+          <strong>fast, responsive, custom-coded websites</strong> for small businesses that
+          <strong>generate more leads</strong>.
+        </p>
+       
+        <p>
+          I create websites with
+          <strong>contact forms and online booking integration</strong>, so your
+          clients can easily reach you and schedule appointments.
+        </p>
+    
+        <p>
+          My focus is on
+          <strong>simple, effective, and user-friendly designs</strong> that
+          help business owners grow their online presence and capture leads
+          efficiently.
+        </p>
+        <p>
+          I’m passionate about
+          <strong>helping small businesses grow online</strong> and building
+          websites that <strong>actually deliver results</strong>.
+        </p>
+        <p>
+          💡 If you want a website that works for your business, let’s connect!
+        </p>
+
+      </div>
 
     </div>
   </section>
+
 
   <!-- ===== CONTACT ===== -->
   <section id="contact" class="contact">
@@ -348,14 +394,14 @@
 
     <div class="contact-B card hidden animate-up">
       <div class="get">
-    
+
         <div class="contact-icons">
-         
+
           <a href="https://wa.me/96567077369" target="_blank" title="Chat on WhatsApp">
             <i class="fab fa-whatsapp "></i>
           </a>
 
-       
+
           <a href="mailto:samiraomar.xx@gmail.com" title="Send an Email">
             <i class="fas fa-envelope envelop"></i>
           </a>
@@ -383,7 +429,73 @@
         </div>
   </section>
 
+
+
   <script src="script.js"></script>
+
+
+
+  <!-- Floating Feedback Button -->
+  <button id="feedbackButton">Feedback</button>
+
+  <!-- Feedback Popup -->
+  <div id="feedbackPopup" class="popup">
+    <form id="feedbackForm" class="popup-form" method="post">
+
+
+      <h2>We Value Your Feedback</h2>
+      <p>It helps us improve and serve you better.</p>
+
+      <label>Name (optional)</label>
+      <input type="text" name="name" placeholder="Your name">
+
+      <label>Feedback *</label>
+      <textarea name="feedback" placeholder="Your feedback..." required></textarea>
+
+      <label>Rating *</label>
+      <div class="stars">
+        <input type="radio" name="rating" id="star5" value="5" required><label for="star5">★</label>
+        <input type="radio" name="rating" id="star4" value="4"><label for="star4">★</label>
+        <input type="radio" name="rating" id="star3" value="3"><label for="star3">★</label>
+        <input type="radio" name="rating" id="star2" value="2"><label for="star2">★</label>
+        <input type="radio" name="rating" id="star1" value="1"><label for="star1">★</label>
+      </div>
+
+      <button type="submit">Submit</button>
+      <!--<button type="button" id="closePopup">Close</button>-->
+
+      <p id="feedbackMessage"></p>
+    </form>
+  </div>
+
+  <script>
+    // Open/close popup
+    const btn = document.getElementById('feedbackButton');
+    const popup = document.getElementById('feedbackPopup');
+    //const closeBtn = document.getElementById('closePopup');
+    const message = document.getElementById('feedbackMessage');
+
+    btn.addEventListener('click', () => popup.style.display = 'flex');
+    //closeBtn.addEventListener('click', ()=> popup.style.display='none');
+    window.addEventListener('click', e => { if (e.target == popup) popup.style.display = 'none'; });
+
+    // AJAX form submission
+    document.getElementById('feedbackForm').addEventListener('submit', function (e) {
+      e.preventDefault();
+      const formData = new FormData(this);
+
+      fetch('feedback/save_feedback.php', { method: 'POST', body: formData })
+
+        .then(res => res.text())
+        .then(data => {
+          message.textContent = data;
+          this.reset();
+          setTimeout(() => popup.style.display = 'none', 5000);
+        });
+    });
+  </script>
+
+
 </body>
 <footer class="footer">
   © 2026 <strong>Sam Nex.solutions</strong> | Samira Omar <br> All rights reserved
