@@ -101,7 +101,7 @@ nav ul {
   z-index: 20000;
   padding: 0.8rem 1.8rem;
   position: fixed;
-  top: 0px;
+  top: 10px;
   left: 50%;
   transform: translateX(-50%);
 }
@@ -213,7 +213,7 @@ nav ul li a:hover {
   display: none;
   flex-direction: column;
   cursor: pointer;
-  gap: 7px;
+  gap: 5px;
   background: #222;
   padding: 0.4rem;
   border-radius: 5px;
@@ -221,7 +221,7 @@ nav ul li a:hover {
 
 .burger span {
   width: 25px;
-  height: 2px;
+  height: 3px;
   background: var(--primary);
   border-radius: 3px;
   transition: 0.3s;
@@ -246,9 +246,9 @@ nav ul li a:hover {
   top: 0;
   right: -100%;
   width: 45%;
-  height: 55vh;
+  height: 47vh;
   background: #222;
-  border-radius: 20px 0px 0px 20px;
+  border-radius: 10px 0px 0px 10px;
   padding: 85px 15px;
   transition: right 0.8s ease-in-out;
   z-index: 2;
@@ -852,6 +852,7 @@ section h1 {
   box-shadow: 0px 2px 6px;
   background-color: var(--primary);
   border: none;
+  border-radius: 5px;
 }
 
 .contact button:hover {
@@ -968,8 +969,8 @@ section h1 {
 /* Floating Feedback Button */
 #feedbackButton {
   position: fixed;
-  right: -40px;         
-  bottom: 33%;
+  right: -45px;         
+  bottom: 40%;
   transform: translateY(-50%) rotate(-90deg);
   transform-origin: center;
 
@@ -992,6 +993,12 @@ section h1 {
   transform: translateY(-50%) rotate(-90deg);
   box-shadow: 0 12px 25px rgba(0, 0, 0, 0.25);
 }
+@media (max-width: 768px){
+  #feedbackButton{
+    right: -33px;
+  }
+}
+
 
 
 /* Popup Overlay */
