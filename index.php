@@ -5,12 +5,12 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description"
-    content="I build responsive, SEO-ready websites with online booking, contact forms, and optimized performance.">
+    content="Get modern, responsive websites with built-in booking and client forms that make managing your business effortless.">
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
 
   <link rel="icon" href="/favicon.ico" type="image/x-icon" />
-  <title>Websites That Capture Leads for Small Businesses</title>
+  <title>Websites with Booking & Client Forms</title>
 
   <!-------------------------manifest------>
   <!-- Favicon for browser tabs -->
@@ -39,6 +39,13 @@
 </head>
 
 <body>
+<!--  WhatsApp Button -->
+<a href="https://wa.me/96567077369" target="_blank" class="whatsapp-right" aria-label="Chat on WhatsApp">
+  <i class="fa-brands fa-whatsapp"></i>
+</a>
+
+<!-- Font Awesome CDN (if not already on your site) -->
+<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
   <nav>
     <div class="logo">
       <img src="photo/nav-logo.png" alt="SN logo" />
@@ -46,9 +53,8 @@
     <ul class="nav-links" ;>
       <li><a href="#hero">Home</a></li>
       <li><a href="#services">Services</a></li>
-      <li><a href="#projects">Projects</a></li>
+      <li><a href="#who-i-help">Who I Help</a></li>
       <li><a href="#process">How It Works</a></li>
-      <li><a href="#about">About</a></li>
     </ul>
 
     <a href="#contact" class="navcontact">Contact Me</a>
@@ -68,9 +74,8 @@
     <ul>
       <li><a href="#hero" class="mobile-link">Home</a></li>
       <li><a href="#services" class="mobile-link">Services</a></li>
-      <li><a href="#projects" class="mobile-link">Projects</a></li>
+      <li><a href="#who-i-help">Who I Help</a></li>
       <li><a href="#process" class="mobile-link">How It Works</a></li>
-      <li><a href="#about" class="mobile-link">About</a></li>
       <li style="text-align: center;"><a href="#contact" class="mobile-link navcontact">Contact Me</a></li>
     </ul>
   </div>
@@ -78,21 +83,19 @@
   <!-- ===== HERO ===== -->
   <section id="hero" class="hero">
     <div class="h1 card hidden animate-up">
-      <h1><span> Bring Your Vision to Life </span><span
-          style="background: #222; padding: 0 1rem; color: #ffbd59; border-radius: 0px 20px 0px 20px;">Online</span>
+      <h1>Websites with Built-In Booking &<span style="color: #ffbd59;"> Leads</span>
       </h1>
-      <p style="text-align: justify;">Grow your business with fast, responsive websites featuring online booking,
-        contact forms, and SEO-friendly structure.</p>
+      <p style="text-align: justify;">Helping service-based businesses create modern, responsive websites with built-in booking and contact forms that make client management effortless.</p>
       <br>
 
       <div class="hero-btn">
-        <button class="btn btnmobile" data-target="#contact">Get Your Website</button>
+    
 
         <!-- CTA Button -->
         <button class="cta-btn btn mywork"
           onclick="Calendly.initPopupWidget({url: 'https://calendly.com/samiraomar/30min?background_color=111111&text_color=ffffff&primary_color=ffbd59'}); return false;">
           <span class="cta-text">Book a Free Discovery Call</span>
-          <span class="cta-icon">Free Discovery call</span>
+          <span class="cta-icon">Book Free Discovery call</span>
         </button>
       </div>
     </div>
@@ -150,49 +153,41 @@
 
   <!-- ===== SERVICES ===== -->
   <section id="services" class="service">
-    <h2 style="color: #222;">My Services</h2>
-    <p style="color:#222">Here’s what I offer to help your business online:</p>
+    <h2 style="color: #222; text-align: center;">My Services</h2>
+    <p style="color:#222; text-align: center;">Here’s what I offer to help your business online:</p>
     <br>
     <div class="services-grid">
       <div class="service-card card hidden animate-up">
         <h3>🖥️ Responsive Websites</h3>
-        <p>Websites that adjust to any device, making it easy for your customers to reach your business on <strong>
-            desktop, tablet, or mobile.</strong></p>
+        <p>Work smoothly on desktop, tablet, and mobile devices</p>
       </div>
 
       <div class="service-card card hidden animate-up">
         <h3>📅 Booking & Forms</h3>
-        <p>Contact forms that send submissions to Google Sheets and online booking through Calendly, so you can
-          easily
-          keep track of inquiries and appointments.</p>
+        <p>Integrated appointment scheduling and contact forms</p>
       </div>
 
       <div class="service-card card hidden animate-up">
         <h3>🎨 Custom Design</h3>
-        <p>Clean, modern designs tailored to your brand, ensuring your website is easy to use and looks
-          professional.
+        <p>Clean designs tailored to your business brand
         </p>
       </div>
 
       <div class="service-card card hidden animate-up">
         <h3>⚡ SEO-Ready Websites</h3>
-        <p>Built with proper structure, headings, and meta tags, so your website is optimized for search engines
-          from
-          day one — making it easier for clients to find you online.
+        <p>Proper headings, meta tags, optimized structure
         </p>
       </div>
 
       <div class="service-card card hidden animate-up">
         <h3>🖼️ Image Optimization</h3>
-        <p>Compress, resize, and convert images to modern formats like WebP to make your website load faster, look
-          better, and improve overall performance.
+        <p>Fast-loading, modern image formats
         </p>
       </div>
 
       <div class="service-card card hidden animate-up">
         <h3>🛠️ Website Maintenance & Updates <span style="color: #ffbd59;">(Add-On)</span> </h3>
-        <p>Keep your website secure, updated, and running smoothly with regular backups, updates, and
-          troubleshooting.
+        <p>Keep your website secure and updated
         </p>
       </div>
     </div>
@@ -200,80 +195,52 @@
     <div class="service-btn"><a href="#contact" class="btn">Get Your Website</a></div>
   </section>
 
-  <!-- ===== PROJECTS ===== -->
-  <section id="projects" class="project">
-    <h2>Projects</h2>
-    <p>Check out some of my work:</p>
-    <br>
-    <div class="projects-grid">
-      <div class="project-card card hidden animate-up">
-        <img src="photo/project1.webp" alt="Project 1" />
-        <h3>Podcast Demo</h3>
-        <p> A sample website showcasing my services:
-          <strong>Responsive Websites, Integrated
-            Booking & Forms,
-            Custom Design tailored to your brand</strong>
-        </p>
+  <!-- ===== WHO I HELP ===== -->
+<section id="who-i-help" class="who">
+  <div class="container card hidden animate-up">
 
-        <a href="https://samira-sites.github.io/podcast-demo/" class="inquire-btn">View Live Demo ↗️
-        </a>
+    <h2 class="section-title">Who I Help</h2>
+
+    <p class="section-subtitle">
+      I work with service-based businesses that need modern websites 
+      with built-in booking systems and client forms.
+    </p>
+
+    <div class="who-grid">
+
+      <div class="who-card card hidden animate-up">
+        <div class="who-icon" >💇‍♀️</div>
+        <h3>Salons & Beauty Studios</h3>
+        <p>Online appointment booking and client intake forms.</p>
       </div>
 
-      <div class="project-card card hidden animate-up">
-        <img src="photo/nav-logo.png" alt="SAM WEBSITE" />
-        <h3>Coming Soon</h3>
-        <p>I’m continuously creating websites for small businesses. Stay tuned for new projects!</p>
+      <div class="who-card card hidden animate-up">
+        <div class="who-icon">🏥</div>
+        <h3>Clinics & Health Services</h3>
+        <p>Secure forms and simple scheduling for patients.</p>
       </div>
 
-      <div class="project-card card hidden animate-up">
-        <img src="photo/nav-logo.png" alt="SAM WEBSITE" />
-        <h3>Coming Soon</h3>
-        <p>I’m continuously creating websites for small businesses. Stay tuned for new projects!</p>
+      <div class="who-card card hidden animate-up">
+        <div class="who-icon">🏋️</div>
+        <h3>Fitness Coaches</h3>
+        <p>Consultation booking, and lead capture.</p>
       </div>
+
+      <div class="who-card card hidden animate-up">
+        <div class="who-icon">💼</div>
+        <h3>Consultants</h3>
+        <p>Discovery calls and automated client onboarding.</p>
+      </div>
+
+      <div class="who-card card hidden animate-up">
+        <div class="who-icon">🛠️</div>
+        <h3>Other Service Providers</h3>
+        <p>Any business that relies on appointments and client forms.</p>
+      </div>
+
     </div>
-    <br>
-    <div class="project-btn"><a href="#contact" class="btn">Get Your Website</a></div>
-  </section>
-
-  <section class="tech-stack">
-
-    <div class="tech-slider">
-      <div class="tech-track">
-      <img src="photo/icons/HTML5.svg" alt="HTML">
-        <img src="photo/icons/CSS3.svg" alt="CSS">
-        <img src="photo/icons/JavaScript.svg" alt="JavaScript">
-        <img src="photo/icons/PHP.svg" alt="PHP">
-        <img src="photo/icons/Git.svg" alt="Git">
-        <img src="photo/icons/GitHub.svg" alt="GitHub">
-        <img src="photo/icons/Visual Studio Code (VS Code).svg" alt="VS Code">
-        <img src="photo/icons/calendly-icon.svg" alt="Calendly">
-        <img src="photo/icons/google-sheet.png" alt="google-sheets-icon">
-
-        <img src="photo/icons/HTML5.svg" alt="HTML">
-        <img src="photo/icons/CSS3.svg" alt="CSS">
-        <img src="photo/icons/JavaScript.svg" alt="JavaScript">
-        <img src="photo/icons/PHP.svg" alt="PHP">
-        <img src="photo/icons/Git.svg" alt="Git">
-        <img src="photo/icons/GitHub.svg" alt="GitHub">
-        <img src="photo/icons/Visual Studio Code (VS Code).svg" alt="VS Code">
-        <img src="photo/icons/calendly-icon.svg" alt="Calendly">
-        <img src="photo/icons/google-sheet.png" alt="google-sheets-icon">
-
-        <img src="photo/icons/HTML5.svg" alt="HTML">
-        <img src="photo/icons/CSS3.svg" alt="CSS">
-        <img src="photo/icons/JavaScript.svg" alt="JavaScript">
-        <img src="photo/icons/PHP.svg" alt="PHP">
-        <img src="photo/icons/Git.svg" alt="Git">
-        <img src="photo/icons/GitHub.svg" alt="GitHub">
-        <img src="photo/icons/Visual Studio Code (VS Code).svg" alt="VS Code">
-        <img src="photo/icons/calendly-icon.svg" alt="Calendly">
-        <img src="photo/icons/google-sheet.png" alt="google-sheets-icon">
-
-
-      </div>
-    </div>
-  </section>
-
+  </div>
+</section>
 
   <section class="process" id="process">
     <h2>How It Works</h2>
@@ -305,7 +272,7 @@
 
     <details class="card hidden animate-up">
       <summary>How long does it take to build a website?</summary>
-      <p>Usually 7–10 business days, depending on the project size.</p>
+      <p>Usually 10 - 14 days, depending on the project size.</p>
     </details>
 
     <details class="card hidden animate-up">
@@ -320,53 +287,13 @@
   </section>
 
 
-  <!-- ===== ABOUT ===== -->
-  <section class="about" id="about">
-    <div class="about-container">
-
-      <div class="about-image card hidden animate-up">
-        <img src="photo/about-image.webp" alt="Your Name">
-      </div>
-
-      <div class="about-content card hidden animate-up">
-        <h2>About Me</h2>
-        <p>
-          Hi, I’m <span style="font-weight: 700; font-size: 1.2rem;"> Samira Omar <br><strong>Frontend Developer</strong> </span>who builds
-          <strong>fast, responsive, custom-coded websites</strong> for small businesses that
-          <strong>generate more leads</strong>.
-        </p>
-       
-        <p>
-          I create websites with
-          <strong>contact forms and online booking integration</strong>, so your
-          clients can easily reach you and schedule appointments.
-        </p>
-    
-        <p>
-          My focus is on
-          <strong>simple, effective, and user-friendly designs</strong> that
-          help business owners grow their online presence and capture leads
-          efficiently.
-        </p>
-        <p>
-          I’m passionate about
-          <strong>helping small businesses grow online</strong> and building
-          websites that <strong>actually deliver results</strong>.
-        </p>
-        <p>
-          💡 If you want a website that works for your business, let’s connect!
-        </p>
-
-      </div>
-
-    </div>
-  </section>
 
 
   <!-- ===== CONTACT ===== -->
   <section id="contact" class="contact">
     <div>
-      <h2>Contact Me</h2>
+      <h2 style="text-align: center;">Get in Touch</h2>
+
       <p>Ready to build your website? Share your idea below! 😊</p>
       <br>
       <form action="#" method="POST" name="contactform" class="contact-form card hidden animate-up" id="contactform">
@@ -392,41 +319,7 @@
       </form>
     </div>
 
-    <div class="contact-B card hidden animate-up">
-      <div class="get">
-
-        <div class="contact-icons">
-
-          <a href="https://wa.me/96567077369" target="_blank" title="Chat on WhatsApp">
-            <i class="fab fa-whatsapp "></i>
-          </a>
-
-
-          <a href="mailto:samiraomar.xx@gmail.com" title="Send an Email">
-            <i class="fas fa-envelope envelop"></i>
-          </a>
-        </div>
-        <br>
-        <div>
-
-          <p style="line-height: 4; font-size: large; text-align: center;"><strong>Follow Me:</strong></p>
-
-          <div class="social-icons">
-
-            <a href="https://www.linkedin.com/in/samira-omar-85082b31a/" target="_blank" title="My LinkedIn">
-              <i class="fab fa-linkedin"></i>
-            </a>
-
-            <a href="https://www.tiktok.com/@sam_websolutions?_r=1&_t=ZS-93cVaA30U4e" target="_blank"><i
-                class="fab fa-tiktok"></i></a>
-
-            <a href="https://github.com/samira-sites" target="_blank"><i class="fab fa-github"></i></a>
-
-            <a href="https://www.facebook.com/profile.php?id=61584179950754" target="_blank"><i
-                class="fab fa-facebook"></i></a>
-            </a>
-          </div>
-        </div>
+   
   </section>
 
 
