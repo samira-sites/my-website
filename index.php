@@ -39,18 +39,18 @@
 </head>
 
 <body>
-<!--  WhatsApp Button -->
-<a href="https://wa.me/96567077369" target="_blank" class="whatsapp-right" aria-label="Chat on WhatsApp">
-  <i class="fa-brands fa-whatsapp"></i>
-</a>
+  <!--  WhatsApp Button -->
+  <a href="https://wa.me/96567077369" target="_blank" class="whatsapp-right" aria-label="Chat on WhatsApp">
+    <i class="fa-brands fa-whatsapp"></i>
+  </a>
 
-<!-- Font Awesome CDN (if not already on your site) -->
-<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  <!-- Font Awesome CDN (if not already on your site) -->
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
   <nav>
     <div class="logo">
       <img src="photo/nav-logo.png" alt="SN logo" />
     </div>
-    <ul class="nav-links" ;>
+    <ul class="nav-links">
       <li><a href="#hero">Home</a></li>
       <li><a href="#services">Services</a></li>
       <li><a href="#who-i-help">Who I Help</a></li>
@@ -74,7 +74,7 @@
     <ul>
       <li><a href="#hero" class="mobile-link">Home</a></li>
       <li><a href="#services" class="mobile-link">Services</a></li>
-      <li><a href="#who-i-help">Who I Help</a></li>
+      <li><a href="#who-i-help" class="mobile-link">Who I Help</a></li>
       <li><a href="#process" class="mobile-link">How It Works</a></li>
       <li style="text-align: center;"><a href="#contact" class="mobile-link navcontact">Contact Me</a></li>
     </ul>
@@ -85,17 +85,18 @@
     <div class="h1 card hidden animate-up">
       <h1>Websites with Built-In Booking &<span style="color: #ffbd59;"> Leads</span>
       </h1>
-      <p style="text-align: justify;">Helping service-based businesses create modern, responsive websites with built-in booking and contact forms that make client management effortless.</p>
+      <p style="text-align: justify;">Helping service-based businesses create modern, responsive websites with built-in
+        booking and contact forms that make client management effortless.</p>
       <br>
 
       <div class="hero-btn">
-    
+
 
         <!-- CTA Button -->
         <button class="cta-btn btn mywork"
           onclick="Calendly.initPopupWidget({url: 'https://calendly.com/samiraomar/30min?background_color=111111&text_color=ffffff&primary_color=ffbd59'}); return false;">
           <span class="cta-text">Book a Free Discovery Call</span>
-          <span class="cta-icon">Book Free Discovery call</span>
+          <span class="cta-icon">Book a Free Discovery call</span>
         </button>
       </div>
     </div>
@@ -196,51 +197,51 @@
   </section>
 
   <!-- ===== WHO I HELP ===== -->
-<section id="who-i-help" class="who">
-  <div class="container card hidden animate-up">
+  <section id="who-i-help" class="who">
+    <div class="container card hidden animate-up">
 
-    <h2 class="section-title">Who I Help</h2>
+      <h2 class="section-title">Who I Help</h2>
 
-    <p class="section-subtitle">
-      I work with service-based businesses that need modern websites 
-      with built-in booking systems and client forms.
-    </p>
+      <p class="section-subtitle">
+        I work with service-based businesses that need modern websites
+        with built-in booking systems and client forms.
+      </p>
 
-    <div class="who-grid">
+      <div class="who-grid">
 
-      <div class="who-card card hidden animate-up">
-        <div class="who-icon" >💇‍♀️</div>
-        <h3>Salons & Beauty Studios</h3>
-        <p>Online appointment booking and client intake forms.</p>
+        <div class="who-card card hidden animate-up">
+          <div class="who-icon">💇‍♀️</div>
+          <h3>Salons & Beauty Studios</h3>
+          <p>Online appointment booking and client intake forms.</p>
+        </div>
+
+        <div class="who-card card hidden animate-up">
+          <div class="who-icon">🏥</div>
+          <h3>Clinics & Health Services</h3>
+          <p>Secure forms and simple scheduling for patients.</p>
+        </div>
+
+        <div class="who-card card hidden animate-up">
+          <div class="who-icon">🏋️</div>
+          <h3>Fitness Coaches</h3>
+          <p>Consultation booking, and lead capture.</p>
+        </div>
+
+        <div class="who-card card hidden animate-up">
+          <div class="who-icon">💼</div>
+          <h3>Consultants</h3>
+          <p>Discovery calls and automated client onboarding.</p>
+        </div>
+
+        <div class="who-card card hidden animate-up">
+          <div class="who-icon">🛠️</div>
+          <h3>Other Service Providers</h3>
+          <p>Any business that relies on appointments and client forms.</p>
+        </div>
       </div>
-
-      <div class="who-card card hidden animate-up">
-        <div class="who-icon">🏥</div>
-        <h3>Clinics & Health Services</h3>
-        <p>Secure forms and simple scheduling for patients.</p>
-      </div>
-
-      <div class="who-card card hidden animate-up">
-        <div class="who-icon">🏋️</div>
-        <h3>Fitness Coaches</h3>
-        <p>Consultation booking, and lead capture.</p>
-      </div>
-
-      <div class="who-card card hidden animate-up">
-        <div class="who-icon">💼</div>
-        <h3>Consultants</h3>
-        <p>Discovery calls and automated client onboarding.</p>
-      </div>
-
-      <div class="who-card card hidden animate-up">
-        <div class="who-icon">🛠️</div>
-        <h3>Other Service Providers</h3>
-        <p>Any business that relies on appointments and client forms.</p>
-      </div>
-
     </div>
-  </div>
-</section>
+    <div class="service-btn" style="margin-top: 1rem;"><a href="#contact" class="btn">Get Your Website</a></div>
+  </section>
 
   <section class="process" id="process">
     <h2>How It Works</h2>
@@ -294,7 +295,7 @@
     <div>
       <h2 style="text-align: center;">Get in Touch</h2>
 
-      <p>Ready to build your website? Share your idea below! 😊</p>
+      <p style="text-align: center;">Ready to build your website? Share your idea below! 😊</p>
       <br>
       <form action="#" method="POST" name="contactform" class="contact-form card hidden animate-up" id="contactform">
 
@@ -318,8 +319,12 @@
         <span id="msg" style="text-align: center;"></span>
       </form>
     </div>
+    <div>
+      <a href="https://www.linkedin.com/in/YOUR-USERNAME" class="linkedin-btn" target="_blank">
+        <i class="fab fa-linkedin-in"></i>
+      </a>
+    </div>
 
-   
   </section>
 
 

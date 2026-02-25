@@ -25,23 +25,20 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .whatsapp-right:hover {
   transform: scale(1.1);
-  box-shadow: 0 6px 15px rgba(0,0,0,0.3);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
 }
-
-
 
 body {
   font-family: sans-serif;
   background-color: var(--light);
   line-height: 1.6;
 }
-
 
 @media (max-width: 768px) {
   /* ===== CALENDLY OVERLAY ===== */
@@ -348,7 +345,8 @@ section h1 {
 }
 
 /* ===== BUTTONS ===== */
-.btn, .mywork {
+.btn,
+.mywork {
   display: inline-block;
   background-color: var(--primary);
   color: var(--secondary);
@@ -362,7 +360,6 @@ section h1 {
   box-shadow: 0px 1px 2px var(--secondary);
   text-align: center;
 }
-
 
 @media (max-width: 768px) {
   .hero-btn {
@@ -510,17 +507,17 @@ section h1 {
 
 /* ===== SERVICES ===== */
 .services {
-  background: #fff; 
+  background: #fff;
   padding: 60px 20px;
   color: #111;
 }
 
 .services h2 {
-  background: #f2f2f2; 
+  background: #f2f2f2;
   margin: 0 auto 2rem auto;
   text-align: center;
   color: #111;
-  box-shadow: 0px 1px 3px rgba(0,0,0,0.1);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
   border-radius: 0 20px 0 20px;
   display: inline-block;
 }
@@ -539,12 +536,12 @@ section h1 {
   border-radius: 12px;
   text-align: center;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 }
 
 .service-card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
 }
 
 .service-card h3 {
@@ -557,12 +554,10 @@ section h1 {
   line-height: 1.5;
 }
 
-.service-btn{
+.service-btn {
   display: flex;
   justify-content: center;
 }
-
-
 
 /* Responsive Grid */
 @media (max-width: 768px) {
@@ -629,8 +624,6 @@ section h1 {
   color: #bbb;
   line-height: 1.5;
 }
-
-
 
 /* ===== PROJECTS ===== */
 
@@ -704,7 +697,7 @@ section h1 {
   text-align: center;
   margin-top: 2rem;
   background: #fff;
-  color: #111; 
+  color: #111;
 }
 
 .process h2 {
@@ -730,20 +723,20 @@ section h1 {
   padding: 2rem;
   border: 1px solid #ddd;
   border-radius: 12px;
-  background: #f9f9f9; 
+  background: #f9f9f9;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   text-align: center;
 }
 
 .step:hover {
   transform: translateY(-5px);
-  box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
 }
 
 .step span {
   display: inline-block;
-  background: #ffbd59; 
-  color: #111; 
+  background: #ffbd59;
+  color: #111;
   width: 35px;
   height: 35px;
   border-radius: 50%;
@@ -757,7 +750,7 @@ section h1 {
   padding: 60px 20px;
   max-width: 700px;
   margin: 2rem auto;
-  background: #fff; 
+  background: #fff;
   border-radius: 12px;
 }
 
@@ -774,12 +767,12 @@ section h1 {
   padding: 1rem;
   margin-bottom: 1rem;
   cursor: pointer;
-  background: #f9f9f9; 
+  background: #f9f9f9;
   transition: 0.3s ease;
 }
 
 .faq details:hover {
-  box-shadow: 0 8px 20px rgba(0,0,0,0.05);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
 }
 
 .faq summary {
@@ -791,7 +784,6 @@ section h1 {
   margin-top: 0.5rem;
   color: #222; /* highlight answers in primary color */
 }
-
 
 /* Text */
 .about-content h2 {
@@ -815,25 +807,29 @@ section h1 {
 /* ===== CONTACT ===== */
 
 .contact {
-  display: flex;               
-  justify-content: center;     
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   padding: 60px 20px;
-  background: #eee;         
+  background: #eee;
 }
 
 .contact div {
   display: flex;
-  justify-content: center;     
+  justify-content: center;
 }
 
 .contact form {
-  
+  margin: 0 auto 1rem auto;
+  max-width: 500px;
+  width: 100%;
+  margin-bottom: 1rem;
   display: flex;
   flex-direction: column;
   gap: 1rem;
   line-height: 1;
   color: var(--primary);
-  background: var(--secondary);   
+  background: var(--secondary);
   padding: 1rem;
   border-radius: 10px;
   box-shadow: 0px 1px 10px var(--secondary);
@@ -858,6 +854,31 @@ section h1 {
 .contact button:hover {
   color: var(--light);
   box-shadow: 0px 2px 8px var(--light);
+}
+
+.linkedin-btn {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  width: 10px;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 22px;
+  background-color: #0077b5;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: 500;
+  transition: 0.3s ease;
+}
+
+.linkedin-btn i {
+  font-size: 18px;
+}
+
+.linkedin-btn:hover {
+  background-color: #005582;
+  transform: translateY(-2px);
 }
 
 /* ===== FOOTER ===== */
@@ -969,7 +990,7 @@ section h1 {
 /* Floating Feedback Button */
 #feedbackButton {
   position: fixed;
-  right: -45px;         
+  right: -45px;
   bottom: 40%;
   transform: translateY(-50%) rotate(-90deg);
   transform-origin: center;
@@ -993,13 +1014,11 @@ section h1 {
   transform: translateY(-50%) rotate(-90deg);
   box-shadow: 0 12px 25px rgba(0, 0, 0, 0.25);
 }
-@media (max-width: 768px){
-  #feedbackButton{
+@media (max-width: 768px) {
+  #feedbackButton {
     right: -33px;
   }
 }
-
-
 
 /* Popup Overlay */
 .popup {
