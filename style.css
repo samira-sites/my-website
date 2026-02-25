@@ -167,7 +167,7 @@ nav ul li a:hover {
 
 .cta-text, .cta-icon {
   display: inline;
-  font-size: clamp(16px, 2vw, 22px);
+  font-size: clamp(15px, 1vw, 22px);
 }
 
 .cta-icon {
@@ -380,6 +380,10 @@ section h1 {
 
 
 /* ===== HERO ===== */
+
+.highlight{
+  color: #e38d0c;
+}
 
 .hero {
   display: grid;

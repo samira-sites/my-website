@@ -83,7 +83,10 @@
   <!-- ===== HERO ===== -->
   <section id="hero" class="hero">
     <div class="h1 card hidden animate-up">
-      <h1>Websites with Built-In Booking & <span style="color: #ffbd59; font-weight: 900;">Lead Capture</span>
+      <h1>
+        Websites with 
+        <span class="highlight">Built-In Booking
+        & Lead Capture</span>
       </h1>
       <p style="text-align: justify;">Modern, mobile-friendly websites designed for service-based businesses — so clients can book instantly and you never miss an inquiry.</p>
       <br>
