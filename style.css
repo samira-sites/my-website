@@ -151,7 +151,6 @@ nav ul li a:hover {
   color: var(--secondary);
   padding: 0.5rem 1rem;
   border-radius: 8px;
-  font-weight: bold;
   border: none;
   cursor: pointer;
   display: flex;
@@ -166,8 +165,9 @@ nav ul li a:hover {
   transform: translateY(-2px);
 }
 
-.cta-text {
+.cta-text, .cta-icon {
   display: inline;
+  font-size: clamp(16px, 2vw, 22px);
 }
 
 .cta-icon {
@@ -181,7 +181,6 @@ nav ul li a:hover {
   }
   .cta-icon {
     display: inline;
-    font-size: 0.8rem;
   }
   .cta-btn {
     padding: 0.3rem 0.7rem;
@@ -345,8 +344,7 @@ section h1 {
 }
 
 /* ===== BUTTONS ===== */
-.btn,
-.mywork {
+.btn, .cta-btn{
   display: inline-block;
   background-color: var(--primary);
   color: var(--secondary);
@@ -354,7 +352,7 @@ section h1 {
   border: none;
   border-radius: 50px;
   cursor: pointer;
-  font-weight: bold;
+  font-weight: 800;
   transition: all 0.3s ease;
   margin-right: 1rem;
   box-shadow: 0px 1px 2px var(--secondary);
@@ -380,80 +378,6 @@ section h1 {
   background: var(--secondary);
 }
 
-/*=============LOOP================*/
-
-.tech-stack {
-  padding: 1rem;
-  background: var(--secondary);
-  text-align: center;
-  overflow: hidden;
-}
-
-/* Slider container */
-.tech-slider {
-  max-width: 900px;
-  margin: 0 auto;
-  overflow: hidden;
-  position: relative;
-}
-
-/* Moving track */
-.tech-track {
-  display: flex;
-  align-items: center;
-  gap: 5rem;
-  width: 200%;
-  animation: scroll 20s linear infinite;
-}
-
-/* Icons */
-.tech-track img {
-  width: 36px;
-  height: auto;
-  opacity: 0.75;
-  transition: transform 0.3s ease, opacity 0.3s ease;
-  background: var(--light);
-  border-radius: 5px;
-  padding: 0.2rem;
-}
-
-/* Hover effect */
-.tech-track img:hover {
-  transform: scale(1.15);
-  opacity: 1;
-}
-
-/* Animation */
-@keyframes scroll {
-  0% {
-    transform: translateX(0);
-  }
-  100% {
-    transform: translateX(-50%);
-  }
-}
-
-/* Desktop polish */
-@media (min-width: 1024px) {
-  .tech-track {
-    animation-duration: 35s;
-  }
-
-  .tech-track img {
-    width: 40px;
-  }
-}
-
-/* Mobile fine-tune */
-@media (max-width: 480px) {
-  .tech-track {
-    gap: 3rem;
-  }
-
-  .tech-track img {
-    width: 32px;
-  }
-}
 
 /* ===== HERO ===== */
 
@@ -467,8 +391,7 @@ section h1 {
   margin: 0 auto;
 }
 
-.hero p,
-.about p {
+.hero p{
   font-size: clamp(14px, 1.2vw, 22px);
   line-height: 1.6;
 }
@@ -612,10 +535,7 @@ section h1 {
     grid-template-columns: 1fr;
   }
 
-  .service .btn,
-  .project .btn {
-    width: 70%;
-  }
+  
 }
 
 /* ===== WHO I HELP ===== */
@@ -672,52 +592,6 @@ section h1 {
   line-height: 1.5;
 }
 
-/* ===== PROJECTS ===== */
-
-.projects-grid {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 2rem;
-}
-.project-card {
-  border-radius: 8px;
-  overflow: hidden;
-  text-align: justify;
-  background: var(--light);
-  transition: transform 0.5s ease, box-shadow 0.3s ease;
-  padding: 0.5rem;
-  color: var(--secondary);
-  box-shadow: 0px 2px 8px var(--secondary);
-}
-.project-card h3 {
-  text-align: center;
-}
-.project-card:hover {
-  transform: translateY(-2px);
-}
-.project-card img {
-  width: 100%;
-  height: 200px;
-  object-fit: cover;
-}
-.project h2,
-.project p {
-  color: var(--light);
-}
-.project-card p {
-  color: var(--secondary);
-}
-.project-card h3 {
-  margin: 1rem 0 0.5rem;
-}
-.project-card p {
-  padding: 0 1rem 1rem;
-  line-height: 1.6;
-}
-.project-btn .btn:hover {
-  background: var(--light);
-  color: var(--secondary);
-}
 .inquire-btn {
   display: flex;
   justify-content: center;
@@ -832,24 +706,7 @@ section h1 {
   color: #222; /* highlight answers in primary color */
 }
 
-/* Text */
-.about-content h2 {
-  font-size: 2rem;
-  margin-bottom: 20px;
-}
 
-.about-content p {
-  line-height: 1.7;
-  color: var(--secondary);
-  margin-bottom: 15px;
-}
-
-/* Desktop layout */
-@media (min-width: 768px) {
-  .about-container {
-    grid-template-columns: 400px 1fr;
-  }
-}
 
 /* ===== CONTACT ===== */
 
@@ -958,10 +815,7 @@ section h1 {
     grid-template-columns: repeat(2, 1fr);
   }
 
-  .about {
-    grid-template-columns: 1fr 1fr;
-    text-align: left;
-  }
+
 
   .contact {
     grid-template-columns: 1fr 1fr;
@@ -987,12 +841,7 @@ section h1 {
   section h1 {
     text-align: center;
   }
-  .about .btn {
-    margin: 0 auto;
-  }
-  .about {
-    text-align: justify;
-  }
+ 
 
   .contact div {
     padding: 0;
