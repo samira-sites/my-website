@@ -44,8 +44,6 @@
     <i class="fa-brands fa-whatsapp"></i>
   </a>
 
-  <!-- Font Awesome CDN (if not already on your site) -->
-  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
   <nav>
     <div class="logo">
       <img src="photo/nav-logo.png" alt="SN logo" />
