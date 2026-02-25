@@ -320,7 +320,7 @@
       </form>
     </div>
     <div>
-      <a href="https://www.linkedin.com/in/YOUR-USERNAME" class="linkedin-btn" target="_blank">
+      <a href="https://www.linkedin.com/in/samira-omar/" class="linkedin-btn" target="_blank">
         <i class="fab fa-linkedin-in"></i>
       </a>
     </div>
