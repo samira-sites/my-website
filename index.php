@@ -5,12 +5,12 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description"
-    content="Get modern, responsive websites with built-in booking and client forms that make managing your business effortless.">
+    content="Get a modern website for your service-based business with booking and client forms — make booking easy and grow your business fast.">
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
 
   <link rel="icon" href="/favicon.ico" type="image/x-icon" />
-  <title>Websites with Booking & Client Forms</title>
+  <title>Websites with Built-In Booking & Lead Capture</title>
 
   <!-------------------------manifest------>
   <!-- Favicon for browser tabs -->
@@ -83,10 +83,9 @@
   <!-- ===== HERO ===== -->
   <section id="hero" class="hero">
     <div class="h1 card hidden animate-up">
-      <h1>Websites with Built-In Booking &<span style="color: #ffbd59;"> Leads</span>
+      <h1>Websites with Built-In Booking & <span style="color: #ffbd59; font-weight: 900;">Lead Capture</span>
       </h1>
-      <p style="text-align: justify;">Helping service-based businesses create modern, responsive websites with built-in
-        booking and contact forms that make client management effortless.</p>
+      <p style="text-align: justify;">Modern, mobile-friendly websites designed for service-based businesses — so clients can book instantly and you never miss an inquiry.</p>
       <br>
 
       <div class="hero-btn">
@@ -112,41 +111,73 @@
 
     </div>
   </section>
-
-  <section class="tech-stack">
-
-    <div class="tech-slider">
-      <div class="tech-track">
-        <img src="photo/icons/HTML5.svg" alt="HTML">
-        <img src="photo/icons/CSS3.svg" alt="CSS">
-        <img src="photo/icons/JavaScript.svg" alt="JavaScript">
-        <img src="photo/icons/PHP.svg" alt="PHP">
-        <img src="photo/icons/Git.svg" alt="Git">
-        <img src="photo/icons/GitHub.svg" alt="GitHub">
-        <img src="photo/icons/Visual Studio Code (VS Code).svg" alt="VS Code">
-        <img src="photo/icons/calendly-icon.svg" alt="Calendly">
-        <img src="photo/icons/google-sheet.png" alt="google-sheets-icon">
-
-        <img src="photo/icons/HTML5.svg" alt="HTML">
-        <img src="photo/icons/CSS3.svg" alt="CSS">
-        <img src="photo/icons/JavaScript.svg" alt="JavaScript">
-        <img src="photo/icons/PHP.svg" alt="PHP">
-        <img src="photo/icons/Git.svg" alt="Git">
-        <img src="photo/icons/GitHub.svg" alt="GitHub">
-        <img src="photo/icons/Visual Studio Code (VS Code).svg" alt="VS Code">
-        <img src="photo/icons/calendly-icon.svg" alt="Calendly">
-        <img src="photo/icons/google-sheet.png" alt="google-sheets-icon">
-
-        <img src="photo/icons/HTML5.svg" alt="HTML">
-        <img src="photo/icons/CSS3.svg" alt="CSS">
-        <img src="photo/icons/JavaScript.svg" alt="JavaScript">
-        <img src="photo/icons/PHP.svg" alt="PHP">
-        <img src="photo/icons/Git.svg" alt="Git">
-        <img src="photo/icons/GitHub.svg" alt="GitHub">
-        <img src="photo/icons/Visual Studio Code (VS Code).svg" alt="VS Code">
-        <img src="photo/icons/calendly-icon.svg" alt="Calendly">
-        <img src="photo/icons/google-sheet.png" alt="google-sheets-icon">
-
+<!------------Slider------------>
+  <section class="slider-section">
+    <div class="slider">
+      <div class="slide-track">
+  
+        <div class="slide">
+          <i class="fa-solid fa-rocket"></i>
+          <span>More Bookings</span>
+        </div>
+  
+        <div class="slide">
+          <i class="fa-solid fa-calendar-check"></i>
+          <span>Automated Scheduling</span>
+        </div>
+  
+        <div class="slide">
+          <i class="fa-solid fa-mobile-screen-button"></i>
+          <span>Mobile-Friendly Design</span>
+        </div>
+  
+        <div class="slide">
+          <i class="fa-solid fa-bolt"></i>
+          <span>Fast Loading</span>
+        </div>
+  
+        <div class="slide">
+          <i class="fa-solid fa-chart-line"></i>
+          <span>SEO-Optimized</span>
+        </div>
+  
+        <div class="slide">
+          <i class="fa-solid fa-file-lines"></i>
+          <span>Smart Client Forms</span>
+        </div>
+  
+        <!-- Duplicate for smooth infinite scroll -->
+  
+        <div class="slide">
+          <i class="fa-solid fa-rocket"></i>
+          <span>More Bookings</span>
+        </div>
+  
+        <div class="slide">
+          <i class="fa-solid fa-calendar-check"></i>
+          <span>Automated Scheduling</span>
+        </div>
+  
+        <div class="slide">
+          <i class="fa-solid fa-mobile-screen-button"></i>
+          <span>Mobile-Friendly Design</span>
+        </div>
+  
+        <div class="slide">
+          <i class="fa-solid fa-bolt"></i>
+          <span>Fast Loading</span>
+        </div>
+  
+        <div class="slide">
+          <i class="fa-solid fa-chart-line"></i>
+          <span>SEO-Optimized</span>
+        </div>
+  
+        <div class="slide">
+          <i class="fa-solid fa-file-lines"></i>
+          <span>Smart Client Forms</span>
+        </div>
+  
       </div>
     </div>
   </section>
