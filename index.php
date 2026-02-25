@@ -216,7 +216,7 @@
 
       <div class="service-card card hidden animate-up">
         <h3>🖼️ Image Optimization</h3>
-        <p>Fast-loading, modern image formats
+        <p>Fast-loading images that improve website speed and user experience.
         </p>
       </div>
 
@@ -354,9 +354,7 @@
       </form>
     </div>
     <div>
-      <a href="https://www.linkedin.com/in/samira-omar/" class="linkedin-btn" target="_blank">
-        <i class="fab fa-linkedin-in"></i>
-      </a>
+      
     </div>
 
   </section>
@@ -430,7 +428,9 @@
 
 </body>
 <footer class="footer">
-  © 2026 <strong>Sam Nex.solutions</strong> | Samira Omar <br> All rights reserved
+  © 2026 <strong>Sam Nex.solutions</strong> | Samira Omar <br> All rights reserved  <a href="https://www.linkedin.com/in/samira-omar/" class="linkedin-btn" target="_blank">
+        <i class="fab fa-linkedin-in"></i>
+      </a>
 </footer>
 
 </html>
