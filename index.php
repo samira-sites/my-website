@@ -180,7 +180,7 @@
 
   <!-- ===== SERVICES ===== -->
   <section id="services" class="services">
-    <h2 style="color: #222; text-align: center;">My Services</h2>
+    <h2 style="text-align: center;">My Services</h2>
     <p style="color:#222; text-align: center;">Here’s what I offer to help your business online:</p>
     <br>
     <div class="services-grid">
