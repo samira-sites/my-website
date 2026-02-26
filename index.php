@@ -82,23 +82,20 @@
   <section id="hero" class="hero">
     <div class="h1 card hidden animate-up">
       <h1>
-        Websites with 
+        Websites with
         <span class="highlight">Built-In Booking
-        & Lead Capture</span>
+          & Lead Capture</span>
       </h1>
-      <p style="text-align: justify;">Modern, mobile-friendly websites designed for service-based businesses — so clients can book instantly and you never miss an inquiry.</p>
+      <p style="text-align: justify;">Modern, mobile-friendly websites designed for service-based businesses — so
+        clients can book instantly and you never miss an inquiry.</p>
       <br>
 
-      <div class="hero-btn">
 
+      <button class="service-btn btn calendly-btn"
+        onclick="Calendly.initPopupWidget({url: 'https://calendly.com/samiraomar/30min?background_color=111111&text_color=ffffff&primary_color=ffbd59'}); return false;">
+        Book a Free Discovery Call
+      </button>
 
-        <!-- CTA Button -->
-        <button class="cta-btn btn mywork"
-          onclick="Calendly.initPopupWidget({url: 'https://calendly.com/samiraomar/30min?background_color=111111&text_color=ffffff&primary_color=ffbd59'}); return false;">
-          <span class="cta-text">Book a Free Discovery Call</span>
-          <span class="cta-icon">Book a Free Discovery call</span>
-        </button>
-      </div>
     </div>
 
     <!-- Calendly Script -->
@@ -112,80 +109,80 @@
 
     </div>
   </section>
-<!------------Slider------------>
+  <!------------Slider------------>
   <section class="slider-section">
     <div class="slider">
       <div class="slide-track">
-  
+
         <div class="slide">
           <i class="fa-solid fa-rocket"></i>
           <span>More Bookings</span>
         </div>
-  
+
         <div class="slide">
           <i class="fa-solid fa-calendar-check"></i>
           <span>Automated Scheduling</span>
         </div>
-  
+
         <div class="slide">
           <i class="fa-solid fa-mobile-screen-button"></i>
           <span>Mobile-Friendly Design</span>
         </div>
-  
+
         <div class="slide">
           <i class="fa-solid fa-bolt"></i>
           <span>Fast Loading</span>
         </div>
-  
+
         <div class="slide">
           <i class="fa-solid fa-chart-line"></i>
           <span>SEO-Optimized</span>
         </div>
-  
+
         <div class="slide">
           <i class="fa-solid fa-file-lines"></i>
           <span>Smart Client Forms</span>
         </div>
-  
+
         <!-- Duplicate for smooth infinite scroll -->
-  
+
         <div class="slide">
           <i class="fa-solid fa-rocket"></i>
           <span>More Bookings</span>
         </div>
-  
+
         <div class="slide">
           <i class="fa-solid fa-calendar-check"></i>
           <span>Automated Scheduling</span>
         </div>
-  
+
         <div class="slide">
           <i class="fa-solid fa-mobile-screen-button"></i>
           <span>Mobile-Friendly Design</span>
         </div>
-  
+
         <div class="slide">
           <i class="fa-solid fa-bolt"></i>
           <span>Fast Loading</span>
         </div>
-  
+
         <div class="slide">
           <i class="fa-solid fa-chart-line"></i>
           <span>SEO-Optimized</span>
         </div>
-  
+
         <div class="slide">
           <i class="fa-solid fa-file-lines"></i>
           <span>Smart Client Forms</span>
         </div>
-  
+
       </div>
     </div>
   </section>
 
 
   <!-- ===== SERVICES ===== -->
-  <section id="services" class="service">
+  <section id="services" class="services">
     <h2 style="color: #222; text-align: center;">My Services</h2>
     <p style="color:#222; text-align: center;">Here’s what I offer to help your business online:</p>
     <br>
@@ -225,7 +222,9 @@
       </div>
     </div>
     <br>
-    <div class="service-btn"><a href="#contact" class="btn">Get Your Website</a></div>
+    <div class="service-btn">
+      <button class="btn calendly-btn">Book a Free Discovery Call</button>
+    </div>
   </section>
 
   <!-- ===== WHO I HELP ===== -->
@@ -272,7 +271,10 @@
         </div>
       </div>
     </div>
-    <div class="service-btn" style="margin-top: 1rem;"><a href="#contact" class="btn">Get Your Website</a></div>
+    <br>
+    <div class="service-btn">
+      <button class="btn calendly-btn">Book a Free Discovery Call</button>
+    </div>
   </section>
 
   <section class="process" id="process">
@@ -352,7 +354,7 @@
       </form>
     </div>
     <div>
-      
+
     </div>
 
   </section>
@@ -426,9 +428,10 @@
 
 </body>
 <footer class="footer">
-  © 2026 <strong>Sam Nex.solutions</strong> | Samira Omar <br> All rights reserved  <a href="https://www.linkedin.com/in/samira-omar/" class="linkedin-btn" target="_blank">
-        <i class="fab fa-linkedin-in"></i>
-      </a>
+  © 2026 <strong>Sam Nex.solutions</strong> | Samira Omar <br> All rights reserved <a
+    href="https://www.linkedin.com/in/samira-omar/" class="linkedin-btn" target="_blank">
+    <i class="fab fa-linkedin-in"></i>
+  </a>
 </footer>
 
 </html>

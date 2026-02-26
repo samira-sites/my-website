@@ -146,28 +146,15 @@ nav ul li a:hover {
   }
 }
 
-.cta-btn {
-  background: var(--primary);
-  color: var(--secondary);
-  padding: 0.5rem 1rem;
-  border-radius: 8px;
-  border: none;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-  transition: background 0.2s, transform 0.2s;
-}
-
 .cta-btn:hover {
   background: var(--secondary);
   color: var(--light);
   transform: translateY(-2px);
 }
 
-.cta-text, .cta-icon {
+.cta-text,
+.cta-icon {
   display: inline;
-  font-size: clamp(15px, 1vw, 22px);
 }
 
 .cta-icon {
@@ -342,12 +329,12 @@ section h1 {
   font-weight: 900;
   text-align: left;
 }
-section h2{
+section h2 {
   text-shadow: 1px 1px 0px var(--primary);
 }
 
 /* ===== BUTTONS ===== */
-.btn, .cta-btn{
+.btn {
   display: inline-block;
   background-color: var(--primary);
   color: var(--secondary);
@@ -355,25 +342,26 @@ section h2{
   border: none;
   border-radius: 50px;
   cursor: pointer;
-  font-weight: 800;
+  font-weight: 700;
   transition: all 0.3s ease;
   margin-right: 1rem;
   box-shadow: 0px 1px 2px var(--secondary);
   text-align: center;
 }
-
+.service-btn {
+  margin-top: 1rem;
+}
 @media (max-width: 768px) {
   .hero-btn {
     display: flex;
   }
 
-  .hero-btn {
-    margin: 0;
+  .service-btn {
+    margin: 0 auto;
   }
 }
 
 .btn:hover,
-.about .btn:hover,
 .contact .btn:hover {
   opacity: 0.9;
   transform: translateY(-2px);
@@ -381,10 +369,9 @@ section h2{
   background: var(--secondary);
 }
 
-
 /* ===== HERO ===== */
 
-.highlight{
+.highlight {
   color: #e38d0c;
 }
 
@@ -398,9 +385,17 @@ section h2{
   margin: 0 auto;
 }
 
-.hero p{
+.hero p {
   font-size: clamp(14px, 1.2vw, 22px);
   line-height: 1.6;
+}
+.hero button {
+  width: 45%;
+}
+@media (max-width: 768px) {
+  .hero button {
+    width: 75%;
+  }
 }
 
 @media (min-width: 768px) {
@@ -428,11 +423,6 @@ section h2{
   margin: 0 auto;
   filter: drop-shadow(0 8px 20px var(--secondary));
   display: block;
-}
-
-.hero .hero-btn {
-  display: inline;
-  margin-top: 1rem;
 }
 
 /* ===== Premium Sliding Section ===== */
@@ -464,7 +454,7 @@ section h2{
 
 .slide i {
   font-size: 20px;
-  color: var(--primary); 
+  color: var(--primary);
 }
 
 /* Smooth infinite animation */
@@ -541,8 +531,6 @@ section h2{
   .services-grid {
     grid-template-columns: 1fr;
   }
-
-  
 }
 
 /* ===== WHO I HELP ===== */
@@ -713,8 +701,6 @@ section h2{
   color: #222; /* highlight answers in primary color */
 }
 
-
-
 /* ===== CONTACT ===== */
 
 .contact {
@@ -781,12 +767,11 @@ section h2{
   text-decoration: none;
   border-radius: 5px;
   transition: 0.3s ease;
-  font-weight: 800; 
+  font-weight: 800;
 }
 
 .linkedin-btn i {
   font-size: clamp(12px, 1vw, 18px);
- 
 }
 
 .linkedin-btn:hover {
@@ -849,7 +834,6 @@ section h2{
   section h1 {
     text-align: center;
   }
- 
 
   .contact div {
     padding: 0;

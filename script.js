@@ -9,7 +9,14 @@ document.querySelectorAll('.hero .btn').forEach(btn => {
   });
 });
 
-
+/*-----------calendly---------------------*/
+document.querySelectorAll('.calendly-btn').forEach(button => {
+  button.addEventListener('click', function () {
+    Calendly.initPopupWidget({
+      url: 'https://calendly.com/samiraomar/30min?background_color=111111&text_color=ffffff&primary_color=ffbd59'
+    });
+  });
+});
 /*--------------smooth popup scroll----*/
 const observer = new IntersectionObserver((entries) => {
   entries.forEach(entry => {
