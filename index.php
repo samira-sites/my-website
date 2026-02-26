@@ -84,7 +84,9 @@
       <h1>
         Build a Website That <span style="color: #fea92a;">Books Clients</span>
       </h1>
-      <p style="text-align: justify;">Modern websites with built-in booking and lead capture — designed to turn visitors into real client inquiries.</p>
+      <p style="text-align: justify;">  Modern websites with 
+  <span class="underline">built-in booking</span> and <span class="underline">lead capture </span>
+  — designed to turn visitors into real client inquiries.</p>
       <br>
 
 
