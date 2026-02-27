@@ -84,18 +84,19 @@
       <h1>
         Build a Website That <span style="color: #fea92a;">Books Clients</span>
       </h1>
-      <p style="text-align: justify;">  Modern websites with 
-  <span class="underline">built-in booking</span> and <span class="underline">lead capture </span>
-  — designed to turn visitors into real client inquiries.</p>
+      <p style="text-align: justify;"> Modern websites with
+        <span class="underline">built-in booking</span> and <span class="underline">lead capture </span>
+        — designed to turn visitors into real client inquiries.
+      </p>
       <br>
 
-<div class="service-btn" style="margin-left: 0; padding-left: 0;" >
-    <button class="btn calendly-btn"
-        onclick="Calendly.initPopupWidget({url: 'https://calendly.com/samiraomar/30min?background_color=111111&text_color=ffffff&primary_color=ffbd59'}); return false;">
-        Book a Free Discovery Call
-      </button>
-    </div>
-    
+      <div class="service-btn hero-btn">
+        <button class="btn calendly-btn"
+          onclick="Calendly.initPopupWidget({url: 'https://calendly.com/samiraomar/30min?background_color=111111&text_color=ffffff&primary_color=ffbd59'}); return false;">
+          Book a Free Discovery Call
+        </button>
+      </div>
+
 
     </div>
 
@@ -184,8 +185,10 @@
 
   <!-- ===== SERVICES ===== -->
   <section id="services" class="services">
-    <h2 style="text-align: center;">My Services</h2>
-    <p style="color:#222; text-align: center;">Here’s what I offer to help your business online:</p>
+    <h2 style="text-align: center;" class="card hidden animate-up">My Services</h2>
+    <p class="card hidden animate-up" style="color:#222; text-align: center;">Here’s what I offer to help your
+      business
+      online:</p>
     <br>
     <div class="services-grid">
       <div class="service-card card hidden animate-up">
@@ -232,7 +235,7 @@
   <section id="who-i-help" class="who">
     <div class="container card hidden animate-up">
 
-      <h2 class="section-title">Who I Help</h2>
+      <h2 class="section-title card hidden animate-up">Who I Help</h2>
 
       <p class="section-subtitle">
         I work with service-based businesses that need modern websites
@@ -279,7 +282,7 @@
   </section>
 
   <section class="process" id="process">
-    <h2>How It Works</h2>
+    <h2 class="card hidden animate-up">How It Works</h2>
 
     <div class="process-steps">
       <div class="step card hidden animate-up">
@@ -303,8 +306,8 @@
   </section>
 
 
-  <section class="faq" id="faq">
-    <h2>FAQ</h2>
+  <section class="faq card hidden animate-up" id="faq" style="background: #ffbd59; padding: .5rem ">
+    <h2 style="margin-top: 0;">FAQ</h2>
 
     <details class="card hidden animate-up">
       <summary>How long does it take to build a website?</summary>
@@ -328,9 +331,11 @@
   <!-- ===== CONTACT ===== -->
   <section id="contact" class="contact">
     <div>
-      <h2 style="text-align: center;">Get in Touch</h2>
+      <h2 class="card hidden animate-up" style="text-align: center;">Get in Touch</h2>
 
-      <p style="text-align: center;">Ready to build your website? Share your idea below. 😊</p>
+      <p class="card hidden animate-up" style="text-align: center;">Ready to build your website? Share your idea
+        below.
+        😊</p>
       <br>
       <form action="#" method="POST" name="contactform" class="contact-form card hidden animate-up" id="contactform">
 
@@ -408,14 +413,19 @@
 
     btn.addEventListener('click', () => popup.style.display = 'flex');
     //closeBtn.addEventListener('click', ()=> popup.style.display='none');
-    window.addEventListener('click', e => { if (e.target == popup) popup.style.display = 'none'; });
+    window.addEventListener('click', e => {
+      if (e.target == popup) popup.style.display = 'none';
+    });
 
     // AJAX form submission
     document.getElementById('feedbackForm').addEventListener('submit', function (e) {
       e.preventDefault();
       const formData = new FormData(this);
 
-      fetch('feedback/save_feedback.php', { method: 'POST', body: formData })
+      fetch('feedback/save_feedback.php', {
+        method: 'POST',
+        body: formData
+      })
 
         .then(res => res.text())
         .then(data => {
