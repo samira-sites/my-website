@@ -89,11 +89,12 @@
   — designed to turn visitors into real client inquiries.</p>
       <br>
 
-
-      <button class="service-btn btn calendly-btn"
+<div class="service-btn">  <button class="btn calendly-btn"
         onclick="Calendly.initPopupWidget({url: 'https://calendly.com/samiraomar/30min?background_color=111111&text_color=ffffff&primary_color=ffbd59'}); return false;">
         Book a Free Discovery Call
       </button>
+    </div>
+    
 
     </div>
 
@@ -328,7 +329,7 @@
     <div>
       <h2 style="text-align: center;">Get in Touch</h2>
 
-      <p style="text-align: center;">Ready to build your website? Share your idea below! 😊</p>
+      <p style="text-align: center;">Ready to build your website? Share your idea below. 😊</p>
       <br>
       <form action="#" method="POST" name="contactform" class="contact-form card hidden animate-up" id="contactform">
 
