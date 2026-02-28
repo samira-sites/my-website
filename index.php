@@ -14,11 +14,11 @@
 
   <!-------------------------manifest------>
   <!-- Favicon for browser tabs -->
-  <link rel="icon" type="image/png" sizes="32x32" href="icons-32.png">
-  <link rel="icon" type="image/png" sizes="192x192" href="icons-192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="icons/32.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="icons/192.png">
 
   <!-- Apple touch icon for iOS home screen -->
-  <link rel="apple-touch-icon" sizes="180x180" href="icons-180.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="icons/180.png">
 
   <!-- PWA manifest -->
   <link rel="manifest" href="site.webmanifest">
@@ -46,7 +46,7 @@
 
   <nav>
     <div class="logo">
-      <img src="photo/nav-logo.png" alt="SN logo" />
+      <img src="photo/logo.png" alt="SN logo" />
     </div>
     <ul class="nav-links">
       <li><a href="#hero">Home</a></li>
@@ -107,7 +107,7 @@
     <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet" />
 
     <div class="card hidden animate-up">
-      <img src="photo/hero-image.webp" alt="website logo" fetchpriority="high">
+      <img src="photo/now-profile.png" alt="website logo" fetchpriority="high">
 
     </div>
   </section>
