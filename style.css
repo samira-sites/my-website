@@ -826,7 +826,7 @@ section h2 {
   align-items: center;
   padding: 6px 8px;
   background-color: var(--secondary);
-  color: var(--primary);
+  color: var(--light);
   border-radius: 0 7px 0 7px;
   text-decoration: none;
   transition: 0.3s ease;
@@ -835,7 +835,7 @@ section h2 {
 .linkedin-hero:hover {
   background: var(--primary);
   transform: translateY(-1px);
-  color: var(--light);
+  color: var(--secondary);
 }
 
 .connect-text {
