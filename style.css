@@ -460,7 +460,7 @@ section h2 {
   width: clamp(300px, 32vw, 480px);
   height: auto;
   margin: 0 auto;
-  filter: drop-shadow(0 8px 20px var(--secondary));
+  filter: drop-shadow(0 2px 6px var(--secondary));
   display: block;
 }
 
@@ -797,7 +797,6 @@ section h2 {
   background-color: var(--secondary);
   color: var(--primary);
   text-decoration: none;
-  border-radius: 5px;
   transition: 0.3s ease;
   font-weight: 800;
 }
@@ -825,17 +824,20 @@ section h2 {
   justify-content: center;
   align-items: center;
   padding: 6px 8px;
-  background-color: var(--secondary);
-  color: var(--light);
-  border-radius: 0 7px 0 7px;
+  background-color: var(--primary);
+  color: var(--secondary);
+ 
   text-decoration: none;
   transition: 0.3s ease;
 }
+.card .linkedin-hero, .linkedin-btn {
+   border-radius: 0 7px 0 7px;
+}
 
 .linkedin-hero:hover {
-  background: var(--primary);
+  background: var(--secondary);
   transform: translateY(-1px);
-  color: var(--secondary);
+  color: var(--light);
 }
 
 .connect-text {
