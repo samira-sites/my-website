@@ -61,6 +61,40 @@ body {
 }
 
 /*=======HEADER=======*/
+.navbar {
+  position: relative;
+  text-decoration: none;
+  color: var(--secondary);
+  padding: 5px 10px;
+  display: inline-block;
+  overflow: hidden;
+  z-index: 1;
+}
+
+/* The sliding background */
+.navbar::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;              /* Start from right */
+  width: 0;              /* Initially hidden */
+  height: 100%;
+  background: var(--secondary);
+  transition: width 0.6s ease;
+  z-index: -1;
+}
+
+/* Hover effect */
+.navbar:hover::before {
+  width: 100%;           /* Expand to full width */
+  left: 0;
+  right: auto;
+}
+
+.navbar:hover {
+  color: var(--primary);
+}
+
 
 nav {
   background-color: var(--light);
@@ -94,7 +128,6 @@ nav ul {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 2rem;
   z-index: 20000;
   padding: 0.8rem 1.8rem;
   position: fixed;
@@ -104,6 +137,8 @@ nav ul {
 }
 
 nav ul li a {
+  box-shadow: 0px 1px 3px var(--secondary);
+  border: 1.5px solid var(--primary);
   color: var(--secondary);
   font-weight: bold;
   transition: all 0.4s ease-in-out;

@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8" />
-  <meta name="google-site-verification" content="uKtr2UsvXYFJ7ODbXEfgpqLQWKyUk05eIaa_YJjI_XU" />
+  <meta name="google-site-verification" content="uKtr2UsvXYFJ7ODbXEfgpqLQWKyUk05eIaa_YJjI_XU"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description"
     content="Get a modern website for your service-based business with booking and client forms — make booking easy and grow your business fast." />
@@ -46,10 +46,10 @@
       <img src="photo/logo.png" alt="SN logo" />
     </div>
     <ul class="nav-links">
-      <li><a href="#hero">Home</a></li>
-      <li><a href="#services">Services</a></li>
-      <li><a href="#who-i-help">Who I Help</a></li>
-      <li><a href="#process">How It Works</a></li>
+      <li><a href="#hero" class="navbar">Home</a></li>
+      <li><a href="#services" class="navbar">Services</a></li>
+      <li><a href="#who-i-help" class="navbar">Who I Help</a></li>
+      <li><a href="#process" class="navbar">How It Works</a></li>
     </ul>
 
     <a href="#contact" class="navcontact">Contact Me</a>
