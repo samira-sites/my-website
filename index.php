@@ -15,6 +15,15 @@
   <meta name="description"
     content="Get a modern website for your service-based business with booking and client forms — make booking easy and grow your business fast." />
 
+  <meta property="og:title" content="Modern Websites with Built-In Booking">
+  <meta property="og:description"
+    content="Get a website that automatically books clients and captures leads for your service business.">
+  <meta property="og:image" content="https://samiraomar.com/preview.jpg">
+  <meta property="og:url" content="https://samiraomar.com">
+  <meta property="og:type" content="website">
+
+  <link rel="canonical" href="https://samiraomar.com">
+  <meta name="robots" content="index, follow">
   <!-------------------------manifest------>
   <!-- Favicon for browser tabs -->
   <link rel="icon" type="image/png" sizes="32x32" href="icons/32.png" />
