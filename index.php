@@ -234,7 +234,7 @@
       <div class="service-card card hidden animate-up">
         <h3>
           🛠️ Website Maintenance & Updates
-          <span style="color: orange">(Add-On)</span>
+          <span style="color: #ff7a00">(Add-On)</span>
         </h3>
         <p>Keep your website secure and updated</p>
       </div>
