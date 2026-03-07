@@ -6,14 +6,13 @@
   <meta name="google-site-verification" content="uKtr2UsvXYFJ7ODbXEfgpqLQWKyUk05eIaa_YJjI_XU" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+<title>From Idea to Live Website | Websites That Book Clients</title>
+  <meta name="description"
+    content="Turn your idea into a live website with booking and lead capture tools. Book a Free Discovery Call today."/>
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
 
   <link rel="icon" href="/favicon.ico" type="image/x-icon" />
-
-  <title>Websites with Built-In Booking & Lead Capture</title>
-  <meta name="description"
-    content="Get a modern website for your service-based business with booking and client forms — make booking easy and grow your business fast." />
 
   <meta property="og:title" content="Modern Websites with Built-In Booking">
   <meta property="og:description"

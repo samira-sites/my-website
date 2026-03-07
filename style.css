@@ -99,6 +99,7 @@ body {
 
 nav {
   background-color: var(--light);
+  box-shadow: 0 1px 6px rgba(0,0,0,0.08);
   position: fixed;
   width: 100%;
   z-index: 999;
@@ -796,14 +797,13 @@ section h2 {
   background: var(--secondary);
   padding: 1rem;
   border-radius: 10px;
-  box-shadow: 0px 1px 10px var(--secondary);
 }
 
 .contact input,
 .contact textarea {
   padding: 0.8rem;
   border-radius: 6px;
-  border: 2px solid var(--primary);
+  border: none;
 }
 
 .contact button {
@@ -842,8 +842,8 @@ section h2 {
 .linkedin-btn:hover {
   background: transparent;
   transform: translateY(-1px);
-  color: var(--secondary);
-  border: 2px solid var(--secondary);
+  color: var(--light);
+  border: 2px solid var(--light);
 }
 
 .hero .card-linkedin {
@@ -880,12 +880,12 @@ section h2 {
 
 /* ===== FOOTER ===== */
 .footer {
-  background: var(--light);
-  color: var(--secondary);
+  background: var(--secondary);
+box-shadow: 1px 0px 3px orange;
+  color: var(--light);
   text-align: center;
   padding: 1.2rem;
   font-size: 0.9rem;
-  box-shadow: 0px 2px 10px #111;
 }
 
 .simple-footer p {
