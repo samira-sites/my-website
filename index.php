@@ -54,7 +54,7 @@
 
   <nav>
     <div class="logo">
-      <img src="photo/logo.png" alt="SN logo" />
+      <img src="photo/logo.png" alt="logo" />
     </div>
     <ul class="nav-links">
       <li><a href="#hero" class="navbar">Home</a></li>
@@ -91,7 +91,7 @@
   <section id="hero" class="hero">
     <div class="h1 card hidden animate-up">
       <h1>
-        Build a Website That <span style="color: #fea92a">Books Clients</span>
+        From Idea to <span style="color: #ff7a00">Live Website</span>
       </h1>
       <p style="text-align: justify">
         Modern websites with
@@ -234,7 +234,7 @@
       <div class="service-card card hidden animate-up">
         <h3>
           🛠️ Website Maintenance & Updates
-          <span style="color: #ffbd59">(Add-On)</span>
+          <span style="color: orange">(Add-On)</span>
         </h3>
         <p>Keep your website secure and updated</p>
       </div>
@@ -319,7 +319,7 @@
     </div>
   </section>
   <!------FAQ----------------->
-  <section class="faq card hidden animate-up" id="faq" style="background: #ffbd59; padding: 0.5rem">
+  <section class="faq card hidden animate-up" id="faq" style="background: linear-gradient(to right, #222, #ff7a00); padding: 0.5rem">
     <h2 style="margin-top: 0">FAQ</h2>
 
     <details class="card hidden animate-up">
