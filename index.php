@@ -447,7 +447,7 @@
     </a>
 
   </div>
-  <strong>© 2026 Samira Omar</strong> — Web Developer | All rights reserved
+  <strong>© 2026 Samira Omar</strong> — Website Developer | All rights reserved
 
 
 </footer>
