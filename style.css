@@ -102,7 +102,7 @@ nav {
   box-shadow: 0 1px 6px rgba(0,0,0,0.08);
   position: fixed;
   width: 100%;
-  z-index: 999;
+  z-index: 1001;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -132,10 +132,6 @@ nav ul {
   justify-content: center;
   z-index: 20000;
   padding: 0.8rem 1.8rem;
-  position: fixed;
-  top: 10px;
-  left: 50%;
-  transform: translateX(-50%);
 }
 
 nav ul li a {
@@ -227,13 +223,12 @@ nav ul li a:hover {
     display: none;
   }
 
-  .burger {
-    display: flex;
-  }
+
 }
 
 /* ===== BURGER MENU ===== */
 .burger {
+  position: relative;
   display: none;
   flex-direction: column;
   cursor: pointer;
@@ -241,6 +236,7 @@ nav ul li a:hover {
   background: #222;
   padding: 0.4rem;
   border-radius: 5px;
+  z-index: 1003;
 }
 
 .burger span {
@@ -249,7 +245,6 @@ nav ul li a:hover {
   background: var(--primary);
   border-radius: 3px;
   transition: 0.3s;
-  z-index: 99999;
   transition: background 0.25s ease, transform 0.25s ease, opacity 0.25s ease;
 }
 
@@ -277,7 +272,7 @@ nav ul li a:hover {
   border-radius: 10px 0px 0px 10px;
   padding: 85px 15px;
   transition: right 0.8s ease-in-out;
-  z-index: 998;
+  z-index: 1000;
   display: flex;
   flex-direction: column;
   box-shadow: 0px 4px 20px var(--secondary);
@@ -368,7 +363,7 @@ section h3 {
 }
 
 section h1 {
-  font-size: clamp(40px, 4.5vw, 60px );
+  font-size: clamp(46px, 4.5vw, 60px );
   font-weight: 900;
   text-align: left;
 }
@@ -408,7 +403,7 @@ section h2 {
 }
 
 .hero-btn {
-  margin-left: 0;
+  margin-left: 0 auto;
 }
 
 .hero .service-btn {

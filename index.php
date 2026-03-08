@@ -89,7 +89,7 @@
   <!-- ===== HERO ===== -->
   <section id="hero" class="hero">
     <div class="h1 card hidden animate-up">
-      <h1>
+      <h1 style="text-align: center;">
         From Idea to <span style="color: #ff7a00">Live Website</span>
       </h1>
       <p style="text-align: justify">
