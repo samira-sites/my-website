@@ -6,9 +6,9 @@
   <meta name="google-site-verification" content="uKtr2UsvXYFJ7ODbXEfgpqLQWKyUk05eIaa_YJjI_XU" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<title>From Idea to Live Website | Websites That Book Clients</title>
+  <title>From Idea to Live Website | Websites That Book Clients</title>
   <meta name="description"
-    content="Turn your idea into a live website with booking and lead capture tools. Book a Free Discovery Call today."/>
+    content="Turn your idea into a live website with booking and lead capture tools. Book a Free Discovery Call today." />
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
 
@@ -318,7 +318,8 @@
     </div>
   </section>
   <!------FAQ----------------->
-  <section class="faq card hidden animate-up" id="faq" style="background: linear-gradient(to right, #222, #ff7a00); padding: 0.5rem">
+  <section class="faq card hidden animate-up" id="faq"
+    style="background: linear-gradient(to right, #222, #ff7a00); padding: 0.5rem">
     <h2 style="margin-top: 0">FAQ</h2>
 
     <details class="card hidden animate-up">
@@ -439,10 +440,16 @@
   </script>
 </body>
 <footer class="footer">
-  © 2026 <strong>Samira Omar</strong> | All rights reserved
-  <a href="https://www.linkedin.com/in/samira-omar/" class="linkedin-btn" target="_blank">
-    <i class="fab fa-linkedin-in"></i>
-  </a>
+  <div>
+    <span class="connect-text" style="color: #ff7a00">Linked</span>
+    <a href="https://www.linkedin.com/in/samira-omar/" class="linkedin-footer" target="_blank">
+      <i class="fab fa-linkedin-in" style="text-align: center"></i>
+    </a>
+
+  </div>
+  <strong>© 2026 Samira Omar</strong> — Web Developer | All rights reserved
+
+
 </footer>
 
 </html>
