@@ -17,9 +17,13 @@
   <meta property="og:title" content="Modern Websites with Built-In Booking">
   <meta property="og:description"
     content="Get a website that automatically books clients and captures leads for your service business.">
-  <meta property="og:image" content="https://samiraomar.com/preview.jpg">
+  <meta property="og:image" content="https://samiraomar.com/preview.png">
   <meta property="og:url" content="https://samiraomar.com">
   <meta property="og:type" content="website">
+
+  <meta name="author" content="Samira Omar">
+<meta name="theme-color" content="#ff7a00">
+
 
   <link rel="canonical" href="https://samiraomar.com">
   <meta name="robots" content="index, follow">
