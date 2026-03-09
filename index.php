@@ -32,7 +32,7 @@
   <link rel="apple-touch-icon" sizes="180x180" href="icons/180.png" />
 
   <!-- PWA manifest -->
-  <link rel="manifest" href="site.webmanifest" />
+  <link rel="manifest" href="manifest.json" />
 
   <!-- Theme colors for browser UI -->
   <meta name="theme-color" content="#ffbd59" />
