@@ -5,24 +5,22 @@
   <meta charset="UTF-8" />
   <meta name="google-site-verification" content="uKtr2UsvXYFJ7ODbXEfgpqLQWKyUk05eIaa_YJjI_XU" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="icon" href="/favicon.ico" type="image/x-icon" />
 
   <title>From Idea to Live Website | Websites That Book Clients</title>
   <meta name="description"
     content="Turn your idea into a live website with booking and lead capture tools. Book a Free Discovery Call today." />
 
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
-
-  <link rel="icon" href="/favicon.ico" type="image/x-icon" />
-
   <meta property="og:title" content="Modern Websites with Built-In Booking">
   <meta property="og:description"
     content="Get a website that automatically books clients and captures leads for your service business.">
-  <meta property="og:image" content="https://samiraomar.com/preview.png">
+  <meta property="og:image" content="https://samiraomar.com/linkedin-feature.png">
   <meta property="og:url" content="https://samiraomar.com">
   <meta property="og:type" content="website">
 
   <meta name="author" content="Samira Omar">
-<meta name="theme-color" content="#ff7a00">
+  <meta name="theme-color" content="#ff7a00">
 
 
   <link rel="canonical" href="https://samiraomar.com">
