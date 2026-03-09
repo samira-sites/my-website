@@ -15,7 +15,7 @@
   <meta property="og:title" content="Modern Websites with Built-In Booking">
   <meta property="og:description"
     content="Get a website that automatically books clients and captures leads for your service business.">
-  <meta property="og:image" content="https://samiraomar.com/preview-share.png">
+  <meta property="og:image" content="https://samiraomar.com/preview-share.webp">
   <meta property="og:url" content="https://samiraomar.com">
   <meta property="og:type" content="website">
 
@@ -55,7 +55,7 @@
 
   <nav>
     <div class="logo">
-      <img src="photo/logo.png" alt="logo" />
+      <img src="photo/logo.webp" alt="logo" />
     </div>
     <ul class="nav-links">
       <li><a href="#hero" class="navbar">Home</a></li>
@@ -117,7 +117,7 @@
     <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet" />
 
     <div class="card hidden animate-up">
-      <img src="photo/now-profile.png" alt="website logo" fetchpriority="high" />
+      <img src="photo/now-profile.webp" alt="website logo" fetchpriority="high" />
       <div class="card-linkedin">
         <span class="connect-text">Let's connect</span>
         <a href="https://www.linkedin.com/in/samira-omar/" class="linkedin-hero" target="_blank">
@@ -321,7 +321,7 @@
   </section>
   <!------FAQ----------------->
   <section class="faq card hidden animate-up" id="faq"
-    style="background: linear-gradient(to right, #222, #ff7a00); padding: 0.5rem">
+  >
     <h2 style="margin-top: 0">FAQ</h2>
 
     <details class="card hidden animate-up">

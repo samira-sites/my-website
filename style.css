@@ -730,8 +730,6 @@ section h2 {
 .faq h2 {
   text-align: center;
   margin-bottom: 2rem;
-  color: var(--light);
-  font-size: 32px;
 }
 
 .faq details {
