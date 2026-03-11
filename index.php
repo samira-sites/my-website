@@ -56,16 +56,16 @@
 
   <nav>
     <div class="logo">
-      <img src="photo/logo.webp" alt="logo" />
+      <img src="photo/logo.webp" alt="Samira Omar logo" />
     </div>
     <ul class="nav-links">
-      <li><a href="#hero" class="navbar">Home</a></li>
-      <li><a href="#services" class="navbar">Services</a></li>
-      <li><a href="#who-i-help" class="navbar">Who I Help</a></li>
-      <li><a href="#process" class="navbar">How It Works</a></li>
+    <li><a href="#hero">Home</a></li>
+<li><a href="#services">Services</a></li>
+<li><a href="#who-i-help">Who I Help</a></li>
+<li><a href="#process">How It Works</a></li>
     </ul>
 
-    <a href="#contact" class="navcontact" aria-label="Go to contact section">Contact Me</a>
+    <a href="#contact" class="navcontact">Contact Me</a>
 
     <div class="burger" id="burger">
       <span class="line1"></span>
@@ -74,7 +74,6 @@
     </div>
   </nav>
 
-  <!-- ===== NAVBAR ===== -->
 
   <!-- MOBILE SLIDE MENU -->
   <div class="mobile-menu" id="mobileMenu">
@@ -95,7 +94,7 @@
     <div class="h1 card hidden animate-up">
       <h3>CLEAN • MINIMAL • MODERN</h3>
       <h1>
-        From Idea to <span class="highlight">Live Website</span>
+        From Idea to Live Website
         </h1>
       <p>
         Modern websites with <strong>built-in booking and lead capture</strong>, making it easy for visitors to book
