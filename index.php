@@ -56,7 +56,7 @@
 
   <nav>
     <div class="logo">
-      <img src="photo/logo.webp" alt="Samira Omar logo" />
+      <img src="photo/navlogo.png" alt="Samira Omar logo" />
     </div>
     <ul class="nav-links">
     <li><a href="#hero">Home</a></li>
@@ -116,7 +116,7 @@
     <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet" />
 
     <div class="card hidden animate-up">
-      <img src="photo/now-profile.webp" alt="website logo" fetchpriority="high" />
+      <img src="photo/now-profile.webp" alt="samira omar profile" fetchpriority="high" loading="lazy" />
       <div class="card-linkedin">
         <span class="connect-text">Let's connect</span>
         <a href="https://www.linkedin.com/in/samira-omar/" class="linkedin-hero" target="_blank">

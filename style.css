@@ -98,7 +98,7 @@ nav ul {
   justify-content: center;
   z-index: 20000;
   padding: 0.8rem 1.8rem;
-  gap: 1rem;
+  gap: 2rem;
 }
 /* Navbar links - polished */
 nav ul li a {
@@ -341,14 +341,13 @@ section {
   margin: 0 auto;
 }
 
-section h1,
 section h2,
 section h3 {
   margin-bottom: 1rem;
 }
 
 section h2 {
-  text-shadow: 1px 1px 0px var(--primary);
+  font-size: 30px;
   margin-top: 1rem;
 }
 
@@ -661,7 +660,7 @@ section h2 {
   color: #111;
 }
 
-.process h2 {
+.process h2, .faq h2 {
   margin-bottom: 2rem;
   color: #111;
   font-size: 32px;
