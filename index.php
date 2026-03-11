@@ -25,13 +25,14 @@
 
   <link rel="canonical" href="https://samiraomar.com">
   <meta name="robots" content="index, follow">
+  
   <!-------------------------manifest------>
   <!-- Favicon for browser tabs -->
-  <link rel="icon" type="image/png" sizes="32x32" href="icons/32.png" />
-  <link rel="icon" type="image/png" sizes="192x192" href="icons/192.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="icon/32.png" />
+  <link rel="icon" type="image/png" sizes="192x192" href="icon/192.png" />
 
   <!-- Apple touch icon for iOS home screen -->
-  <link rel="apple-touch-icon" sizes="180x180" href="icons/180.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="icon/180.png" />
 
   <!-- PWA manifest -->
   <link rel="manifest" href="manifest.json" />
