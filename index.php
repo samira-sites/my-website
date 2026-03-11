@@ -15,7 +15,7 @@
   <meta property="og:title" content="Modern Websites with Built-In Booking">
   <meta property="og:description"
     content="Get a website that automatically books clients and captures leads for your service business.">
-  <meta property="og:image" content="https://samiraomar.com/photo/preview.png">
+  <meta property="og:image" content="https://samiraomar.com/photo/preview2.png">
   <meta property="og:url" content="https://samiraomar.com">
   <meta property="og:type" content="website">
 
@@ -91,16 +91,14 @@
   <!-- ===== HERO ===== -->
   <section id="hero" class="hero">
     <div class="h1 card hidden animate-up">
+      <h3>CLEAN • MINIMAL • MODERN</h3>
       <h1 style="text-align: center;">
         From Idea to <span style="color: #ff7a00">Live Website</span>
       </h1>
-      <p style="text-align: justify">
-        Modern websites with
-        <span class="underline">built-in booking</span> and
-        <span class="underline">lead capture </span>
-        — designed to turn visitors into real client inquiries.
+      <p>
+        Modern websites with <strong>built-in booking and lead capture</strong>, making it easy for visitors to book
+        your services.
       </p>
-      <br />
 
       <div class="service-btn hero-btn">
         <button class="btn calendly-btn"
@@ -320,8 +318,7 @@
     </div>
   </section>
   <!------FAQ----------------->
-  <section class="faq card hidden animate-up" id="faq"
-  >
+  <section class="faq card hidden animate-up" id="faq">
     <h2 style="margin-top: 0">FAQ</h2>
 
     <details class="card hidden animate-up">
