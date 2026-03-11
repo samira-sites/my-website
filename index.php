@@ -355,16 +355,16 @@
         <input type="text" name="company" id="company" tabindex="-1" autocomplete="off" style="display: none" />
 
         <label for="name">Full Name</label>
-        <input type="text" id="name" name="Name" placeholder="Enter your full name" required />
+        <input type="text" id="name" name="Name" autocomplete="complete-name" placeholder="Enter your full name" required />
 
         <label for="email">Email</label>
-        <input type="email" id="email" name="Email" placeholder="Enter your email" required />
+        <input type="email" id="email" name="Email" autocomplete="off" placeholder="Enter your email" required />
 
         <label for="social">Social Media Link (optional)</label>
-        <input type="url" id="social" name="Social" placeholder="It helps us understand your brand or project" />
+        <input type="url" id="social" name="Social" autocomplete="social-media-link" placeholder="It helps us understand your brand or project" />
 
         <label for="message">Project Details / Message</label>
-        <textarea id="message" name="Message" placeholder="Describe your website idea here…" required></textarea>
+        <textarea id="message" name="Message" autocomplete="ideas" placeholder="Describe your website idea here…" required></textarea>
 
         <button type="submit" class="btn" id="button">Send message</button>
         <span id="msg" style="text-align: center"></span>
