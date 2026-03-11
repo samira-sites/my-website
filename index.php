@@ -65,7 +65,7 @@
       <li><a href="#process" class="navbar">How It Works</a></li>
     </ul>
 
-    <a href="#contact" class="navcontact">Contact Me</a>
+    <a href="#contact" class="navcontact" aria-label="Go to contact section">Contact Me</a>
 
     <div class="burger" id="burger">
       <span class="line1"></span>
@@ -84,18 +84,19 @@
       <li><a href="#who-i-help" class="mobile-link">Who I Help</a></li>
       <li><a href="#process" class="mobile-link">How It Works</a></li>
       <li style="text-align: center">
-        <a href="#contact" class="mobile-link navcontact">Contact Me</a>
+        <a href="#contact" class="mobile-link navcontact" aria-label="Go to contact section">Contact Me</a>
       </li>
     </ul>
   </div>
 
+  <main>
   <!-- ===== HERO ===== -->
   <section id="hero" class="hero">
     <div class="h1 card hidden animate-up">
       <h3>CLEAN • MINIMAL • MODERN</h3>
-      <h1 style="text-align: center;">
-        From Idea to <span style="color: #ff7a00">Live Website</span>
-      </h1>
+      <h1>
+        From Idea to <span class="highlight">Live Website</span>
+        </h1>
       <p>
         Modern websites with <strong>built-in booking and lead capture</strong>, making it easy for visitors to book
         your services.
@@ -372,6 +373,7 @@
     </div>
     <div></div>
   </section>
+</main>
 
   <script src="script.js"></script>
 
