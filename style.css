@@ -476,8 +476,15 @@ section h2 {
   width: clamp(300px, 32vw, 480px);
   height: auto;
   margin: 0 auto;
-  filter: drop-shadow(0 2px 6px var(--secondary));
+  filter: drop-shadow(0 10px 20px rgba(0,0,0,0.08))
+          drop-shadow(0 30px 60px rgba(0,0,0,0.12));
   display: block;
+  animation: float 6s ease-in-out infinite;
+}
+@keyframes float {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+  100% { transform: translateY(0px); }
 }
 
 /* ===== Premium Sliding Section ===== */
