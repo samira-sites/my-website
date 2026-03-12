@@ -62,7 +62,7 @@
     <li><a href="#hero">Home</a></li>
 <li><a href="#services">Services</a></li>
 <li><a href="#who-i-help">Who I Help</a></li>
-<li><a href="#process">How It Works</a></li>
+<li><a href="#process">Process</a></li>
     </ul>
 
     <a href="#contact" class="navcontact">Contact Me</a>
@@ -81,7 +81,7 @@
       <li><a href="#hero" class="mobile-link">Home</a></li>
       <li><a href="#services" class="mobile-link">Services</a></li>
       <li><a href="#who-i-help" class="mobile-link">Who I Help</a></li>
-      <li><a href="#process" class="mobile-link">How It Works</a></li>
+      <li><a href="#process" class="mobile-link">Process</a></li>
       <li style="text-align: center">
         <a href="#contact" class="mobile-link navcontact" aria-label="Go to contact section">Contact Me</a>
       </li>

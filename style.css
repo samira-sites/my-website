@@ -483,7 +483,7 @@ section h2 {
 /* ===== Premium Sliding Section ===== */
 
 .slider-section {
-  background: var(--secondary);
+box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.09);
   padding: 25px 0;
   overflow: hidden;
 }
@@ -503,7 +503,7 @@ section h2 {
   gap: 12px;
   font-size: 18px;
   font-weight: 600;
-  color: var(--light);
+  color: #666;
   letter-spacing: 0.5px;
 }
 
