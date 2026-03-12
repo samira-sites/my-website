@@ -56,7 +56,7 @@
 
   <nav>
     <div class="logo">
-      <img src="photo/navlogo.png" alt="Samira Omar logo" />
+      <img src="photo/navlogo.webp" alt="Samira Omar logo" />
     </div>
     <ul class="nav-links">
     <li><a href="#hero">Home</a></li>
@@ -92,13 +92,13 @@
   <!-- ===== HERO ===== -->
   <section id="hero" class="hero">
     <div class="h1 card hidden animate-up">
-      <h3>CLEAN • MINIMAL • MODERN</h3>
+      <h3>CLEAN • FAST • MODERN</h3>
       <h1>
         From Idea to Live Website
         </h1>
       <p>
-        Modern websites with <strong>built-in booking and lead capture</strong>, making it easy for visitors to book
-        your services.
+      Clean, fast websites with <strong>built-in booking and lead capture</strong>,
+      designed to turn visitors into real client inquiries.
       </p>
 
       <div class="service-btn hero-btn">
@@ -346,7 +346,7 @@
       </h2>
 
       <p class="card hidden animate-up" style="text-align: center">
-        Ready to build your website? Share your idea below. 😊
+        Ready to build your website? Share your idea below.
       </p>
       <br />
       <form action="#" method="POST" name="contactform" class="contact-form card hidden animate-up" id="contactform">
