@@ -15,7 +15,7 @@
   <meta property="og:title" content="Modern Websites with Built-In Booking">
   <meta property="og:description"
     content="Get a website that automatically books clients and captures leads for your service business.">
-    <meta property="og:image" content="https://samiraomar.com/photo/preview.png">
+    <meta property="og:image" content="https://samiraomar.com/photo/preview.png?v=2">
     <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 
