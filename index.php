@@ -2,55 +2,77 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="google-site-verification" content="uKtr2UsvXYFJ7ODbXEfgpqLQWKyUk05eIaa_YJjI_XU" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
-  <link rel="icon" href="/favicon.ico" type="image/x-icon" />
 
-  <title>From Idea to Live Website | Websites That Book Clients</title>
-  <meta name="description"
-    content="Turn your idea into a live website with booking and lead capture tools. Book a Free Discovery Call today." />
+<!-- Basic Meta -->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="google-site-verification" content="uKtr2UsvXYFJ7ODbXEfgpqLQWKyUk05eIaa_YJjI_XU">
 
-  <meta property="og:title" content="Modern Websites with Built-In Booking">
-  <meta property="og:description"
-    content="Get a website that automatically books clients and captures leads for your service business.">
-    <meta property="og:image" content="https://samiraomar.com/photo/preview-site.png">
-    <meta property="og:image:width" content="1200">
+<title>From Idea to Live Website | Websites That Book Clients</title>
+<meta name="description" content="Turn your idea into a live website with booking and lead capture tools. Book a Free Discovery Call today.">
+
+<!-- SEO -->
+<meta name="author" content="Samira Omar">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://samiraomar.com">
+
+<!-- Structured Data -->
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@type": "Person",
+ "name": "Samira Omar",
+ "url": "https://samiraomar.com/",
+ "jobTitle": "Website Developer",
+ "image": "https://samiraomar.com/photo/me.jpeg",
+ "logo": "https://samiraomar.com/photo/navlogo.webp",
+ "sameAs": [
+   "https://www.linkedin.com/in/samira-omar/"
+ ]
+}
+</script>
+
+<!-- Open Graph -->
+<meta property="og:title" content="Modern Websites with Built-In Booking">
+<meta property="og:description" content="Get a website that automatically books clients and captures leads for your service business.">
+<meta property="og:site_name" content="Samira Omar">
+<meta property="og:url" content="https://samiraomar.com">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+
+<meta property="og:image" content="https://samiraomar.com/photo/preview-site.png">
+<meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Preview of Samira Omar's modern website developer portfolio homepage">
 
-  <meta property="og:url" content="https://samiraomar.com">
-  <meta property="og:type" content="website">
+<meta property="fb:app_id" content="your_app_id">
 
-  <meta name="author" content="Samira Omar">
-  <meta name="theme-color" content="#ff7a00">
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@yourusername">
 
+<!-- Theme -->
+<meta name="theme-color" content="#ff7a00">
 
-  <link rel="canonical" href="https://samiraomar.com">
-  <meta name="robots" content="index, follow">
-  
-  <!-------------------------manifest------>
-  <!-- Favicon for browser tabs -->
-  <link rel="icon" type="image/png" sizes="32x32" href="icon/32.png" />
-  <link rel="icon" type="image/png" sizes="192x192" href="icon/192.png" />
+<!-- Icons / Favicons -->
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="icon" type="image/png" href="/favicon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="icon/32.png">
+<link rel="icon" type="image/png" sizes="192x192" href="icon/192.png">
+<link rel="apple-touch-icon" sizes="180x180" href="icon/180.png">
 
-  <!-- Apple touch icon for iOS home screen -->
-  <link rel="apple-touch-icon" sizes="180x180" href="icon/180.png" />
+<!-- PWA -->
+<link rel="manifest" href="manifest.json">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
 
-  <!-- PWA manifest -->
-  <link rel="manifest" href="manifest.json" />
+<!-- CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<link rel="stylesheet" href="style.css">
 
-  <!-- Theme colors for browser UI -->
-  <meta name="theme-color" content="#ffbd59" />
-
-  <!-- Optional: Apple-specific meta tags -->
-  <meta name="apple-mobile-web-app-capable" content="yes" />
-  <meta name="mobile-web-app-capable" content="yes" />
-  <meta name="apple-mobile-web-app-status-bar-style" content="default" />
-
-  <link rel="stylesheet" href="style.css" />
 </head>
-
 <body>
   <!--  WhatsApp Button -->
   <a href="https://wa.me/96567077369" target="_blank" class="whatsapp-right" aria-label="Chat on WhatsApp">
@@ -62,10 +84,10 @@
       <img src="photo/navlogo.webp" alt="Samira Omar logo" />
     </div>
     <ul class="nav-links">
-    <li><a href="#hero">Home</a></li>
-<li><a href="#services">Services</a></li>
-<li><a href="#who-i-help">Who I Help</a></li>
-<li><a href="#process">Process</a></li>
+      <li><a href="#hero">Home</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#who-i-help">Who I Help</a></li>
+      <li><a href="#process">Process</a></li>
     </ul>
 
     <a href="#contact" class="navcontact">Contact Me</a>
@@ -92,290 +114,293 @@
   </div>
 
   <main>
-  <!-- ===== HERO ===== -->
-  <section id="hero" class="hero">
-    <div class="h1 card hidden animate-up">
-      <h3>CLEAN • FAST • MODERN</h3>
-      <h1>
-        From Idea to Live Website
+    <!-- ===== HERO ===== -->
+    <section id="hero" class="hero">
+      <div class="h1 card hidden animate-up">
+        <h3>CLEAN • FAST • MODERN</h3>
+        <h1>
+          From Idea to Live Website
         </h1>
-      <p>
-      Clean, fast websites with <strong>built-in booking and lead capture</strong>,
-      designed to turn visitors into real client inquiries.
-      </p>
-
-      <div class="service-btn hero-btn">
-        <button class="btn calendly-btn"
-          onclick="Calendly.initPopupWidget({url: 'https://calendly.com/samiraomar/30min?background_color=111111&text_color=ffffff&primary_color=ffbd59'}); return false;">
-          Book a Free Discovery Call
-        </button>
-      </div>
-    </div>
-
-    <!-- Calendly Script -->
-    <script src="https://assets.calendly.com/assets/external/widget.js" async></script>
-
-    <!--Calendly CSS-->
-    <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet" />
-
-    <div class="card hidden animate-up">
-      <img src="photo/hero-profile.webp" alt="Samira Omar profile" fetchpriority="high" loading="lazy" />
-      <div class="card-linkedin">
-        <span class="connect-text">Let's connect</span>
-        <a href="https://www.linkedin.com/in/samira-omar/" class="linkedin-hero" target="_blank">
-          <i class="fab fa-linkedin-in"></i>
-        </a>
-      </div>
-    </div>
-  </section>
-  <!------------Slider------------>
-  <section class="slider-section">
-    <div class="slider">
-      <div class="slide-track">
-        <div class="slide">
-          <i class="fa-solid fa-rocket"></i>
-          <span>More Bookings</span>
-        </div>
-
-        <div class="slide">
-          <i class="fa-solid fa-calendar-check"></i>
-          <span>Automated Scheduling</span>
-        </div>
-
-        <div class="slide">
-          <i class="fa-solid fa-mobile-screen-button"></i>
-          <span>Mobile-Friendly Design</span>
-        </div>
-
-        <div class="slide">
-          <i class="fa-solid fa-bolt"></i>
-          <span>Fast Loading</span>
-        </div>
-
-        <div class="slide">
-          <i class="fa-solid fa-chart-line"></i>
-          <span>SEO-Optimized</span>
-        </div>
-
-        <div class="slide">
-          <i class="fa-solid fa-file-lines"></i>
-          <span>Smart Client Forms</span>
-        </div>
-
-        <!-- Duplicate for smooth infinite scroll -->
-
-        <div class="slide">
-          <i class="fa-solid fa-rocket"></i>
-          <span>More Bookings</span>
-        </div>
-
-        <div class="slide">
-          <i class="fa-solid fa-calendar-check"></i>
-          <span>Automated Scheduling</span>
-        </div>
-
-        <div class="slide">
-          <i class="fa-solid fa-mobile-screen-button"></i>
-          <span>Mobile-Friendly Design</span>
-        </div>
-
-        <div class="slide">
-          <i class="fa-solid fa-bolt"></i>
-          <span>Fast Loading</span>
-        </div>
-
-        <div class="slide">
-          <i class="fa-solid fa-chart-line"></i>
-          <span>SEO-Optimized</span>
-        </div>
-
-        <div class="slide">
-          <i class="fa-solid fa-file-lines"></i>
-          <span>Smart Client Forms</span>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ===== SERVICES ===== -->
-  <section id="services" class="services">
-    <h2 style="text-align: center" class="card hidden animate-up">
-      My Services
-    </h2>
-    <p class="card hidden animate-up" style="color: #222; text-align: center">
-      Here’s what I offer to help your business online:
-    </p>
-    <br />
-    <div class="services-grid">
-      <div class="service-card card hidden animate-up">
-        <h3>🖥️ Responsive Websites</h3>
-        <p>Work smoothly on desktop, tablet, and mobile devices</p>
-      </div>
-
-      <div class="service-card card hidden animate-up">
-        <h3>📅 Booking & Forms</h3>
-        <p>Integrated appointment scheduling and contact forms</p>
-      </div>
-
-      <div class="service-card card hidden animate-up">
-        <h3>🎨 Custom Design</h3>
-        <p>Clean designs tailored to your business brand</p>
-      </div>
-
-      <div class="service-card card hidden animate-up">
-        <h3>⚡ SEO-Ready Websites</h3>
-        <p>Proper headings, meta tags, optimized structure</p>
-      </div>
-
-      <div class="service-card card hidden animate-up">
-        <h3>🖼️ Image Optimization</h3>
         <p>
-          Fast-loading images that improve website speed and user experience.
+          Clean, fast websites with <strong>built-in booking and lead capture</strong>,
+          designed to turn visitors into real client inquiries.
         </p>
-      </div>
 
-      <div class="service-card card hidden animate-up">
-        <h3>
-          🛠️ Website Maintenance & Updates
-          <span style="color: #ff7a00">(Add-On)</span>
-        </h3>
-        <p>Keep your website secure and updated</p>
-      </div>
-    </div>
-    <br />
-    <div class="service-btn">
-      <button class="btn calendly-btn">Book a Free Discovery Call</button>
-    </div>
-  </section>
-
-  <!-- ===== WHO I HELP ===== -->
-  <section id="who-i-help" class="who">
-    <div class="container card hidden animate-up">
-      <h2 class="section-title card hidden animate-up">Who I Help</h2>
-
-      <p class="section-subtitle">
-        I work with service-based businesses that need modern websites with
-        built-in booking systems and client forms.
-      </p>
-
-      <div class="who-grid">
-        <div class="who-card card hidden animate-up">
-          <div class="who-icon">💇‍♀️</div>
-          <h3>Salons & Beauty Studios</h3>
-          <p>Online appointment booking and client intake forms.</p>
-        </div>
-
-        <div class="who-card card hidden animate-up">
-          <div class="who-icon">🏥</div>
-          <h3>Clinics & Health Services</h3>
-          <p>Secure forms and simple scheduling for patients.</p>
-        </div>
-
-        <div class="who-card card hidden animate-up">
-          <div class="who-icon">🏋️</div>
-          <h3>Fitness Coaches</h3>
-          <p>Consultation booking, and lead capture.</p>
-        </div>
-
-        <div class="who-card card hidden animate-up">
-          <div class="who-icon">💼</div>
-          <h3>Consultants</h3>
-          <p>Discovery calls and automated client onboarding.</p>
-        </div>
-
-        <div class="who-card card hidden animate-up">
-          <div class="who-icon">🛠️</div>
-          <h3>Other Service Providers</h3>
-          <p>Any business that relies on appointments and client forms.</p>
+        <div class="service-btn hero-btn">
+          <button class="btn calendly-btn"
+            onclick="Calendly.initPopupWidget({url: 'https://calendly.com/samiraomar/30min?background_color=111111&text_color=ffffff&primary_color=ffbd59'}); return false;">
+            Book a Free Discovery Call
+          </button>
         </div>
       </div>
-    </div>
-    <br />
-    <div class="service-btn">
-      <button class="btn calendly-btn">Book a Free Discovery Call</button>
-    </div>
-  </section>
 
-  <section class="process" id="process">
-    <h2 class="card hidden animate-up">How It Works</h2>
+      <!-- Calendly Script -->
+      <script src="https://assets.calendly.com/assets/external/widget.js" async></script>
 
-    <div class="process-steps">
-      <div class="step card hidden animate-up">
-        <span>1</span>
-        <h3>Share Your Idea</h3>
-        <p>Tell me what kind of website you need and your goals.</p>
+      <!--Calendly CSS-->
+      <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet" />
+
+      <div class="card hidden animate-up">
+        <img src="photo/hero-profile.webp" alt="Samira Omar profile" fetchpriority="high" loading="lazy" />
+        <div class="card-linkedin">
+          <span class="connect-text">Let's connect</span>
+          <a href="https://www.linkedin.com/in/samira-omar/" class="linkedin-hero" target="_blank">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+        </div>
       </div>
+    </section>
+    <!------------Slider------------>
+    <section class="slider-section">
+      <div class="slider">
+        <div class="slide-track">
+          <div class="slide">
+            <i class="fa-solid fa-rocket"></i>
+            <span>More Bookings</span>
+          </div>
 
-      <div class="step card hidden animate-up">
-        <span>2</span>
-        <h3>I Design & Build</h3>
-        <p>I create a clean, responsive website tailored to your business.</p>
+          <div class="slide">
+            <i class="fa-solid fa-calendar-check"></i>
+            <span>Automated Scheduling</span>
+          </div>
+
+          <div class="slide">
+            <i class="fa-solid fa-mobile-screen-button"></i>
+            <span>Mobile-Friendly Design</span>
+          </div>
+
+          <div class="slide">
+            <i class="fa-solid fa-bolt"></i>
+            <span>Fast Loading</span>
+          </div>
+
+          <div class="slide">
+            <i class="fa-solid fa-chart-line"></i>
+            <span>SEO-Optimized</span>
+          </div>
+
+          <div class="slide">
+            <i class="fa-solid fa-file-lines"></i>
+            <span>Smart Client Forms</span>
+          </div>
+
+          <!-- Duplicate for smooth infinite scroll -->
+
+          <div class="slide">
+            <i class="fa-solid fa-rocket"></i>
+            <span>More Bookings</span>
+          </div>
+
+          <div class="slide">
+            <i class="fa-solid fa-calendar-check"></i>
+            <span>Automated Scheduling</span>
+          </div>
+
+          <div class="slide">
+            <i class="fa-solid fa-mobile-screen-button"></i>
+            <span>Mobile-Friendly Design</span>
+          </div>
+
+          <div class="slide">
+            <i class="fa-solid fa-bolt"></i>
+            <span>Fast Loading</span>
+          </div>
+
+          <div class="slide">
+            <i class="fa-solid fa-chart-line"></i>
+            <span>SEO-Optimized</span>
+          </div>
+
+          <div class="slide">
+            <i class="fa-solid fa-file-lines"></i>
+            <span>Smart Client Forms</span>
+          </div>
+        </div>
       </div>
+    </section>
 
-      <div class="step card hidden animate-up">
-        <span>3</span>
-        <h3>Review & Launch</h3>
-        <p>
-          I review your site, make the needed updates, and launch it for you.
-        </p>
-      </div>
-    </div>
-  </section>
-  <!------FAQ----------------->
-  <section class="faq card hidden animate-up" id="faq">
-    <h2 style="margin-top: 0">FAQ</h2>
-
-    <details class="card hidden animate-up">
-      <summary>How long does it take to build a website?</summary>
-      <p>Usually 10 - 14 days, depending on the project size.</p>
-    </details>
-
-    <details class="card hidden animate-up">
-      <summary>Do you offer revisions?</summary>
-      <p>Yes, I include 2 revisions to make sure you’re happy.</p>
-    </details>
-
-    <details class="card hidden animate-up">
-      <summary>What do you need from me to start?</summary>
-      <p>Your content, ideas, and any examples you like.</p>
-    </details>
-  </section>
-
-  <!-- ===== CONTACT ===== -->
-  <section id="contact" class="contact">
-    <div>
-      <h2 class="card hidden animate-up" style="text-align: center">
-        Get in Touch
+    <!-- ===== SERVICES ===== -->
+    <section id="services" class="services">
+      <h2 style="text-align: center" class="card hidden animate-up">
+        My Services
       </h2>
-
-      <p class="card hidden animate-up" style="text-align: center">
-        Ready to build your website? Share your idea below.
+      <p class="card hidden animate-up" style="color: #222; text-align: center">
+        Here’s what I offer to help your business online:
       </p>
       <br />
-      <form action="#" method="POST" name="contactform" class="contact-form card hidden animate-up" id="contactform">
-        <input type="hidden" name="Source" value="SAM" />
+      <div class="services-grid">
+        <div class="service-card card hidden animate-up">
+          <h3>🖥️ Responsive Websites</h3>
+          <p>Work smoothly on desktop, tablet, and mobile devices</p>
+        </div>
 
-        <input type="text" name="company" id="company" tabindex="-1" autocomplete="off" style="display: none" />
+        <div class="service-card card hidden animate-up">
+          <h3>📅 Booking & Forms</h3>
+          <p>Integrated appointment scheduling and contact forms</p>
+        </div>
 
-        <label for="name">Full Name</label>
-        <input type="text" id="name" name="Name" autocomplete="complete-name" placeholder="Enter your full name" required />
+        <div class="service-card card hidden animate-up">
+          <h3>🎨 Custom Design</h3>
+          <p>Clean designs tailored to your business brand</p>
+        </div>
 
-        <label for="email">Email</label>
-        <input type="email" id="email" name="Email" autocomplete="off" placeholder="Enter your email" required />
+        <div class="service-card card hidden animate-up">
+          <h3>⚡ SEO-Ready Websites</h3>
+          <p>Proper headings, meta tags, optimized structure</p>
+        </div>
 
-        <label for="social">Social Media Link (optional)</label>
-        <input type="url" id="social" name="Social" autocomplete="social-media-link" placeholder="It helps us understand your brand or project" />
+        <div class="service-card card hidden animate-up">
+          <h3>🖼️ Image Optimization</h3>
+          <p>
+            Fast-loading images that improve website speed and user experience.
+          </p>
+        </div>
 
-        <label for="message">Project Details / Message</label>
-        <textarea id="message" name="Message" autocomplete="ideas" placeholder="Describe your website idea here…" required></textarea>
+        <div class="service-card card hidden animate-up">
+          <h3>
+            🛠️ Website Maintenance & Updates
+            <span style="color: #ff7a00">(Add-On)</span>
+          </h3>
+          <p>Keep your website secure and updated</p>
+        </div>
+      </div>
+      <br />
+      <div class="service-btn">
+        <button class="btn calendly-btn">Book a Free Discovery Call</button>
+      </div>
+    </section>
 
-        <button type="submit" class="btn" id="button">Send message</button>
-        <span id="msg" style="text-align: center"></span>
-      </form>
-    </div>
-    <div></div>
-  </section>
-</main>
+    <!-- ===== WHO I HELP ===== -->
+    <section id="who-i-help" class="who">
+      <div class="container card hidden animate-up">
+        <h2 class="section-title card hidden animate-up">Who I Help</h2>
+
+        <p class="section-subtitle">
+          I work with service-based businesses that need modern websites with
+          built-in booking systems and client forms.
+        </p>
+
+        <div class="who-grid">
+          <div class="who-card card hidden animate-up">
+            <div class="who-icon">💇‍♀️</div>
+            <h3>Salons & Beauty Studios</h3>
+            <p>Online appointment booking and client intake forms.</p>
+          </div>
+
+          <div class="who-card card hidden animate-up">
+            <div class="who-icon">🏥</div>
+            <h3>Clinics & Health Services</h3>
+            <p>Secure forms and simple scheduling for patients.</p>
+          </div>
+
+          <div class="who-card card hidden animate-up">
+            <div class="who-icon">🏋️</div>
+            <h3>Fitness Coaches</h3>
+            <p>Consultation booking, and lead capture.</p>
+          </div>
+
+          <div class="who-card card hidden animate-up">
+            <div class="who-icon">💼</div>
+            <h3>Consultants</h3>
+            <p>Discovery calls and automated client onboarding.</p>
+          </div>
+
+          <div class="who-card card hidden animate-up">
+            <div class="who-icon">🛠️</div>
+            <h3>Other Service Providers</h3>
+            <p>Any business that relies on appointments and client forms.</p>
+          </div>
+        </div>
+      </div>
+      <br />
+      <div class="service-btn">
+        <button class="btn calendly-btn">Book a Free Discovery Call</button>
+      </div>
+    </section>
+
+    <section class="process" id="process">
+      <h2 class="card hidden animate-up">How It Works</h2>
+
+      <div class="process-steps">
+        <div class="step card hidden animate-up">
+          <span>1</span>
+          <h3>Share Your Idea</h3>
+          <p>Tell me what kind of website you need and your goals.</p>
+        </div>
+
+        <div class="step card hidden animate-up">
+          <span>2</span>
+          <h3>I Design & Build</h3>
+          <p>I create a clean, responsive website tailored to your business.</p>
+        </div>
+
+        <div class="step card hidden animate-up">
+          <span>3</span>
+          <h3>Review & Launch</h3>
+          <p>
+            I review your site, make the needed updates, and launch it for you.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!------FAQ----------------->
+    <section class="faq card hidden animate-up" id="faq">
+      <h2 style="margin-top: 0">FAQ</h2>
+
+      <details class="card hidden animate-up">
+        <summary>How long does it take to build a website?</summary>
+        <p>Usually 10 - 14 days, depending on the project size.</p>
+      </details>
+
+      <details class="card hidden animate-up">
+        <summary>Do you offer revisions?</summary>
+        <p>Yes, I include 2 revisions to make sure you’re happy.</p>
+      </details>
+
+      <details class="card hidden animate-up">
+        <summary>What do you need from me to start?</summary>
+        <p>Your content, ideas, and any examples you like.</p>
+      </details>
+    </section>
+
+    <!-- ===== CONTACT ===== -->
+    <section id="contact" class="contact">
+      <div>
+        <h2 class="card hidden animate-up" style="text-align: center">
+          Get in Touch
+        </h2>
+
+        <p class="card hidden animate-up" style="text-align: center">
+          Ready to build your website? Share your idea below.
+        </p>
+        <br />
+        <form action="#" method="POST" name="contactform" class="contact-form card hidden animate-up" id="contactform">
+          <input type="hidden" name="Source" value="SAM" />
+
+          <input type="text" name="company" id="company" tabindex="-1" autocomplete="off" style="display: none" />
+
+          <label for="name">Full Name</label>
+          <input type="text" id="name" name="Name" autocomplete="complete-name" placeholder="Enter your full name"
+            required />
+
+          <label for="email">Email</label>
+          <input type="email" id="email" name="Email" autocomplete="off" placeholder="Enter your email" required />
+
+          <label for="social">Social Media Link (optional)</label>
+          <input type="url" id="social" name="Social" autocomplete="social-media-link"
+            placeholder="It helps us understand your brand or project" />
+
+          <label for="message">Project Details / Message</label>
+          <textarea id="message" name="Message" autocomplete="ideas" placeholder="Describe your website idea here…"
+            required></textarea>
+
+          <button type="submit" class="btn" id="button">Send message</button>
+          <span id="msg" style="text-align: center"></span>
+        </form>
+      </div>
+      <div></div>
+    </section>
+  </main>
 
   <script src="script.js"></script>
 
