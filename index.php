@@ -272,40 +272,40 @@
 
     <!-- ===== WHO I HELP ===== -->
     <section id="who-i-help" class="who">
-      <div class="container card hidden animate-left">
-        <h2 class="section-title card hidden animate-left">Who I Help</h2>
+      <div class="container card hidden animate-up">
+        <h2 class="section-title card">Who I Help</h2>
 
-        <p class="section-subtitle hidden animate-left">
+        <p class="section-subtitle">
           I work with service-based businesses that need modern websites with
           built-in booking systems and client forms.
         </p>
 
         <div class="who-grid">
-          <div class="who-card card hidden animate-left">
+          <div class="who-card card hidden animate-up">
             <div class="who-icon">💇‍♀️</div>
             <h3>Salons & Beauty Studios</h3>
             <p>Online appointment booking and client intake forms.</p>
           </div>
 
-          <div class="who-card card hidden animate-left">
+          <div class="who-card card hidden animate-up">
             <div class="who-icon">🏥</div>
             <h3>Clinics & Health Services</h3>
             <p>Secure forms and simple scheduling for patients.</p>
           </div>
 
-          <div class="who-card card hidden animate-left">
+          <div class="who-card card hidden animate-up">
             <div class="who-icon">🏋️</div>
             <h3>Fitness Coaches</h3>
             <p>Consultation booking, and lead capture.</p>
           </div>
 
-          <div class="who-card card hidden animate-left">
+          <div class="who-card card hidden animate-up">
             <div class="who-icon">💼</div>
             <h3>Consultants</h3>
             <p>Discovery calls and automated client onboarding.</p>
           </div>
 
-          <div class="who-card card hidden animate-left">
+          <div class="who-card card hidden animate-up">
             <div class="who-icon">🛠️</div>
             <h3>Other Service Providers</h3>
             <p>Any business that relies on appointments and client forms.</p>
@@ -319,7 +319,7 @@
     </section>
 
     <section class="process" id="process">
-      <h2 class="card hidden animate-up">How It Works</h2>
+      <h2 class="card hidden">How It Works</h2>
 
       <div class="process-steps">
         <div class="step card hidden animate-up">
@@ -344,20 +344,20 @@
       </div>
     </section>
     <!------FAQ----------------->
-    <section class="faq card hidden animate-right" id="faq">
+    <section class="faq card" id="faq">
       <h2 style="margin-top: 0">FAQ</h2>
 
-      <details class="card hidden animate-right">
+      <details class="card hidden animate-up">
         <summary>How long does it take to build a website?</summary>
         <p>Usually 10 - 14 days, depending on the project size.</p>
       </details>
 
-      <details class="card hidden animate-right">
+      <details class="card hidden animate-up">
         <summary>Do you offer revisions?</summary>
         <p>Yes, I include 2 revisions to make sure you’re happy.</p>
       </details>
 
-      <details class="card hidden animate-right">
+      <details class="card hidden animate-up">
         <summary>What do you need from me to start?</summary>
         <p>Your content, ideas, and any examples you like.</p>
       </details>
@@ -366,11 +366,11 @@
     <!-- ===== CONTACT ===== -->
     <section id="contact" class="contact">
       <div>
-        <h2 class="card hidden animate-up" style="text-align: center">
+        <h2 class="card" style="text-align: center">
           Get in Touch
         </h2>
 
-        <p class="card hidden animate-up" style="text-align: center">
+        <p class="card" style="text-align: center">
           Ready to build your website? Share your idea below.
         </p>
         <br />
@@ -467,8 +467,7 @@
           });
       });
   </script>
-</body>
-<footer class="footer">
+  <footer class="footer">
   <div>
     <span class="connect-text" style="color: #ff7a00">Linked</span>
     <a href="https://www.linkedin.com/in/samira-omar/" class="linkedin-footer" target="_blank">
@@ -477,8 +476,8 @@
 
   </div>
   <strong>© 2026 Samira Omar</strong> — Website Developer | All rights reserved
-
-
 </footer>
+</body>
+
 
 </html>
