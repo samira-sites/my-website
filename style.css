@@ -5,14 +5,12 @@
   --hover: #e26c05;
 }
 
-/* ===== GLOBAL STYLES ===== */
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
-/* WhatsApp Bottom Left */
 .whatsapp-right {
   position: fixed;
   right: 0;
@@ -99,19 +97,18 @@ nav ul {
   padding: 0.8rem 1.8rem;
   gap: 2rem;
 }
-/* Navbar links - polished */
+
 nav ul li a {
   color: var(--secondary);
   font-weight: 600;
   font-size: clamp(12px, 1vw, 18px);
   text-decoration: none;
   padding: 8px 0;
-  position: relative; /* needed for ::after underline */
+  position: relative;
   transition: color 0.3s ease, transform 0.2s ease;
   letter-spacing: 0.3px;
 }
 
-/* Animated underline from center */
 nav ul li a::after {
   content: "";
   position: absolute;
@@ -123,7 +120,6 @@ nav ul li a::after {
   transition: width 0.6s ease-in-out, left 0.3s ease-in-out;
 }
 
-/* Hover effect */
 nav ul li a:hover {
   color: #555;
 }
@@ -582,7 +578,6 @@ section h2 {
   justify-content: center;
 }
 
-/* Responsive Grid */
 @media (max-width: 768px) {
   .services-grid {
     grid-template-columns: 1fr;
@@ -806,7 +801,6 @@ section h2 {
   box-shadow: 0px 2px 8px var(--light);
 }
 
-/*-------linkend----*/
 
 .linkedin-footer {
   background: var(--primary);
@@ -919,29 +913,8 @@ section h2 {
     padding: 0;
     line-height: 2;
   }
-
-  .social-icons a {
-    display: inline-block;
-    border-radius: 10px;
-    font-size: 20px;
-    color: #ffbd59;
-    margin: 0 0.5rem;
-    text-decoration: none;
-    transition: transform 0.6s ease, color 0.3s ease;
-    padding: 0 10px;
-  }
-
-  .contact .contact-B {
-    border: 1px solid var(--primary);
-    border-radius: 10px;
-    height: auto;
-    padding: 2rem 0;
-  }
 }
-
 /*-------------smooth popup scroll--------*/
-
-
 .hidden {
   opacity: 0;
   transform: translateY(30px);
