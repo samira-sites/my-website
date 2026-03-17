@@ -140,7 +140,7 @@
       <!--Calendly CSS-->
       <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet" />
 
-      <div class="card hidden animate-right">
+      <div class="card hidden animate-up">
         <img src="photo/hero-profile.webp" alt="Samira Omar profile" fetchpriority="high" loading="lazy" />
         <div class="card-linkedin">
           <span class="connect-text">Let's connect</span>
