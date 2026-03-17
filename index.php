@@ -272,7 +272,7 @@
 
     <!-- ===== WHO I HELP ===== -->
     <section id="who-i-help" class="who">
-      <div class="container card hidden animate-up">
+      <div class="container">
         <h2 class="section-title card">Who I Help</h2>
 
         <p class="section-subtitle">
