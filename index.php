@@ -24,7 +24,7 @@
  "name": "Samira Omar",
  "url": "https://samiraomar.com/",
  "jobTitle": "Website Developer",
- "image": "https://samiraomar.com/photo/me.jpeg",
+ "image": "https://samiraomar.com/photo/me.webp",
  "logo": "https://samiraomar.com/photo/navlogo.webp",
  "sameAs": [
    "https://www.linkedin.com/in/samira-omar/"
@@ -140,7 +140,7 @@
       <!--Calendly CSS-->
       <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet" />
 
-      <div class="card hidden animate-up">
+      <div class="card hidden animate-right">
         <img src="photo/hero-profile.webp" alt="Samira Omar profile" fetchpriority="high" loading="lazy" />
         <div class="card-linkedin">
           <span class="connect-text">Let's connect</span>
@@ -221,10 +221,10 @@
 
     <!-- ===== SERVICES ===== -->
     <section id="services" class="services">
-      <h2 style="text-align: center" class="card hidden animate-up">
+      <h2 style="text-align: center" class="card">
         My Services
       </h2>
-      <p class="card hidden animate-up" style="color: #222; text-align: center">
+      <p style="color: #222; text-align: center">
         Here’s what I offer to help your business online:
       </p>
       <br />
@@ -272,40 +272,40 @@
 
     <!-- ===== WHO I HELP ===== -->
     <section id="who-i-help" class="who">
-      <div class="container card hidden animate-up">
-        <h2 class="section-title card hidden animate-up">Who I Help</h2>
+      <div class="container card hidden animate-left">
+        <h2 class="section-title card hidden animate-left">Who I Help</h2>
 
-        <p class="section-subtitle">
+        <p class="section-subtitle hidden animate-left">
           I work with service-based businesses that need modern websites with
           built-in booking systems and client forms.
         </p>
 
         <div class="who-grid">
-          <div class="who-card card hidden animate-up">
+          <div class="who-card card hidden animate-left">
             <div class="who-icon">💇‍♀️</div>
             <h3>Salons & Beauty Studios</h3>
             <p>Online appointment booking and client intake forms.</p>
           </div>
 
-          <div class="who-card card hidden animate-up">
+          <div class="who-card card hidden animate-left">
             <div class="who-icon">🏥</div>
             <h3>Clinics & Health Services</h3>
             <p>Secure forms and simple scheduling for patients.</p>
           </div>
 
-          <div class="who-card card hidden animate-up">
+          <div class="who-card card hidden animate-left">
             <div class="who-icon">🏋️</div>
             <h3>Fitness Coaches</h3>
             <p>Consultation booking, and lead capture.</p>
           </div>
 
-          <div class="who-card card hidden animate-up">
+          <div class="who-card card hidden animate-left">
             <div class="who-icon">💼</div>
             <h3>Consultants</h3>
             <p>Discovery calls and automated client onboarding.</p>
           </div>
 
-          <div class="who-card card hidden animate-up">
+          <div class="who-card card hidden animate-left">
             <div class="who-icon">🛠️</div>
             <h3>Other Service Providers</h3>
             <p>Any business that relies on appointments and client forms.</p>
@@ -344,20 +344,20 @@
       </div>
     </section>
     <!------FAQ----------------->
-    <section class="faq card hidden animate-up" id="faq">
+    <section class="faq card hidden animate-right" id="faq">
       <h2 style="margin-top: 0">FAQ</h2>
 
-      <details class="card hidden animate-up">
+      <details class="card hidden animate-right">
         <summary>How long does it take to build a website?</summary>
         <p>Usually 10 - 14 days, depending on the project size.</p>
       </details>
 
-      <details class="card hidden animate-up">
+      <details class="card hidden animate-right">
         <summary>Do you offer revisions?</summary>
         <p>Yes, I include 2 revisions to make sure you’re happy.</p>
       </details>
 
-      <details class="card hidden animate-up">
+      <details class="card hidden animate-right">
         <summary>What do you need from me to start?</summary>
         <p>Your content, ideas, and any examples you like.</p>
       </details>

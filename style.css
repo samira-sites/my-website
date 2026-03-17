@@ -940,7 +940,39 @@ section h2 {
 }
 
 /*-------------smooth popup scroll--------*/
+/* Base hidden state */
 .hidden {
+  opacity: 0;
+}
+
+/* Animation transition */
+.animate-up,
+.animate-left,
+.animate-right {
+  transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+  will-change: opacity, transform;
+}
+
+/* Directions */
+.animate-up {
+  transform: translateY(30px);
+}
+
+.animate-left {
+  transform: translateX(-30px);
+}
+
+.animate-right {
+  transform: translateX(30px);
+}
+
+/* When visible */
+.show {
+  opacity: 1;
+  transform: translate(0);
+}
+
+/*---------.hidden {
   opacity: 0;
   transform: translateY(30px);
 }
@@ -954,6 +986,10 @@ section h2 {
   opacity: 1;
   transform: translateY(0);
 }
+
+.animate-left{
+  transform: translateX(30px);
+} ----------*/
 
 /* Floating Feedback Button */
 #feedbackButton {
