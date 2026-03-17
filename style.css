@@ -30,7 +30,6 @@
 
 .whatsapp-right:hover {
   transform: scale(1.1);
-  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
 }
 
 body {
@@ -60,7 +59,6 @@ body {
 }
 
 /*=======HEADER=======*/
-
 nav {
   background-color: var(--light);
   box-shadow: 0 1px 6px rgba(0, 0, 0, 0.08);
@@ -902,11 +900,9 @@ section h2 {
   background-color: #333131;
   color: var(--primary);
   border: none;
-  transform: translateY(-50%);
-  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.25);
+
 }
 
-/* Popup Overlay */
 .popup {
   display: none;
   position: fixed;
@@ -921,7 +917,6 @@ section h2 {
   animation: fadeIn 0.3s ease-in-out;
 }
 
-/* Popup Form */
 .popup-form {
   background: #fff;
   padding: 25px 30px;
@@ -935,7 +930,6 @@ section h2 {
   font-family: "Nunito", "Segoe UI", Roboto, Arial, sans-serif;
 }
 
-/* Headings */
 .popup-form h2 {
   margin: 0;
   text-align: center;
@@ -952,7 +946,6 @@ section h2 {
   font-weight: bold;
 }
 
-/* Inputs & Textarea */
 .popup-form input[type="text"],
 .popup-form textarea {
   padding: 10px 12px;
@@ -971,7 +964,6 @@ section h2 {
   outline: none;
 }
 
-/* Stars */
 .stars {
   display: flex;
   flex-direction: row-reverse;
