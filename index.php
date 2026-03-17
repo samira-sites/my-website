@@ -3,21 +3,22 @@
 
 <head>
 
-<!-- Basic Meta -->
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="google-site-verification" content="uKtr2UsvXYFJ7ODbXEfgpqLQWKyUk05eIaa_YJjI_XU">
+  <!-- Basic Meta -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="google-site-verification" content="uKtr2UsvXYFJ7ODbXEfgpqLQWKyUk05eIaa_YJjI_XU">
 
-<title>From Idea to Live Website | Websites That Book Clients</title>
-<meta name="description" content="Turn your idea into a live website with booking and lead capture tools. Book a Free Discovery Call today.">
+  <title>From Idea to Live Website | Websites That Book Clients</title>
+  <meta name="description"
+    content="Turn your idea into a live website with booking and lead capture tools. Book a Free Discovery Call today.">
 
-<!-- SEO -->
-<meta name="author" content="Samira Omar">
-<meta name="robots" content="index, follow">
-<link rel="canonical" href="https://samiraomar.com">
+  <!-- SEO -->
+  <meta name="author" content="Samira Omar">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://samiraomar.com">
 
-<!-- Structured Data -->
-<script type="application/ld+json">
+  <!-- Structured Data -->
+  <script type="application/ld+json">
 {
  "@context": "https://schema.org",
  "@type": "Person",
@@ -32,47 +33,49 @@
 }
 </script>
 
-<!-- Open Graph -->
-<meta property="og:title" content="Modern Websites with Built-In Booking">
-<meta property="og:description" content="Get a website that automatically books clients and captures leads for your service business.">
-<meta property="og:site_name" content="Samira Omar">
-<meta property="og:url" content="https://samiraomar.com">
-<meta property="og:type" content="website">
-<meta property="og:locale" content="en_US">
+  <!-- Open Graph -->
+  <meta property="og:title" content="Modern Websites with Built-In Booking">
+  <meta property="og:description"
+    content="Get a website that automatically books clients and captures leads for your service business.">
+  <meta property="og:site_name" content="Samira Omar">
+  <meta property="og:url" content="https://samiraomar.com">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="en_US">
 
-<meta property="og:image" content="https://samiraomar.com/photo/preview-site.png">
-<meta property="og:image:width" content="1200">
-<meta property="og:image:height" content="630">
-<meta property="og:image:alt" content="Preview of Samira Omar's modern website developer portfolio homepage">
+  <meta property="og:image" content="https://samiraomar.com/photo/preview-site.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Preview of Samira Omar's modern website developer portfolio homepage">
 
-<meta property="fb:app_id" content="your_app_id">
+  <meta property="fb:app_id" content="your_app_id">
 
-<!-- Twitter -->
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:site" content="@yourusername">
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@yourusername">
 
-<!-- Theme -->
-<meta name="theme-color" content="#ff7a00">
+  <!-- Theme -->
+  <meta name="theme-color" content="#ff7a00">
 
-<!-- Icons / Favicons -->
-<link rel="icon" href="/favicon.ico" type="image/x-icon">
-<link rel="icon" type="image/svg+xml" href="/favicon.svg">
-<link rel="icon" type="image/png" href="/favicon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="icon/32.png">
-<link rel="icon" type="image/png" sizes="192x192" href="icon/192.png">
-<link rel="apple-touch-icon" sizes="180x180" href="icon/180.png">
+  <!-- Icons / Favicons -->
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="icon" type="image/png" href="/favicon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="icon/32.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="icon/192.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="icon/180.png">
 
-<!-- PWA -->
-<link rel="manifest" href="manifest.json">
-<meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <!-- PWA -->
+  <link rel="manifest" href="manifest.json">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
 
-<!-- CSS -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-<link rel="stylesheet" href="style.css">
-<link rel="preload" as="image" href="photo/hero-profile.webp">
+  <!-- CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preload" as="image" href="photo/hero-profile.webp">
 </head>
+
 <body>
   <!--  WhatsApp Button -->
   <a href="https://wa.me/96567077369" target="_blank" class="whatsapp-right" aria-label="Chat on WhatsApp">
@@ -141,13 +144,8 @@
       <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet" />
 
       <div class="card hidden animate-up">
-        <img src="photo/hero-profile.webp"
-        width="480"
-        height="480"
-        alt="Samira Omar profile"
-        fetchpriority="high"
-        loading="eager"
-        decoding="async">
+        <img src="photo/hero-profile.webp" width="480" height="480" alt="Samira Omar profile" fetchpriority="high"
+          loading="eager" decoding="async">
         <div class="card-linkedin">
           <span class="connect-text">Let's connect</span>
           <a href="https://www.linkedin.com/in/samira-omar/" class="linkedin-hero" target="_blank">
@@ -474,15 +472,15 @@
       });
   </script>
   <footer class="footer">
-  <div>
-    <span class="connect-text" style="color: #ff7a00">Linked</span>
-    <a href="https://www.linkedin.com/in/samira-omar/" class="linkedin-footer" target="_blank">
-      <i class="fab fa-linkedin-in" style="text-align: center"></i>
-    </a>
+    <div>
+      <span class="connect-text" style="color: #ff7a00">Linked</span>
+      <a href="https://www.linkedin.com/in/samira-omar/" class="linkedin-footer" target="_blank">
+        <i class="fab fa-linkedin-in" style="text-align: center"></i>
+      </a>
 
-  </div>
-  <strong>© 2026 Samira Omar</strong> — Website Developer | All rights reserved
-</footer>
+    </div>
+    <strong>© 2026 Samira Omar</strong> — Website Developer | All rights reserved
+  </footer>
 </body>
 
 

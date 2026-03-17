@@ -40,6 +40,7 @@ body {
 }
 
 @media (max-width: 768px) {
+
   /* ===== CALENDLY OVERLAY ===== */
   .calendly-overlay {
     display: flex !important;
@@ -82,12 +83,6 @@ nav {
   will-change: transform;
 }
 
-.logo img:hover {
-  transform: translateY(-2px) scale(1.03);
-  box-shadow: 0 6px 16px rgba(246, 213, 2, 0.15),
-    0 0 10px color-mix(in srgb, var(--primary) 40%, transparent);
-}
-
 nav ul {
   list-style: none;
   display: flex;
@@ -123,6 +118,7 @@ nav ul li a::after {
 nav ul li a:hover {
   color: #555;
 }
+
 nav ul li a:hover::after {
   width: 100%;
   left: 0;
@@ -157,43 +153,6 @@ nav ul li a:hover::after {
 @media (max-width: 768px) {
   .navcontact {
     display: none;
-  }
-}
-
-.cta-btn:hover {
-  background: var(--secondary);
-  color: var(--light);
-  transform: translateY(-2px);
-}
-
-.cta-text,
-.cta-icon {
-  display: inline;
-}
-
-.cta-icon {
-  display: none;
-}
-
-/* Mobile styles */
-@media (max-width: 768px) {
-  .cta-text {
-    display: none;
-  }
-
-  .cta-icon {
-    display: inline;
-  }
-
-  .cta-btn {
-    padding: 0.3rem 0.7rem;
-    background: var(--primary);
-    border-radius: 2px;
-    color: var(--secondary);
-  }
-
-  .hero-btn .btnmobile {
-    background: var(--light);
   }
 }
 
@@ -413,6 +372,7 @@ section h2 {
   letter-spacing: 2px;
   margin-bottom: 10px;
 }
+
 .hero h1 {
   font-size: clamp(45px, 4.5vw, 60px);
   font-weight: 900;
@@ -431,6 +391,7 @@ section h2 {
   line-height: 1.5;
   text-align: justify;
 }
+
 .hero p strong {
   font-weight: 600;
   color: #111;
@@ -469,18 +430,20 @@ section h2 {
   width: clamp(300px, 32vw, 480px);
   height: auto;
   margin: 0 auto;
-  filter: drop-shadow(0 10px 20px rgba(0, 0, 0, 0.08))
-    drop-shadow(0 30px 60px rgba(0, 0, 0, 0.12));
+  filter: drop-shadow(0 10px 20px rgba(0, 0, 0, 0.08)) drop-shadow(0 30px 60px rgba(0, 0, 0, 0.12));
   display: block;
   animation: float 6s ease-in-out infinite;
 }
+
 @keyframes float {
   0% {
     transform: translateY(0px);
   }
+
   50% {
     transform: translateY(-10px);
   }
+
   100% {
     transform: translateY(0px);
   }
@@ -638,26 +601,6 @@ section h2 {
   line-height: 1.5;
 }
 
-.inquire-btn {
-  display: flex;
-  justify-content: center;
-  background-color: rgb(98, 97, 97);
-  color: var(--light);
-  text-decoration: none;
-  border-radius: 0.5rem;
-  font-weight: bold;
-  font-family: sans-serif;
-  transition: background-color 0.3s ease, transform 0.2s ease;
-  padding: 0.5rem 1rem;
-}
-
-/* Hover effect */
-.inquire-btn:hover {
-  background-color: var(--primary);
-  box-shadow: 0px 2px 10px var(--secondary);
-  color: var(--secondary);
-}
-
 /* ===== PROCESS ===== */
 .process {
   padding: 60px 20px;
@@ -801,7 +744,6 @@ section h2 {
   box-shadow: 0px 2px 8px var(--light);
 }
 
-
 .linkedin-footer {
   background: var(--primary);
   width: 8px;
@@ -841,6 +783,7 @@ section h2 {
   text-decoration: none;
   transition: 0.3s ease;
 }
+
 .card .linkedin-hero {
   border-radius: 0 7px 0 7px;
 }
@@ -914,6 +857,7 @@ section h2 {
     line-height: 2;
   }
 }
+
 /*-------------smooth popup scroll--------*/
 .hidden {
   opacity: 0;
@@ -930,9 +874,9 @@ section h2 {
   transform: translateY(0);
 }
 
-.animate-left{
+.animate-left {
   transform: translateX(30px);
-} 
+}
 
 /* Floating Feedback Button */
 #feedbackButton {
@@ -1045,9 +989,9 @@ section h2 {
   transition: color 0.2s, transform 0.2s;
 }
 
-.stars input:checked ~ label,
+.stars input:checked~label,
 .stars label:hover,
-.stars label:hover ~ label {
+.stars label:hover~label {
   color: var(--primary);
   transform: scale(1.2);
 }
