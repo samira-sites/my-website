@@ -497,7 +497,7 @@ section h2 {
 .slide-track {
   display: flex;
   width: calc(300px * 12);
-  animation: scroll 30s linear infinite;
+  animation: scroll 60s linear infinite;
 }
 
 .slide {

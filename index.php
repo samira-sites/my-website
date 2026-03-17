@@ -71,7 +71,7 @@
 <!-- CSS -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 <link rel="stylesheet" href="style.css">
-
+<link rel="preload" as="image" href="photo/hero-profile.webp">
 </head>
 <body>
   <!--  WhatsApp Button -->
@@ -81,7 +81,7 @@
 
   <nav>
     <div class="logo">
-      <img src="photo/navlogo.webp" alt="Samira Omar logo" />
+      <img src="photo/navlogo.webp" width="100" height="100" alt="Samira Omar logo" loading="eager" decoding="async">
     </div>
     <ul class="nav-links">
       <li><a href="#hero">Home</a></li>
@@ -141,7 +141,13 @@
       <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet" />
 
       <div class="card hidden animate-up">
-        <img src="photo/hero-profile.webp" alt="Samira Omar profile" fetchpriority="high" loading="lazy" />
+        <img src="photo/hero-profile.webp"
+        width="480"
+        height="480"
+        alt="Samira Omar profile"
+        fetchpriority="high"
+        loading="eager"
+        decoding="async">
         <div class="card-linkedin">
           <span class="connect-text">Let's connect</span>
           <a href="https://www.linkedin.com/in/samira-omar/" class="linkedin-hero" target="_blank">
