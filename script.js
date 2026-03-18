@@ -13,7 +13,7 @@ document.querySelectorAll('.hero .btn').forEach(btn => {
 document.querySelectorAll('.calendly-btn').forEach(button => {
   button.addEventListener('click', function () {
     Calendly.initPopupWidget({
-      url: 'https://calendly.com/samiraomar/30min?background_color=111111&text_color=ffffff&primary_color=ffbd59'
+      url: 'https://calendly.com/samiraomar/30min?background_color=111111&+text_color=ffffff&primary_color=ffbd59'
     });
   });
 });
@@ -32,9 +32,6 @@ const observer = new IntersectionObserver((entries) => {
 
 // Observe all hidden elements
 document.querySelectorAll('.hidden').forEach(el => observer.observe(el));
-
-
-
 
 /* ----------------- BURGER & MOBILE MENU ----------*/
 const burger = document.getElementById("burger");

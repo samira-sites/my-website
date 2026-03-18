@@ -130,10 +130,8 @@
         </p>
 
         <div class="service-btn hero-btn">
-          <button class="btn calendly-btn"
-            onclick="Calendly.initPopupWidget({url: 'https://calendly.com/samiraomar/30min?background_color=111111&text_color=ffffff&primary_color=ffbd59'}); return false;">
-            Book a Free Discovery Call
-          </button>
+          <button class="btn calendly-btn"> Book a Free Discovery Call  </button>
+        
         </div>
       </div>
 
@@ -147,10 +145,13 @@
         <img src="photo/hero-profile.webp" width="480" height="480" alt="Samira Omar profile" fetchpriority="high"
           loading="eager" decoding="async">
         <div class="card-linkedin">
+
           <span class="connect-text">Let's connect</span>
-          <a href="https://www.linkedin.com/in/samira-omar/" class="linkedin-hero" target="_blank">
+          <a href="https://www.linkedin.com/in/samira-omar/" class="linkedin-hero" target="_blank"
+            rel="noopener noreferrer" aria-label="Samira Omar LinkedIn profile">
             <i class="fab fa-linkedin-in"></i>
           </a>
+
         </div>
       </div>
     </section>
@@ -474,7 +475,8 @@
   <footer class="footer">
     <div>
       <span class="connect-text" style="color: #ff7a00">Linked</span>
-      <a href="https://www.linkedin.com/in/samira-omar/" class="linkedin-footer" target="_blank">
+      <a href="https://www.linkedin.com/in/samira-omar/" class="linkedin-footer" target="_blank"
+        rel="noopener noreferrer" aria-label="Samira Omar LinkedIn profile">
         <i class="fab fa-linkedin-in" style="text-align: center"></i>
       </a>
 
