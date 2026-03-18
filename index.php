@@ -71,7 +71,7 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="default">
 
   <!-- CSS -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="assets/fontawesome/css/all.min.css">
   <link rel="stylesheet" href="style.css">
   <link rel="preload" as="image" href="photo/hero-profile.webp">
 </head>
@@ -147,9 +147,14 @@
         <div class="card-linkedin">
 
           <span class="connect-text">Let's connect</span>
-          <a href="https://www.linkedin.com/in/samira-omar/" class="linkedin-hero" target="_blank"
-            rel="noopener noreferrer" aria-label="Samira Omar LinkedIn profile">
-            <i class="fab fa-linkedin-in"></i>
+
+          <a href="https://www.linkedin.com/in/samira-omar/" class="linkedin-hero"
+             target="_blank"
+             rel="noopener noreferrer"
+             aria-label="Samira Omar LinkedIn profile">
+          
+          <i class="fab fa-linkedin-in"></i>
+          
           </a>
 
         </div>
