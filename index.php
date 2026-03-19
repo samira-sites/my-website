@@ -130,8 +130,8 @@
         </p>
 
         <div class="service-btn hero-btn">
-          <button class="btn calendly-btn"> Book a Free Discovery Call  </button>
-        
+          <button class="btn calendly-btn"> Book a Free Discovery Call </button>
+
         </div>
       </div>
 
@@ -148,13 +148,11 @@
 
           <span class="connect-text">Let's connect</span>
 
-          <a href="https://www.linkedin.com/in/samira-omar/" class="linkedin-hero"
-             target="_blank"
-             rel="noopener noreferrer"
-             aria-label="Samira Omar LinkedIn profile">
-          
-          <i class="fab fa-linkedin-in"></i>
-          
+          <a href="https://www.linkedin.com/in/samira-omar/" class="linkedin-hero" target="_blank"
+            rel="noopener noreferrer" aria-label="Samira Omar LinkedIn profile">
+
+            <i class="fab fa-linkedin-in"></i>
+
           </a>
 
         </div>
@@ -479,16 +477,14 @@
   </script>
   <footer class="footer">
     <div>
-      <span class="connect-text" style="color: #ff7a00">Linked</span>
+      <span class="connect-text">Linked</span>
       <a href="https://www.linkedin.com/in/samira-omar/" class="linkedin-footer" target="_blank"
         rel="noopener noreferrer" aria-label="Samira Omar LinkedIn profile">
         <i class="fab fa-linkedin-in" style="text-align: center"></i>
       </a>
-
     </div>
     <strong>© 2026 Samira Omar</strong> — Website Developer | All rights reserved
   </footer>
 </body>
-
 
 </html>
