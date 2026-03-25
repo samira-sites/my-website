@@ -1,10 +1,16 @@
-/*-- ===== JS: Smooth Scroll for Hero Buttons ===== --*/
-document.querySelectorAll('.hero .btn').forEach(btn => {
-  btn.addEventListener('click', () => {
-    const targetId = btn.getAttribute('data-target');
+/*-------------seclect and popup-----------*/
+document.querySelectorAll('a[href^="#"]').forEach(link => {
+  link.addEventListener('click', (e) => {
+    const targetId = link.getAttribute('href');
     const target = document.querySelector(targetId);
     if(target){
-      target.scrollIntoView({ behavior: 'smooth' });
+      // jump instantly
+      target.scrollIntoView({behavior: 'auto'});
+      
+      // remove and re-add class to trigger pop-up animation
+      target.classList.remove('active');
+      void target.offsetWidth; // trigger reflow
+      target.classList.add('active');
     }
   });
 });
