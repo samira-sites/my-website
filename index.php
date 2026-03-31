@@ -284,7 +284,7 @@
         <h2 class="section-title card">Who I Help</h2>
 
         <p class="section-subtitle">
-          I work with service-based businesses that need modern websites with
+          I help service-based businesses that need modern websites with
           built-in booking systems and client forms.
         </p>
 
