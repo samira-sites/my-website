@@ -516,30 +516,12 @@ gap: 1rem;
 
 /* ===== SERVICES ===== */
 .services {
-  position: relative;
+  background: var(--light);
   padding: 60px 40px;
   color: #111;
   overflow: hidden; /* important */
 }
 
-/* Background layer */
-.services::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(
-    to top,
-    rgb(255, 255, 255),
-    rgba(255, 123, 0, 0.208)
-  );
-  z-index: 0;
-}
-
-/* Content stays solid */
-.services * {
-  position: relative;
-  z-index: 1;
-}
 
 .services-grid {
   display: grid;
