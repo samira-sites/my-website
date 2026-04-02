@@ -238,27 +238,41 @@
       <br />
       <div class="services-grid">
         <div class="service-card card hidden animate-up">
-          <h3>🖥️ Responsive Websites</h3>
+          <h3>
+            <img src="assets/svg/laptop.svg" class="icon" alt="Responsive Websites">
+            Responsive Websites
+          </h3>
           <p>Work smoothly on desktop, tablet, and mobile devices</p>
         </div>
 
         <div class="service-card card hidden animate-up">
-          <h3>📅 Booking & Forms</h3>
+          <h3>
+            <img src="assets/svg/calendar.svg" class="icon" alt="Responsive Websites">
+            Booking & Forms
+          </h3>
           <p>Integrated appointment scheduling and contact forms</p>
         </div>
 
         <div class="service-card card hidden animate-up">
-          <h3>🎨 Custom Design</h3>
+          <h3>
+            <img src="assets/svg/design.svg" class="icon" alt="Responsive Websites">
+            Custom Design
+          </h3>
           <p>Clean designs tailored to your business brand</p>
         </div>
 
         <div class="service-card card hidden animate-up">
-          <h3>⚡ SEO-Ready Websites</h3>
+          <h3>
+            <img src="assets/svg/seo.svg" class="icon" alt="Responsive Websites">
+            SEO-Ready Websites
+          </h3>
           <p>Proper headings, meta tags, optimized structure</p>
         </div>
 
         <div class="service-card card hidden animate-up">
-          <h3>🖼️ Image Optimization</h3>
+          <h3>
+            <img src="assets/svg/image.svg" class="icon" alt="Responsive Websites">
+            Image Optimization</h3>
           <p>
             Fast-loading images that improve website speed and user experience.
           </p>
@@ -266,7 +280,8 @@
 
         <div class="service-card card hidden animate-up">
           <h3>
-            🛠️ Website Maintenance & Updates
+            <img src="assets/svg/maintenance.svg" class="icon" alt="Responsive Websites">
+            Website Maintenance & Updates
             <span style="color: #ff7a00">(Add-On)</span>
           </h3>
           <p>Keep your website secure and updated</p>
