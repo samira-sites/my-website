@@ -281,8 +281,8 @@
         <div class="service-card card hidden animate-up">
           <h3>
             <img src="assets/svg/maintenance.svg" class="icon" alt="Responsive Websites">
-            Website Maintenance & Updates
-            <span style="color: #ff7a00">(Add-On)</span>
+            <span>
+            Website Maintenance & Updates<span style="color: #ff7a00;"> (Add-On)</span></span>
           </h3>
           <p>Keep your website secure and updated</p>
         </div>
