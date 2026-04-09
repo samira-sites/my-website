@@ -98,7 +98,7 @@ button.addEventListener('click', function() {
 
 /* ----------------- CONTACT FORM ----------------- */
 const scriptURL =
-"https://script.google.com/macros/s/AKfycbypsgOWd_kCc9dXLnV_laLXL0TfZhhASUbRYJE2wsao73rkV6_0iC8apZ3BXafX1hUObA/exec";
+"https://script.google.com/macros/s/AKfycbzJkjhyhwepQNdZGrDtqCyz5T_qTMsp-x_xOWfIgE7Xe3b7kSKE_sUeB6XiY7ZAr7Uv4A/exec";
 
 const form = document.getElementById("contactform");
 const msg = document.getElementById("msg");
