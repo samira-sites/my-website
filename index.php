@@ -2,6 +2,11 @@
 <html lang="en">
 
 <head>
+ <!-- Calendly Script -->
+      <script src="https://assets.calendly.com/assets/external/widget.js" async></script>
+
+      <!--Calendly CSS-->
+      <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet" />
 
   <!-- Basic Meta -->
   <meta charset="UTF-8">
@@ -119,7 +124,8 @@
   <main>
     <!-- ===== HERO ===== -->
     <section id="hero" class="hero">
-      <div class="h1 card hidden animate-up">
+
+        <div class="h1 card hidden animate-up">
         <h3>CLEAN • FAST • MODERN</h3>
         <h1>
           From Idea to Live Website
@@ -128,35 +134,9 @@
           Clean, fast websites with <strong>built-in booking and lead capture</strong>,
           designed to turn visitors into real client inquiries.
         </p>
-
         <div class="service-btn hero-btn">
           <button class="btn calendly-btn"> Book a Free Discovery Call </button>
-
         </div>
-      </div>
-
-      <!-- Calendly Script -->
-      <script src="https://assets.calendly.com/assets/external/widget.js" async></script>
-
-      <!--Calendly CSS-->
-      <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet" />
-
-      <div class="card hidden animate-up">
-        <img src="photo/hero-profile.webp" width="480" height="480" alt="Samira Omar profile" fetchpriority="high"
-          loading="eager" decoding="async">
-        <div class="card-linkedin">
-
-          <span class="connect-text">Let's connect</span>
-
-          <a href="https://www.linkedin.com/in/samira-omar/" class="linkedin-hero" target="_blank"
-            rel="noopener noreferrer" aria-label="Samira Omar LinkedIn profile">
-
-            <i class="fab fa-linkedin-in"></i>
-
-          </a>
-
-        </div>
-      </div>
     </section>
     <!------------Slider------------>
     <section class="slider-section">
