@@ -30,7 +30,7 @@
  "name": "Samira Omar",
  "url": "https://samiraomar.com/",
  "jobTitle": "Website Developer",
- "image": "https://samiraomar.com/photo/me.webp",
+ "image": "https://samiraomar.com/photo/sam.webp",
  "logo": "https://samiraomar.com/photo/navlogo.webp",
  "sameAs": [
    "https://www.linkedin.com/in/samira-omar/"
@@ -47,7 +47,7 @@
   <meta property="og:type" content="website">
   <meta property="og:locale" content="en_US">
 
-  <meta property="og:image" content="https://samiraomar.com/photo/preview-site.png">
+  <meta property="og:image" content="https://samiraomar.com/photo/preview.webp">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
   <meta property="og:image:alt" content="Preview of Samira Omar's modern website developer portfolio homepage">
