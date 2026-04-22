@@ -345,7 +345,7 @@ section h2 {
   color: #111;
 }
 .hero {
-  background: url("photo/bg-desktop.webp") center / cover no-repeat fixed;
+  background: url("photo/hero-bg.webp") center / cover no-repeat fixed;
   display: flex;
   grid-template-columns: 1fr;
   line-height: 1.5;
@@ -370,7 +370,7 @@ section h2 {
 
 @media (max-width: 768px) {
   .hero {
-    background: url("photo/bg-mobile.webp") center / cover no-repeat;
+    background: url("photo/hero-bg-mobile.webp") center / cover no-repeat;
     /* removed fixed for mobile */
 
     padding: 2rem 1.2rem;
