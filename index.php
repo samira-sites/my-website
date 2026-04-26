@@ -82,10 +82,10 @@
 </head>
 
 <body>
-  <!--  WhatsApp Button -->
+  <!--  WhatsApp Button
   <a href="https://wa.me/96567077369" target="_blank" class="whatsapp-right" aria-label="Chat on WhatsApp">
     <i class="fa-brands fa-whatsapp"></i>
-  </a>
+  </a> -->
 
   <nav>
     <div class="logo">
@@ -131,8 +131,7 @@
           From Idea to Live Website
         </h1>
         <p>
-          Clean, fast websites with <strong>built-in booking and lead capture</strong>,
-          designed to turn visitors into real client inquiries.
+          Clean, fast websites designed to help small businesses establish an online presence and make it easy for customers to reach them.
         </p>
         <div class="service-btn hero-btn">
           <button class="btn calendly-btn"> Book a Free Discovery Call </button>
@@ -206,82 +205,82 @@
         </div>
       </div>
     </section>
+<!-- ===== SERVICES ===== -->
+<section id="services" class="services">
 
-    <!-- ===== SERVICES ===== -->
-    <section id="services" class="services">
-      <h2 style="text-align: center" class="card">
-        My Services
-      </h2>
-      <p style="color: #222; text-align: center">
-        Here’s what I offer to help your business online:
-      </p>
-      <br />
-      <div class="services-grid">
-        <div class="service-card card hidden animate-up">
-          <h3>
-            <img src="assets/svg/laptop.svg" class="icon" alt="Responsive Websites">
-            Responsive Websites
-          </h3>
-          <p>Work smoothly on desktop, tablet, and mobile devices</p>
-        </div>
+  <h2 class="section-title">My Services</h2>
 
-        <div class="service-card card hidden animate-up">
-          <h3>
-            <img src="assets/svg/calendar.svg" class="icon" alt="Responsive Websites">
-            Booking & Forms
-          </h3>
-          <p>Integrated appointment scheduling and contact forms</p>
-        </div>
+  <p class="section-subtitle">
+    Choose a package that fits your business goals
+  </p>
 
-        <div class="service-card card hidden animate-up">
-          <h3>
-            <img src="assets/svg/design.svg" class="icon" alt="Responsive Websites">
-            Custom Design
-          </h3>
-          <p>Clean designs tailored to your business brand</p>
-        </div>
+  <div class="services-grid">
 
-        <div class="service-card card hidden animate-up">
-          <h3>
-            <img src="assets/svg/seo.svg" class="icon" alt="Responsive Websites">
-            SEO-Ready Websites
-          </h3>
-          <p>Proper headings, meta tags, optimized structure</p>
-        </div>
+    <!-- 🟢 STARTER -->
+    <div class="service-card">
+      <h3>🟢 Starter Website</h3>
 
-        <div class="service-card card hidden animate-up">
-          <h3>
-            <img src="assets/svg/image.svg" class="icon" alt="Responsive Websites">
-            Image Optimization</h3>
-          <p>
-            Fast-loading images that improve website speed and user experience.
-          </p>
-        </div>
+      <p class="desc">Perfect for a simple and professional online presence</p>
 
-        <div class="service-card card hidden animate-up">
-          <h3>
-            <img src="assets/svg/maintenance.svg" class="icon" alt="Responsive Websites">
-            <span>
-            Website Maintenance & Updates<span style="color: #ff7a00;"> (Add-On)</span></span>
-          </h3>
-          <p>Keep your website secure and updated</p>
-        </div>
-      </div>
-      <br />
-      <div class="service-btn">
-        <button class="btn calendly-btn">Book a Free Discovery Call</button>
-      </div>
-    </section>
+      <ul>
+        <li>✔ One-page website (up to 4 sections)</li>
+        <li>✔ Responsive design (mobile, tablet, desktop)</li>
+        <li>✔ Custom clean design</li>
+        <li>✔ Contact form integration</li>
+        <li>✔ Basic SEO setup</li>
+        <li>✔ Image optimization</li>
+      </ul>
 
+      <div >Starting from <span class="price"><br>$120</span></div>
+      <span class="delivery">7–10 days delivery</span>
+    </div>
+
+    <!-- 🔵 PRO (FEATURED) -->
+    <div class="service-card featured">
+
+      <h3>🔵 Pro Website</h3>
+
+<p class="desc">Best for businesses ready to improve their online presence</p>
+
+<ul>
+  <li>✔ Everything in Starter</li>
+  <li>✔ 4–6 sections</li>
+  <li>✔ Booking system & advanced forms</li>
+  <li>✔ SEO-ready structure</li>
+  <li>✔ Speed optimization</li>
+  <li>✔ 1 month support (bug fixes & minor updates to keep your website running smoothly)</li>
+  <li>🎁 Bonus: Basic AI Chatbot Integration</li>
+</ul>
+
+<div >Starting from <span class="price"><br>$220</span></div>
+<span class="delivery">10–15 days delivery</span>
+<p style="color: red;">limited offer only!</p>
+    </div>
+
+    <!-- ⚡ ADD-ONS -->
+    <div class="service-card addons">
+      <h3>⚡ Add-Ons</h3>
+
+      <p class="desc">Enhance your website with powerful upgrades</p>
+
+      <ul>
+        <li>✔ Social Media Sharing Optimization (OG Tags) → $25</li>
+        <li>✔ Extra Custom Page → $20</li>
+        <li>✔ Website Maintenance → $30/month (ongoing support & updates)</li>
+      </ul>
+    </div>
+  </div>
+
+
+</section>
     <!-- ===== WHO I HELP ===== -->
     <section id="who-i-help" class="who">
       <div class="container">
         <h2 class="section-title card">Who I Help</h2>
 
         <p class="section-subtitle">
-          I help service-based businesses that need modern websites with
-          built-in booking systems and client forms.
-        </p>
+          I help service-based businesses grow online with modern websites, built-in booking systems, client forms, and AI chatbots that convert visitors into clients.
+          </p>
 
         <div class="who-grid">
           <div class="who-card card hidden animate-up">
@@ -352,7 +351,7 @@
 
       <details class="card hidden animate-up">
         <summary>How long does it take to build a website?</summary>
-        <p>Usually 10 - 14 days, depending on the project size.</p>
+        <p>Usually 10 - 15 days, depending on the project size.</p>
       </details>
 
       <details class="card hidden animate-up">
@@ -480,6 +479,8 @@
     </div>
     <strong>© 2026 Samira Omar</strong> — Website Developer | All rights reserved
   </footer>
+
+  <script src="//code.tidio.co/yi66fojsyeziel45e6zntp5pde3dlm9x.js" async></script>
 </body>
 
 </html>
