@@ -252,7 +252,12 @@
   <li>🎁 Bonus: Basic AI Chatbot Integration</li>
 </ul>
 
-<div >Starting from <span class="price"><br>$220</span></div>
+<div>
+  Starting from 
+  <span class="price"><br>$220</span>
+  <span class="old-price">$300</span>
+</div>
+
 <span class="delivery">10–15 days delivery</span>
 <p style="color: red;">limited offer only!</p>
     </div>
@@ -264,6 +269,7 @@
       <p class="desc">Enhance your website with powerful upgrades</p>
 
       <ul>
+        <li>✔ AI Chatbot Integration (Tidio) → $60</li>
         <li>✔ Social Media Sharing Optimization (OG Tags) → $25</li>
         <li>✔ Extra Custom Page → $20</li>
         <li>✔ Website Maintenance → $30/month (ongoing support & updates)</li>
