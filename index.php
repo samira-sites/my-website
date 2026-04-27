@@ -486,7 +486,21 @@
     <strong>© 2026 Samira Omar</strong> — Website Developer | All rights reserved
   </footer>
 
-  <script src="//code.tidio.co/yi66fojsyeziel45e6zntp5pde3dlm9x.js" async></script>
+<!--   <script src="https://code.tidio.co/yi66fojsyeziel45e6zntp5pde3dlm9x.js" async></script> -->
+
+<script>
+  function loadTidio() {
+    const script = document.createElement("script");
+    script.src = "https://code.tidio.co/yi66fojsyeziel45e6zntp5pde3dlm9x.js";
+    script.async = true;
+    document.body.appendChild(script);
+  }
+
+  window.addEventListener("load", () => {
+    setTimeout(loadTidio, 3000);
+  });
+</script>
+
 </body>
 
 </html>
