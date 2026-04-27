@@ -210,14 +210,14 @@
 
   <h2 class="section-title">My Services</h2>
 
-  <p class="section-subtitle">
+  <p class="section-subtitle card hidden animate-up">
     Choose a package that fits your business goals
   </p>
 
   <div class="services-grid">
 
     <!-- 🟢 STARTER -->
-    <div class="service-card">
+    <div class="service-card card hidden animate-up">
       <h3>🟢 Starter Website</h3>
 
       <p class="desc">Perfect for a simple and professional online presence</p>
@@ -236,7 +236,7 @@
     </div>
 
     <!-- 🔵 PRO (FEATURED) -->
-    <div class="service-card featured">
+    <div class="service-card card hidden animate-up featured">
 
       <h3>🔵 Pro Website</h3>
 
@@ -263,7 +263,7 @@
     </div>
 
     <!-- ⚡ ADD-ONS -->
-    <div class="service-card addons">
+    <div class="service-card card hidden animate-up addons">
       <h3>⚡ Add-Ons</h3>
 
       <p class="desc">Enhance your website with powerful upgrades</p>
