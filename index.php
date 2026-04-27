@@ -214,7 +214,7 @@
     Choose a package that fits your business goals
   </p>
 
-  <div class="services-grid">
+  <div class="services-grid card hidden animate-up">
 
     <!-- 🟢 STARTER -->
     <div class="service-card card hidden animate-up">
