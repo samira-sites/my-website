@@ -249,7 +249,7 @@
   <li>✔ SEO-ready structure</li>
   <li>✔ Speed optimization</li>
   <li>✔ 1 month support (bug fixes & minor updates to keep your website running smoothly)</li>
-  <li>🎁 Bonus: Basic AI Chatbot Integration</li>
+  <li>🎁 Bonus: AI Chatbot Integration (Tidio)</li>
 </ul>
 
 <div>
