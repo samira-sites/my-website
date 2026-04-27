@@ -223,7 +223,7 @@
       <p class="desc">Perfect for a simple and professional online presence</p>
 
       <ul>
-        <li>✔ One-page website (up to 4 sections)</li>
+        <li>✔ One-page website (up to 3 sections)</li>
         <li>✔ Responsive design (mobile, tablet, desktop)</li>
         <li>✔ Custom clean design</li>
         <li>✔ Contact form integration</li>
