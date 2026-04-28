@@ -2,20 +2,29 @@
 <html lang="en">
 
 <head>
- <!-- Calendly Script -->
-      <script src="https://assets.calendly.com/assets/external/widget.js" async></script>
+  <!-- Calendly Script -->
+  <script src="https://assets.calendly.com/assets/external/widget.js" async></script>
 
-      <!--Calendly CSS-->
-      <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet" />
+  <!--Calendly CSS-->
+  <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet" />
+
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <script>
+    lucide.createIcons();
+  </script>
 
   <!-- Basic Meta -->
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="google-site-verification" content="uKtr2UsvXYFJ7ODbXEfgpqLQWKyUk05eIaa_YJjI_XU">
 
-  <title>From Idea to Live Website | Websites That Book Clients</title>
+  <title>Custom Websites for Small Businesses | Samira Omar Website Developer</title>
+
   <meta name="description"
-    content="Turn your idea into a live website with booking and lead capture tools. Book a Free Discovery Call today.">
+    content="We design fast, modern, and conversion-focused websites for small businesses. Build trust, attract customers, and grow your online presence with a clean, professional design.">
+
+  <meta name="keywords"
+    content="web developer, custom websites, small business websites, landing pages, website design">
 
   <!-- SEO -->
   <meta name="author" content="Samira Omar">
@@ -39,9 +48,9 @@
 </script>
 
   <!-- Open Graph -->
-  <meta property="og:title" content="Modern Websites with Built-In Booking">
+  <meta property="og:title" content="Custom Websites for Small Businesses | Samira Omar">
   <meta property="og:description"
-    content="Get a website that automatically books clients and captures leads for your service business.">
+    content="We design custom websites that help small businesses showcase their services, build trust, and turn visitors into real customers.">
   <meta property="og:site_name" content="Samira Omar">
   <meta property="og:url" content="https://samiraomar.com">
   <meta property="og:type" content="website">
@@ -88,6 +97,7 @@
   </a> -->
 
   <nav>
+
     <div class="logo">
       <img src="photo/navlogo.webp" width="100" height="100" alt="Samira Omar logo" loading="eager" decoding="async">
     </div>
@@ -98,13 +108,16 @@
       <li><a href="#process">Process</a></li>
     </ul>
 
+
     <a href="#contact" class="navcontact">Contact Me</a>
+
 
     <div class="burger" id="burger">
       <span class="line1"></span>
       <span class="line2"></span>
       <span class="line3"></span>
     </div>
+
   </nav>
 
 
@@ -123,15 +136,18 @@
 
   <main>
     <!-- ===== HERO ===== -->
+
     <section id="hero" class="hero">
 
-        <div class="h1 card hidden animate-up">
+
+      <div class="h1 card hidden animate-up">
         <h3>CLEAN • FAST • MODERN</h3>
         <h1>
           From Idea to Live Website
         </h1>
         <p>
-          Clean, fast websites designed to help small businesses establish an online presence and make it easy for customers to reach them.
+          Custom websites for small businesses designed to showcase services, build trust, and convert visitors into
+          real customers
         </p>
         <div class="service-btn hero-btn">
           <button class="btn calendly-btn"> Book a Free Discovery Call </button>
@@ -205,88 +221,89 @@
         </div>
       </div>
     </section>
-<!-- ===== SERVICES ===== -->
-<section id="services" class="services">
+    <!-- ===== SERVICES ===== -->
+    <section id="services" class="services">
 
-  <h2 class="section-title">My Services</h2>
+      <h2 class="section-title">My Services</h2>
 
-  <p class="section-subtitle card hidden animate-up">
-    Choose a package that fits your business goals
-  </p>
+      <p class="section-subtitle card hidden animate-up">
+        Choose a package that fits your business goals
+      </p>
 
-  <div class="services-grid card hidden animate-up">
+      <div class="services-grid card hidden animate-up">
 
-    <!-- 🟢 STARTER -->
-    <div class="service-card card hidden animate-up">
-      <h3>🟢 Starter Website</h3>
+        <!-- 🟢 STARTER -->
+        <div class="service-card card hidden animate-up">
+          <h3>🟢 Starter Website</h3>
 
-      <p class="desc">Perfect for a simple and professional online presence</p>
+          <p class="desc">Perfect for a simple and professional online presence</p>
 
-      <ul>
-        <li>✔ One-page website (up to 3 sections)</li>
-        <li>✔ Responsive design (mobile, tablet, desktop)</li>
-        <li>✔ Custom clean design</li>
-        <li>✔ Contact form integration</li>
-        <li>✔ Basic SEO setup</li>
-        <li>✔ Image optimization</li>
-      </ul>
+          <ul>
+            <li>✔ One-page website (up to 3 sections)</li>
+            <li>✔ Responsive design (mobile, tablet, desktop)</li>
+            <li>✔ Clean custom design tailored to your brand</li>
+            <li>✔ Contact form integration</li>
+            <li>✔ Basic SEO setup for visibility on Google</li>
+            <li>✔ Image optimization for faster loading</li>
+          </ul>
 
-      <div >Starting from <span class="price"><br>$120</span></div>
-      <span class="delivery">7–10 days delivery</span>
-    </div>
+          <div>Starting from <span class="price"><br>$120</span></div>
+          <span class="delivery">7–10 days delivery</span>
+        </div>
 
-    <!-- 🔵 PRO (FEATURED) -->
-    <div class="service-card card hidden animate-up featured">
+        <!-- 🔵 PRO (FEATURED) -->
+        <div class="service-card card hidden animate-up featured">
 
-      <h3>🔵 Pro Website</h3>
+          <h3>🔵 Pro Website</h3>
 
-<p class="desc">Best for businesses ready to improve their online presence</p>
+          <p class="desc">Best for businesses ready to improve their online presence</p>
 
-<ul>
-  <li>✔ Everything in Starter</li>
-  <li>✔ 4–6 sections</li>
-  <li>✔ Booking system & advanced forms</li>
-  <li>✔ SEO-ready structure</li>
-  <li>✔ Speed optimization</li>
-  <li>✔ 1 month support (bug fixes & minor updates to keep your website running smoothly)</li>
-  <li>🎁 Bonus: AI Chatbot Integration (Tidio)</li>
-</ul>
+          <ul>
+            <li>✔ Everything included in Starter</li>
+            <li>✔ 4–6 custom sections</li>
+            <li>✔ Booking system & advanced forms</li>
+            <li>✔ SEO-ready structure</li>
+            <li>✔ Speed optimization for performance</li>
+            <li>✔ 1 month support (bug fixes & minor updates to keep your website running smoothly)</li>
+            <li>🎁 Bonus: AI Chatbot Integration (Tidio)</li>
+          </ul>
 
-<div>
-  Starting from 
-  <span class="price"><br>$220</span>
-  <span class="old-price">$300</span>
-</div>
+          <div>
+            Starting from
+            <span class="price"><br>$220</span>
+            <span class="old-price">$300</span>
+          </div>
 
-<span class="delivery">10–15 days delivery</span>
-<p style="color: red;">limited offer only!</p>
-    </div>
+          <span class="delivery">10–15 days delivery</span>
+          <p style="color: red;">limited offer only!</p>
+        </div>
 
-    <!-- ⚡ ADD-ONS -->
-    <div class="service-card card hidden animate-up addons">
-      <h3>⚡ Add-Ons</h3>
+        <!-- ⚡ ADD-ONS -->
+        <div class="service-card card hidden animate-up addons">
+          <h3>⚡ Add-Ons</h3>
 
-      <p class="desc">Enhance your website with powerful upgrades</p>
+          <p class="desc">Enhance your website with powerful upgrades</p>
 
-      <ul>
-        <li>✔ AI Chatbot Integration (Tidio) → $60</li>
-        <li>✔ Social Media Sharing Optimization (OG Tags) → $25</li>
-        <li>✔ Extra Custom Page → $20</li>
-        <li>✔ Website Maintenance → $30/month (ongoing support & updates)</li>
-      </ul>
-    </div>
-  </div>
+          <ul>
+            <li>✔ AI Chatbot Integration (Tidio) → $60</li>
+            <li>✔ Social Media Sharing Optimization (Open Graph / OG Tags) → $25</li>
+            <li>✔ Extra Custom Page → $20</li>
+            <li>✔ Website Maintenance → $30/month (ongoing support & updates)</li>
+          </ul>
+        </div>
+      </div>
 
 
-</section>
+    </section>
     <!-- ===== WHO I HELP ===== -->
     <section id="who-i-help" class="who">
       <div class="container">
         <h2 class="section-title card">Who I Help</h2>
 
         <p class="section-subtitle">
-          I help service-based businesses grow online with modern websites, built-in booking systems, client forms, and AI chatbots that convert visitors into clients.
-          </p>
+          I help service-based businesses grow online with modern websites, built-in booking systems, client forms, and
+          AI chatbots that convert visitors into clients.
+        </p>
 
         <div class="who-grid">
           <div class="who-card card hidden animate-up">
@@ -372,42 +389,112 @@
     </section>
 
     <!-- ===== CONTACT ===== -->
-    <section id="contact" class="contact">
-      <div>
-        <h2 class="card" style="text-align: center">
-          Get in Touch
-        </h2>
 
-        <p class="card" style="text-align: center">
-          Ready to build your website? Share your idea below.
-        </p>
-        <br />
-        <form action="#" method="POST" name="contactform" class="contact-form card hidden animate-up" id="contactform">
+    <!----new contact-->
+    <section class="contact-section" id="contact">
+      <div class="contact-container">
+
+        <!-- LEFT SIDE -->
+        <div class="contact-info">
+          <h2>GET IN TOUCH</h2>
+          <p>
+            Ready to grow your business with a clean, professional website? Let’s work together.
+          </p>
+
+          <!-- EMAIL -->
+          <a href="mailto:hello@samiraomar.com" class="info-item">
+            <i class="fa-solid fa-envelope icon"></i>
+            <span>hello@samiraomar.com</span>
+          </a>
+
+          <!-- WHATSAPP -->
+          <a href="https://wa.me/+96567077369" target="_blank" class="info-item">
+            <i class="fa-brands fa-whatsapp icon"></i>
+            <span>Chat on WhatsApp</span>
+          </a>
+
+          <!-- LINKEDIN -->
+          <a href="https://www.linkedin.com/in/samira-omar/" target="_blank" class="info-item">
+            <i class="fa-brands fa-linkedin icon"></i>
+            <span>LinkedIn Profile</span>
+          </a>
+        </div>
+
+        <!-- RIGHT FORM -->
+        <form action="#" method="POST" name="contactform" class="contact-form glass hidden animate-up" id="contactform">
           <input type="hidden" name="Source" value="SAM" />
 
           <input type="text" name="company" id="company" tabindex="-1" autocomplete="off" style="display: none" />
 
-          <label for="name">Full Name</label>
+          <label for="name"></label>
           <input type="text" id="name" name="Name" autocomplete="complete-name" placeholder="Enter your full name"
             required />
 
-          <label for="email">Email</label>
+          <label for="email"></label>
           <input type="email" id="email" name="Email" autocomplete="off" placeholder="Enter your email" required />
 
-          <label for="social">Social Media Link (optional)</label>
+          <label for="social"></label>
           <input type="url" id="social" name="Social" autocomplete="social-media-link"
-            placeholder="It helps us understand your brand or project" />
+            placeholder="Social Media Link (optional)" />
 
-          <label for="message">Project Details / Message</label>
+          <label for="message"></label>
           <textarea id="message" name="Message" autocomplete="ideas" placeholder="Describe your website idea here…"
             required></textarea>
 
           <button type="submit" class="btn" id="button">Send message</button>
           <span id="msg" style="text-align: center"></span>
         </form>
+
       </div>
-      <div></div>
     </section>
+
+    <!-- FOOTER -->
+
+    <footer class="footer">
+
+      <div class="footer-container">
+
+        <!-- Brand -->
+        <div class="footer-brand">
+          <h3>Samira Omar | Website Developer</h3>
+          <p>I create modern websites that help your business convert.
+          <p>
+        </div>
+
+        <!-- Navigation -->
+
+        <div class="footer-links">
+          <p class="footer-title">Quick Links</p>
+          <a href="#hero">Home</a>
+          <a href="#services">Services</a>
+          <a href="#process">Process</a>
+          <a href="#contact">Contact</a>
+        </div>
+
+
+        <!-- Social -->
+        <div class="footer-social">
+          <p class="footer-title">Let's Connect</p>
+          <div class="social-links">
+            <a href="https://www.linkedin.com/in/samira-omar/" target="_blank" class="info-item">
+              <i class="fa-brands fa-linkedin icon" style="color: black;"></i>
+            </a>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Bottom Bar -->
+      <div class="footer-bottom" style="text-align: center; margin-top: 1.5rem;">
+        <p>© 2026 Samira Omar — All rights reserved</p>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path fill="#ff7a00" fill-opacity="1"
+          d="M0,32L40,53.3C80,75,160,117,240,117.3C320,117,400,75,480,90.7C560,107,640,181,720,224C800,267,880,277,960,282.7C1040,288,1120,288,1200,293.3C1280,299,1360,309,1400,314.7L1440,320L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z">
+        </path>
+      </svg>
+
+    </footer>
   </main>
 
   <script src="script.js"></script>
@@ -475,31 +562,8 @@
           });
       });
   </script>
-  <footer class="footer">
-    <div>
-      <span class="connect-text">Linked</span>
-      <a href="https://www.linkedin.com/in/samira-omar/" class="linkedin-footer" target="_blank"
-        rel="noopener noreferrer" aria-label="Samira Omar LinkedIn profile">
-        <i class="fab fa-linkedin-in" style="text-align: center"></i>
-      </a>
-    </div>
-    <strong>© 2026 Samira Omar</strong> — Website Developer | All rights reserved
-  </footer>
 
-<!--   <script src="https://code.tidio.co/yi66fojsyeziel45e6zntp5pde3dlm9x.js" async></script> -->
-
-<script>
-  function loadTidio() {
-    const script = document.createElement("script");
-    script.src = "https://code.tidio.co/yi66fojsyeziel45e6zntp5pde3dlm9x.js";
-    script.async = true;
-    document.body.appendChild(script);
-  }
-
-  window.addEventListener("load", () => {
-    setTimeout(loadTidio, 3000);
-  });
-</script>
+  <script src="https://code.tidio.co/yi66fojsyeziel45e6zntp5pde3dlm9x.js" async></script>
 
 </body>
 
