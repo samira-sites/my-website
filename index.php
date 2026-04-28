@@ -298,7 +298,7 @@
     <!-- ===== WHO I HELP ===== -->
     <section id="who-i-help" class="who">
       <div class="container">
-        <h2 class="section-title card">Who I Help</h2>
+        <h2 class="section-title card" style="color: white;">Who I Help</h2>
 
         <p class="section-subtitle">
           I help service-based businesses grow online with modern websites, built-in booking systems, client forms, and
@@ -477,7 +477,7 @@
           <p class="footer-title">Let's Connect</p>
           <div class="social-links">
             <a href="https://www.linkedin.com/in/samira-omar/" target="_blank" class="info-item">
-              <i class="fa-brands fa-linkedin icon" style="color: black;"></i>
+              <i class="fa-brands fa-linkedin icon" style="color: white;"></i>
             </a>
           </div>
         </div>
