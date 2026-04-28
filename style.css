@@ -900,7 +900,7 @@ color: green;
 
 .contact-info h2 {
   letter-spacing: 2px;
-  margin-bottom: 15px;
+  font-size: clamp(33px, 4vw, 40px);
 }
 
 .contact-info p {
