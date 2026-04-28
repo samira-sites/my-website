@@ -395,6 +395,32 @@
       <div class="contact-container">
 
         <!-- LEFT SIDE -->
+        <form action="#" method="POST" name="contactform" class="contact-form glass hidden animate-up" id="contactform">
+      
+          <input type="hidden" name="Source" value="SAM" />
+
+          <input type="text" name="company" id="company" tabindex="-1" autocomplete="off" style="display: none" />
+
+          <label for="name"></label>
+          <input type="text" id="name" name="Name" autocomplete="complete-name" placeholder="Enter your full name"
+            required />
+
+          <label for="email"></label>
+          <input type="email" id="email" name="Email" autocomplete="off" placeholder="Enter your email" required />
+
+          <label for="social"></label>
+          <input type="url" id="social" name="Social" autocomplete="social-media-link"
+            placeholder="Social Media Link (optional)" />
+
+          <label for="message"></label>
+          <textarea id="message" name="Message" autocomplete="ideas" placeholder="Describe your website idea here…"
+            required></textarea>
+
+          <button type="submit" class="btn" id="button">Send message</button>
+          <span id="msg" style="text-align: center"></span>
+        </form>
+<br>
+        <!-- RIGHT FORM -->
         <div class="contact-info">
           <h2>GET IN TOUCH</h2>
           <p>
@@ -419,32 +445,6 @@
             <span>LinkedIn Profile</span>
           </a>
         </div>
-
-        <!-- RIGHT FORM -->
-        <form action="#" method="POST" name="contactform" class="contact-form glass hidden animate-up" id="contactform">
-          <input type="hidden" name="Source" value="SAM" />
-
-          <input type="text" name="company" id="company" tabindex="-1" autocomplete="off" style="display: none" />
-
-          <label for="name"></label>
-          <input type="text" id="name" name="Name" autocomplete="complete-name" placeholder="Enter your full name"
-            required />
-
-          <label for="email"></label>
-          <input type="email" id="email" name="Email" autocomplete="off" placeholder="Enter your email" required />
-
-          <label for="social"></label>
-          <input type="url" id="social" name="Social" autocomplete="social-media-link"
-            placeholder="Social Media Link (optional)" />
-
-          <label for="message"></label>
-          <textarea id="message" name="Message" autocomplete="ideas" placeholder="Describe your website idea here…"
-            required></textarea>
-
-          <button type="submit" class="btn" id="button">Send message</button>
-          <span id="msg" style="text-align: center"></span>
-        </form>
-
       </div>
     </section>
 

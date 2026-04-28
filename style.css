@@ -786,41 +786,6 @@ section h2 {
   margin-top: 25px;
 
 }
-
-/* ICON BUTTON */
-.icon-btn {
-  width: 75px; /* slightly bigger */
-  height: 75px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  border-radius: 16px;
-  background: rgba(255, 255, 255, 0.05);
-  border: 1px solid rgba(255, 255, 255, 0.1);
-
-  cursor: pointer;
-  transition: all 0.3s ease;
-}
-
-/* SVG */
-.icon-btn svg {
-  width: 32px; /* proportional */
-  height: 32px;
-  color: var(--primary) ;
-  transition: 0.3s ease;
-}
-
-/* HOVER */
-.icon-btn:hover {
-  transform: translateY(-5px) scale(1.05);
-  background: linear-gradient(135deg, var(--primary), #222324);
-  box-shadow: 0 10px 30px rgba(255, 145, 0, 0.35);
-}
-
-.icon-btn:hover svg {
-  color: #fff;
-}
 /* =========================
    FORM
 ========================= */
@@ -892,13 +857,7 @@ form textarea {
 }
 
 #msg {
-  display: block;
-  font-size: clamp(14px, 1.2vw, 20px);
-  color: green;
-  margin-top: 0;
-  opacity: 0;
-  text-align: center;
-  transition: opacity 0.4s ease, transform 0.4s ease;
+color: green;
 }
 
 #responseMsg.show {
@@ -999,11 +958,7 @@ form textarea {
 .contact-form button:hover {
   background: var(--hover);
 }
-.icon {
-  width: 22px;
-  text-align: center;
-  color: var(--primary);
-}
+
 
 /* FOOTER */
 .footer {
@@ -1068,13 +1023,19 @@ form textarea {
   transition: 0.3s;
 }
 
-/* Icon size */
+/* Icon base */
 .icon {
-  font-size: clamp(20px, 3vw, 30px);
+  font-size: clamp(20px, 2vw, 30px);
   color: var(--primary);
   margin-right: 1rem;
+  transition: all 0.3s ease;
 }
 
+/* Hover effect */
+.icon:hover {
+  color: var(--hover);
+  transform: scale(1.2);
+}
 /* Hover effect */
 .social-links a:hover {
   transform: translateY(-3px);
