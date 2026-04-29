@@ -297,6 +297,7 @@
     </section>
     <!-- ===== WHO I HELP ===== -->
     <section id="who-i-help" class="who">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ff7a00" fill-opacity="1" d="M0,288L40,261.3C80,235,160,181,240,176C320,171,400,213,480,208C560,203,640,149,720,112C800,75,880,53,960,74.7C1040,96,1120,160,1200,176C1280,192,1360,160,1400,144L1440,128L1440,0L1400,0C1360,0,1280,0,1200,0C1120,0,1040,0,960,0C880,0,800,0,720,0C640,0,560,0,480,0C400,0,320,0,240,0C160,0,80,0,40,0L0,0Z"></path></svg>
       <div class="container">
         <h2 class="section-title card" style="color: white;">Who I Help</h2>
 
@@ -422,27 +423,27 @@
 <br>
         <!-- RIGHT FORM -->
         <div class="contact-info">
-          <h2>GET IN TOUCH</h2>
-          <p>
+          <h2 class="hidden animate-up">GET IN TOUCH</h2>
+          <p class="hidden animate-up">
             Ready to grow your business with a clean, professional website? Let’s work together.
           </p>
 
           <!-- EMAIL -->
           <a href="mailto:hello@samiraomar.com" class="info-item">
-            <i class="fa-solid fa-envelope icon"></i>
-            <span>hello@samiraomar.com</span>
+            <i class="fa-solid fa-envelope icon hidden animate-up"></i>
+            <span class="hidden animate-up">hello@samiraomar.com</span>
           </a>
 
           <!-- WHATSAPP -->
           <a href="https://wa.me/+96567077369" target="_blank" class="info-item">
-            <i class="fa-brands fa-whatsapp icon"></i>
-            <span>Chat on WhatsApp</span>
+            <i class="fa-brands fa-whatsapp icon hidden animate-up"></i>
+            <span class="hidden animate-up">Chat on WhatsApp</span>
           </a>
 
           <!-- LINKEDIN -->
-          <a href="https://www.linkedin.com/in/samira-omar/" target="_blank" class="info-item">
+          <a href="https://www.linkedin.com/in/samira-omar/" target="_blank" class="info-item hidden animate-up">
             <i class="fa-brands fa-linkedin icon"></i>
-            <span>LinkedIn Profile</span>
+            <span class="hidden animate-up">LinkedIn Profile</span>
           </a>
         </div>
       </div>
@@ -456,14 +457,14 @@
 
         <!-- Brand -->
         <div class="footer-brand">
-          <h3>Samira Omar | Website Developer</h3>
-          <p>I create modern websites that help your business convert.
+          <h3 class="hidden animate-up">Samira Omar | Website Developer</h3>
+          <p class="hidden animate-up">I create modern websites that help your business convert.
           <p>
         </div>
 
         <!-- Navigation -->
 
-        <div class="footer-links">
+        <div class="footer-links hidden animate-up">
           <p class="footer-title">Quick Links</p>
           <a href="#hero">Home</a>
           <a href="#services">Services</a>
@@ -473,7 +474,7 @@
 
 
         <!-- Social -->
-        <div class="footer-social">
+        <div class="footer-social hidden animate-up">
           <p class="footer-title">Let's Connect</p>
           <div class="social-links">
             <a href="https://www.linkedin.com/in/samira-omar/" target="_blank" class="info-item">
