@@ -139,19 +139,19 @@
 
     <section id="hero" class="hero">
 
-
+<div class="hero-div">
       <div class="h1 card hidden animate-up">
         <h3>CLEAN • FAST • MODERN</h3>
         <h1>
           From Idea to Live Website
         </h1>
         <p>
-          Custom websites for small businesses designed to showcase services, build trust, and convert visitors into
-          real customers
+          Whether you're a small business or building a personal portfolio, we design clean, modern custom websites that showcase your work, build trust, and turn visitors into real opportunities.
         </p>
         <div class="service-btn hero-btn">
-          <button class="btn calendly-btn"> Book a Free Discovery Call </button>
+          <button class="btn calendly-btn" style="margin: 0 auto;"> Book a Free Discovery Call </button>
         </div>
+      </div>
     </section>
     <!------------Slider------------>
     <section class="slider-section">
@@ -350,20 +350,20 @@
         <div class="step card hidden animate-up">
           <span>1</span>
           <h3>Share Your Idea</h3>
-          <p>Tell me what kind of website you need and your goals.</p>
+          <p>Tell me what kind of website you need and your business goals.</p>
         </div>
 
         <div class="step card hidden animate-up">
           <span>2</span>
           <h3>I Design & Build</h3>
-          <p>I create a clean, responsive website tailored to your business.</p>
+          <p>I create a clean, responsive website tailored to your brand and audience.<p>
         </div>
 
         <div class="step card hidden animate-up">
           <span>3</span>
           <h3>Review & Launch</h3>
           <p>
-            I review your site, make the needed updates, and launch it for you.
+            We refine the details, make final adjustments, and launch your website.
           </p>
         </div>
       </div>
