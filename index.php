@@ -56,7 +56,7 @@
   <meta property="og:type" content="website">
   <meta property="og:locale" content="en_US">
 
-  <meta property="og:image" content="https://samiraomar.com/photo/preview.webp">
+  <meta property="og:image" content="https://samiraomar.com/photo/newpreview.webp">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
   <meta property="og:image:alt" content="Preview of Samira Omar's modern website developer portfolio homepage">
@@ -299,9 +299,9 @@
     <section id="who-i-help" class="who">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ff7a00" fill-opacity="1" d="M0,288L40,261.3C80,235,160,181,240,176C320,171,400,213,480,208C560,203,640,149,720,112C800,75,880,53,960,74.7C1040,96,1120,160,1200,176C1280,192,1360,160,1400,144L1440,128L1440,0L1400,0C1360,0,1280,0,1200,0C1120,0,1040,0,960,0C880,0,800,0,720,0C640,0,560,0,480,0C400,0,320,0,240,0C160,0,80,0,40,0L0,0Z"></path></svg>
       <div class="container">
-        <h2 class="section-title card" style="color: white;">Who I Help</h2>
+        <h2 class="section-title card hidden animate-up" style="color: white;">Who I Help</h2>
 
-        <p class="section-subtitle">
+        <p class="section-subtitle hidden animate-up">
           I help service-based businesses grow online with modern websites, built-in booking systems, client forms, and
           AI chatbots that convert visitors into clients.
         </p>
@@ -564,7 +564,7 @@
       });
   </script>
 
-  <script src="https://code.tidio.co/yi66fojsyeziel45e6zntp5pde3dlm9x.js" async></script>
+
 
 </body>
 
