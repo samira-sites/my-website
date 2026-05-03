@@ -1,15 +1,12 @@
-<?php include "config.php"; ?>
-
 <?php
-include "config.php";
+require_once dirname(__DIR__, 2) . '/config.php';
 
 $result = $conn->query("SELECT * FROM feedbacks ORDER BY id DESC");
 
 while ($row = $result->fetch_assoc()) {
     echo "<div>";
-    echo "<h4>" . $row['name'] . " (Rating: " . $row['rating'] . ")</h4>";
-    echo "<p>" . $row['feedback'] . "</p>";
+    echo "<h4>" . htmlspecialchars($row['name']) . " (Rating: " . htmlspecialchars($row['rating']) . ")</h4>";
+    echo "<p>" . htmlspecialchars($row['feedback']) . "</p>";
     echo "</div>";
 }
 ?>
-
