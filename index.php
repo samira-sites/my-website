@@ -47,25 +47,35 @@
 }
 </script>
 
+<meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Custom Websites for Small Businesses | Samira Omar Website Developer</title>
+
+  <meta name="description" content="We design fast, modern, conversion-focused websites for small businesses. Build trust, attract customers, and grow your online presence with clean design." />
+
+  <link rel="canonical" href="https://samiraomar.com" />
+
+  <meta name="robots" content="index, follow" />
+
   <!-- Open Graph -->
-  <meta property="og:title" content="Custom Websites for Small Businesses | Samira Omar">
-  <meta property="og:description"
-    content="We design custom websites that help small businesses showcase their services, build trust, and turn visitors into real customers.">
-  <meta property="og:site_name" content="Samira Omar">
-  <meta property="og:url" content="https://samiraomar.com">
-  <meta property="og:type" content="website">
-  <meta property="og:locale" content="en_US">
+  <meta property="og:title" content="Custom Websites for Small Businesses | Samira Omar" />
+  <meta property="og:description" content="I design fast, modern websites that help small businesses build trust, attract customers, and grow online with clean design." />
+  <meta property="og:site_name" content="Samira Omar" />
+  <meta property="og:url" content="https://samiraomar.com" />
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="en_US" />
+  <meta property="og:image" content="https://samiraomar.com/photo/newpreview.webp" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="Preview of Samira Omar's modern website developer portfolio homepage" />
 
-  <meta property="og:image" content="https://samiraomar.com/photo/newpreview.webp">
-  <meta property="og:image:width" content="1200">
-  <meta property="og:image:height" content="630">
-  <meta property="og:image:alt" content="Preview of Samira Omar's modern website developer portfolio homepage">
-
-  <meta property="fb:app_id" content="your_app_id">
-
-  <!-- Twitter -->
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:site" content="@yourusername">
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Custom Websites for Small Businesses | Samira Omar" />
+  <meta name="twitter:description" content="We design fast, modern websites for small businesses that build trust and convert visitors into customers." />
+  <meta name="twitter:image" content="https://samiraomar.com/photo/newpreview.webp" />
+  <meta name="twitter:site" content="@yourusername" />
 
   <!-- Theme -->
   <meta name="theme-color" content="#ff7a00">
