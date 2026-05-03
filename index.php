@@ -146,7 +146,7 @@
           From Idea to Live Website
         </h1>
         <p>
-          Whether you're a small business or building a personal portfolio, we design clean, modern custom websites that showcase your work, build trust, and turn visitors into real opportunities.
+          Whether you're a small business or building a personal portfolio, I design clean, modern custom websites that showcase your work, build trust, and turn visitors into real opportunities.
         </p>
         <div class="service-btn hero-btn">
           <button class="btn calendly-btn" style="margin: 0 auto;"> Book a Free Discovery Call </button>
@@ -457,7 +457,7 @@
 
         <!-- Brand -->
         <div class="footer-brand">
-          <h3 class="hidden animate-up">Samira Omar | Website Developer</h3>
+          <h3 class="hidden animate-up"><span style="color: #ff7a00;">Samira Omar | Website Developer</h3></span>
           <p class="hidden animate-up">I create modern websites that help your business convert.
           <p>
         </div>
@@ -565,7 +565,7 @@
   </script>
 
 
-
+<script src="//code.tidio.co/yi66fojsyeziel45e6zntp5pde3dlm9x.js" async></script>
 </body>
 
 </html>
