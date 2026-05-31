@@ -510,7 +510,6 @@
 
   <script src="script.js"></script>
 
-<script src="//code.tidio.co/yi66fojsyeziel45e6zntp5pde3dlm9x.js" async></script>
 </body>
 
 </html>
